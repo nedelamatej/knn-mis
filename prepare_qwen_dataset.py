@@ -13,9 +13,13 @@ from pathlib import Path
 
 INPUT_METADATA = "data/metadata.json"
 IMAGE_DIR = "data/png"
+
 TRAIN_OUT = "train.json"
 EVAL_OUT = "eval.json"
+TEST_OUT = "test.json"
+
 EVAL_RATIO = 0.1
+TEST_RATIO = 0.1
 SEED = 42
 
 PROMPT = (
@@ -86,9 +90,13 @@ def main():
     random.seed(SEED)
     random.shuffle(converted)
 
-    eval_size = max(1, int(len(converted) * EVAL_RATIO))
+    total = len(converted)
+    eval_size = int(total * EVAL_RATIO)
+    test_size = int(total * TEST_RATIO)
+
     eval_data = converted[:eval_size]
-    train_data = converted[eval_size:]
+    test_data = converted[eval_size:eval_size + test_size]
+    train_data = converted[eval_size + test_size:]
 
     with open(TRAIN_OUT, "w", encoding="utf-8") as f:
         json.dump(train_data, f, ensure_ascii=False, indent=2)
@@ -96,8 +104,12 @@ def main():
     with open(EVAL_OUT, "w", encoding="utf-8") as f:
         json.dump(eval_data, f, ensure_ascii=False, indent=2)
 
+    with open(TEST_OUT, "w", encoding="utf-8") as f:
+        json.dump(test_data, f, ensure_ascii=False, indent=2)
+
     print(f"Saved {len(train_data)} samples to {TRAIN_OUT}")
     print(f"Saved {len(eval_data)} samples to {EVAL_OUT}")
+    print(f"Saved {len(test_data)} samples to {TEST_OUT}")
 
 if __name__ == "__main__":
     main()
