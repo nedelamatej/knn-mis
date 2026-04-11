@@ -1,0 +1,28 @@
+/storage/brno2/home/xlogin
+    |
+    |--- knn-mis (1)
+    |
+    |--- Qwen-VL-Series-Finetune (2)
+    |
+    |--- venvs/knn-qwen (3)
+
+(1)
+cd /storage/brno2/home/xlogin/knn-mis
+python prepare_qwen_dataset.py
+    - creates train.json, eval.json, test.json from data/
+
+(2)
+cd /storage/brno2/home/xlogin
+git clone --depth 1 https://github.com/2U1/Qwen-VL-Series-Finetune.git
+    - clone framework
+
+(3)
+cd /storage/brno2/home/xlogin/Qwen-VL-Series-Finetune/
+./setup_venv.sh
+    - installs packages for framework (set XLOGIN in script)
+
+
+(4)
+cd /storage/brno2/home/xlogin/knn-mis
+qsub train_qwen.sh
+    - training (set XLOGIN in script)
