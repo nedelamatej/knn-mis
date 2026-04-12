@@ -1,6 +1,6 @@
 #!/bin/bash
 #PBS -N arxiv-prepare-dataset
-#PBS -l select=1:ncpus=1:mem=4gb:scratch_local=64gb
+#PBS -l select=1:ncpus=1:mem=8gb:scratch_local=128gb
 #PBS -l walltime=24:00:00
 
 # [KNN] Konvolucni neuronove site
@@ -18,7 +18,7 @@ cd ${SCRATCHDIR}
   && cp ${PBS_O_WORKDIR}/data.tar . \
   && tar -xf data.tar
 
-cp ${PBS_O_WORKDIR}/arxiv-prepare-dataset.py .
+cp ${PBS_O_WORKDIR}/src/arxiv-prepare-dataset.py .
 cp ${PBS_O_WORKDIR}/arxiv-metadata-snapshot.json .
 cp ${PBS_O_WORKDIR}/requirements.txt .
 
@@ -30,7 +30,7 @@ source venv/bin/activate
 pip install --upgrade pip
 pip install -r requirements.txt
 
-python arxiv-prepare-dataset.py -c 20000
+python arxiv-prepare-dataset.py -c 50000
 
 tar -cf data.tar data
 
