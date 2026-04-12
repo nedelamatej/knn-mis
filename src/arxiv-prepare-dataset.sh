@@ -35,5 +35,6 @@ python arxiv-prepare-dataset.py -c 20000
 tar -cf data.tar data
 
 cp data.tar ${PBS_O_WORKDIR}
+cp metadata.json ${PBS_O_WORKDIR}
 
 clean_scratch
