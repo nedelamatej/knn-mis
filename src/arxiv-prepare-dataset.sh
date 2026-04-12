@@ -14,6 +14,8 @@
 
 set -euo pipefail
 
+export TMPDIR=${SCRATCHDIR}
+
 cd ${SCRATCHDIR}
 
 [ -f "${PBS_O_WORKDIR}/data.tar" ] \
@@ -29,8 +31,8 @@ module load python
 python -m venv venv
 source venv/bin/activate
 
-pip install --upgrade pip
-pip install -r requirements.txt
+pip install --no-cache-dir --upgrade pip
+pip install --no-cache-dir -r requirements.txt
 
 python arxiv-prepare-dataset.py -c 50000
 
