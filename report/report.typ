@@ -9,13 +9,11 @@
 
 #title()
 
+#align(right)[_David Machů (xmachu05), Matěj Neděla (xnedel11)_]
+
 = Řešený problém
 
-Projekt se zaměřuje na extrakci metadat z titulních stran vědeckých článků. Cílem je s pomocí existujících řešení poloautomaticky připravit datovou sadu obsahující název, autory, abstrakt, klíčová slova a instituce. A následně natrénovat destilovanou neuronovou síť, která bude schopna tyto informace extrahovat z obrazové podoby titulní strany článku.
-
-Systém lze abstraktně modelovat jako pipeline na obrázku níže. Při inferenci je na vstupu PDF nebo PNG obrázek vědeckého článku. Z článku se získá titulní strana ve vizuální podobě a pomocí OCR také textový obsah stránky. VLM následně zpracuje obraz titulní strany spolu s textem a identifikuje požadovaná metadata. Výstupem je strukturovaný JSON soubor. Při tréninku se navíc používá referenční JSON s anotovanými metadaty, který slouží pro porovnání správnosti predikce.
-
-#image("pipeline.svg")
+Projekt se zaměřuje na extrakci metadat z titulních stran vědeckých článků. Cílem je s pomocí existujících řešení poloautomaticky připravit datovou sadu obsahující název, autory, abstrakt, klíčová slova a instituce a následně natrénovat destilovanou neuronovou síť, která bude schopna tyto informace extrahovat z obrazové podoby titulní strany článku.
 
 = Existující řešení
 
@@ -53,7 +51,7 @@ Strukturovaná data ve formátu JSON, obsahující následující položky:
 - klíčová slova (`keywords`)
 - datum vydání (`date`)
 
-= Testovací dataset
+= Testovací datová sada
 
 === Kaggle arXiv Dataset
 
@@ -88,24 +86,76 @@ Datová sada obsahující metadata všech vědeckých článků publikovaných n
 }
 ```
 
-= Plán řešení a experimenty
+= Získání datové sady
 
-=== Získání a předzpracování dat
+Pro získání dat byl implementován samostatný skript v jazyce Python. Nástroj umožňuje parametrizaci rozsahu stahování (počet dokumentů a počáteční index), což zajišťuje rozšiřitelnost sady v budoucí fázi projektu. Vědecké články jsou čerpány ze serveru arXiv.org, přičemž proces stahování zahrnuje kromě uložení původního PDF souboru i extrakci titulní strany do formátu PNG a následnou serializaci metadat do formátu JSON. Implementace respektuje limity serveru arXiv.org, tedy omezení na 1 požadavek za 3 sekundy. Toto omezení představuje hlavní úzké hrdlo procesu a limituje celkovou rychlost stahování. Ukázka jednoho záznamu metadat je uvedena níže.
 
-V první fázi dojde k vybrání vzorku dat (přibližně 2000 článků) a stažení odpovídajících PDF dokumentů z arXiv.org skrz jejich API. Následně bude provedena extrakce titulních stran a jejich převod do jednotného obrazového formátu. Pomocí existujících řešení a dostupných nativních PDF dokumentů budou metadata rozšířena o chybějící parametry (např. e-mail a instituce autorů nebo klíčová slova).
+```json
+{
+  "idx": 1,
+  "id": "0704.0002",
+  "title": "Sparsity-certifying Graph Decompositions",
+  "authors": [
+    { "firstName": "Ileana", "lastName": "Streinu", "email": null, "institution": null },
+    { "firstName": "Louis", "lastName": "Theran", "email": null, "institution": null }
+  ],
+  "abstract": "We describe a new algorithm, the $(k,\\ell)$-pebble game with colors, ...",
+  "keywords": null,
+  "date": "2008-12-13"
+}
+```
 
-=== Trénování neuronové sítě
+Dále by bylo vhodné doplnit chybějící parametry (e-mail a instituce autorů, klíčová slova) pomocí existujících řešení (např. GROBID) a dostupných nativních PDF dokumentů.
 
-Na takto vygenerovaném datasetu bude natrénována neuronová síť.
+= Předzpracování datové sady
 
-=== Experimenty a vyhodnocení
+Před samotným trénováním byla datová sada převedena do formátu očekávaného frameworkem `Qwen-VL-Series-Finetune`#footnote[`https://github.com/2U1/Qwen-VL-Series-Finetune`] <fn>. Python skript načetl zdrojová metadata ze souboru a ke každému záznamu přiřadil odpovídající obrázek první strany článku ve formátu PNG. Pro každý vzorek byl vytvořen vstup tvořený instrukcí pro extrakci metadat a referenční výstup ve formátu JSON obsahující název článku, seznam autorů, abstrakt a klíčová slova.
 
-Na závěr dojde k vyhodnocení přesnosti obsahu pomocí exaktní textové shody (případně Levenštejnovy vzdálenosti) vůči referenčním metadatům a porovnání náročnosti, rychlosti a přesnosti mezi existujícími řešeními a výslednou neuronovou sítí.
+```json
+{
+  "id": "0704.0002",
+  "image": "0704.0002.png",
+  "conversations": [
+    { "from": "human", "value": "<image>\nExtract metadata from this first page of a ..." },
+    { "from": "gpt", "value": "{\"title\": \"Sparsity-certifying Graph ..." }
+  ]
+}
+```
+
+= Trénování neuronové sítě
+
+Pro trénování byl použit framework `Qwen-VL-Series-Finetune` @fn a jako základní model byl zvolen `Qwen2.5-VL-3B-Instruct`. Učení probíhalo na výpočetním clusteru prostřednictvím skriptu, který zajistil přípravu pracovního prostředí, přesun dat na lokální prostor a spuštění trénovacího skriptu. Model byl dolaďován metodou LoRA, která umožňuje efektivní adaptaci velkého předtrénovaného modelu při nižších paměťových i výpočetních nárocích. Pro trénování modelu bylo použito přibližně 16 000 vědeckých článků. Vstupem byly obrázky jejich titulních stran a cílem modelu bylo generovat metadata v definovaném JSON schématu.
+
+= Experimenty a vyhodnocení
+
+První experiment byl zaměřen na porovnání přesnosti základního modelu (konkrétně `Qwen2.5-VL-3B-Instruct`) a jeho _fine-tuned_ varianty z předešlého kroku. Testovacím prostředím bylo Metacentrum poskytované organizací CESNET a výpočetní cluster s GPU o minimální kapacitě 16 GB VRAM. Datová sada pro testování obsahovala 200 náhodně vybraných záznamů, které nebyly použity během tréninku. Výsledky prvního experimentu jsou shrnuty v následující tabulce. Hodnoty jednotlivých metrik představují průměr ze všech záznamů, které daný model úspěšně zpracoval, tedy pro které vygeneroval validní JSON.
+
+#table(
+  columns: (1.2fr, 1fr, 1fr, 1fr, 1fr, 1fr),
+  [],
+    [*Time* \ _average_],
+    [*Valid JSON* \ _count (ratio)_],
+    [*Title* \ _Levenshtein d._],
+    [*Authors* \ _F1 score_],
+    [*Abstract* \ _Rouge-L score_],
+  [*Base model*],
+    [1.565 s],
+    [164 (82 %)],
+    [0.985],
+    [0.205],
+    [0.899],
+  [*Tuned model*],
+    [2.381 s],
+    [192 (96 %)],
+    [0.990],
+    [0.862],
+    [0.929],
+)
+
+Podobnost názvu je měřena pomocí Levenshteinovy vzdálenosti, která kvantifikuje počet editací potřebných k transformaci jednoho řetězce na druhý, resp. pomocí její normalizované varianty. Pro vyhodnocení autorů je použito F1 skóre, které počítá harmonický průměr přesnosti (_precision_) a úplnosti (_recall_). Abstrakt je hodnocen pomocí Rouge-L skóre, které měří nejdelší společnou podposloupnost (LCS) mezi predikovaným a referenčním abstraktem.
+
+Oproti základnímu modelu má náš _fine-tuned_ model vyšší úspěšnost v generování validních JSON struktur o 14 procentních bodů. Rozdíly v přesnosti extrakce názvu jsou zanedbatelné. U extrakce autorů je významný rozdíl v úspěšnosti _fine-tuned_ modelu, což je ale zapříčiněno především tím, že základní model často generoval autory ve špatném formátu.
 
 = GitHub repozitář
 
 `https://github.com/nedelamatej/knn-mis`
-
-#v(1fr)
-
-#align(right)[_David Machů (xmachu05), Matěj Neděla (xnedel11)_]
