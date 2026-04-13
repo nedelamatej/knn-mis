@@ -28,6 +28,7 @@ parser = argparse.ArgumentParser(
 parser.add_argument('-i', '--input', help='path to input data JSON file', default='test.json')
 parser.add_argument('-o', '--output', help='path to save evaluation report JSON', default='report.json')
 parser.add_argument('-c', '--count', help='number of articles to evaluate', type=int, default=None)
+parser.add_argument('-b', '--batch-size', help='number of articles to process per forward pass', type=int, default=4)
 parser.add_argument('-m', '--model', help='path to the fine-tuned LoRA directory', default='qwen-lora-2026-04-11_09-20-37')
 parser.add_argument('-d', '--directory', help='directory to load PDF and PNG files from', default='data')
 
@@ -77,7 +78,7 @@ def clean_output(text):
 
   return text.strip()
 
-def evaluate_model(model, processor, dataset, png_directory):
+def evaluate_model(model, processor, dataset, png_directory, batch_size):
   rouge = rouge_scorer.RougeScorer(['rougeL'], use_stemmer=True)
 
   results = {
@@ -97,68 +98,103 @@ def evaluate_model(model, processor, dataset, png_directory):
       'authors_f1': 0.0,
       'abstract_rouge': 0.0,
       'keywords_f1': 0.0,
-    }
+    },
+    'outputs': [],
   }
 
   time_start = time.time()
 
   model.eval()
+  processor.tokenizer.padding_side = 'left'
 
-  for item in tqdm(dataset, ncols=80):
-    image_path = png_directory / item['image']
+  for batch_start in tqdm(range(0, len(dataset), batch_size), ncols=80):
+    batch = dataset[batch_start:batch_start + batch_size]
 
-    input_text = item['conversations'][0]['value']
-    expected_output = json.loads(item['conversations'][1]['value'])
+    texts = []
+    raw_images = []
+    batch_meta = []
 
-    message = [
-      {
-        'role': 'user',
-        'content': [
-          {'type': 'image', 'image': f'file://{image_path.absolute()}'},
-          {'type': 'text', 'text': input_text.replace('<image>\n', '')}
-        ]
-      }
-    ]
+    for item in batch:
+      image_path = png_directory / item['image']
+      input_text = item['conversations'][0]['value']
+      expected_text = item['conversations'][1]['value']
 
-    text = processor.apply_chat_template(message, tokenize=False, add_generation_prompt=True)
+      message = [
+        {
+          'role': 'user',
+          'content': [
+            {'type': 'image', 'image': f'file://{image_path.absolute()}'},
+            {'type': 'text', 'text': input_text.replace('<image>\n', '')}
+          ]
+        }
+      ]
 
-    raw_image = Image.open(image_path).convert('RGB')
+      texts.append(processor.apply_chat_template(message, tokenize=False, add_generation_prompt=True))
+      raw_images.append(Image.open(image_path).convert('RGB'))
+      batch_meta.append({'image': item['image'], 'input': input_text, 'expected': expected_text})
 
     inputs = processor(
-      text=[text],
-      images=[raw_image],
+      text=texts,
+      images=raw_images,
       padding=True,
       return_tensors='pt'
     ).to(model.device)
 
     with torch.no_grad():
-      output_ids = model.generate(**inputs, max_new_tokens=1024, do_sample=False)
+      output_ids = model.generate(**inputs, max_new_tokens=512, do_sample=False)
       output_ids = output_ids[:, inputs.input_ids.shape[1]:]
+      output_texts = processor.batch_decode(output_ids, skip_special_tokens=True, clean_up_tokenization_spaces=False)
 
-      output_text = processor.batch_decode(output_ids, skip_special_tokens=True, clean_up_tokenization_spaces=False)[0]
+    for meta, output_text in zip(batch_meta, output_texts):
+      expected_output = json.loads(meta['expected'])
 
-    try:
-      output_json = json.loads(clean_output(output_text))
+      item_result = {
+        'image': meta['image'],
+        'input': meta['input'],
+        'expected': meta['expected'],
+        'output': output_text,
+        'valid_json': False,
+        'actual': None,
+        'metrics': None,
+      }
 
-      results['valid_json_count'] += 1
+      try:
+        output_json = json.loads(clean_output(output_text))
 
-      expected_title = expected_output.get('title', '')
-      actual_title = output_json.get('title', '')
-      results['accumulated_metrics']['title_levenshtein'] += calculate_levenshtein(expected_title, actual_title)
+        results['valid_json_count'] += 1
+        item_result['valid_json'] = True
+        item_result['actual'] = output_json
 
-      expected_authors = expected_output.get('authors', [])
-      actual_authors = output_json.get('authors', [])
-      results['accumulated_metrics']['authors_f1'] += calculate_f1(expected_authors, actual_authors)
+        expected_title = expected_output.get('title', '')
+        actual_title = output_json.get('title', '')
+        title_levenshtein = calculate_levenshtein(expected_title, actual_title)
+        results['accumulated_metrics']['title_levenshtein'] += title_levenshtein
 
-      expected_abstract = expected_output.get('abstract', '')
-      actual_abstract = output_json.get('abstract', '')
-      results['accumulated_metrics']['abstract_rouge'] += rouge.score(expected_abstract, actual_abstract)['rougeL'].fmeasure
+        expected_authors = expected_output.get('authors', [])
+        actual_authors = output_json.get('authors', [])
+        authors_f1 = calculate_f1(expected_authors, actual_authors)
+        results['accumulated_metrics']['authors_f1'] += authors_f1
 
-      expected_keywords = expected_output.get('keywords', [])
-      actual_keywords = output_json.get('keywords', [])
-      results['accumulated_metrics']['keywords_f1'] += calculate_f1(expected_keywords, actual_keywords)
-    except json.JSONDecodeError:
-      pass
+        expected_abstract = expected_output.get('abstract', '')
+        actual_abstract = output_json.get('abstract', '')
+        abstract_rouge = rouge.score(expected_abstract, actual_abstract)['rougeL'].fmeasure
+        results['accumulated_metrics']['abstract_rouge'] += abstract_rouge
+
+        expected_keywords = expected_output.get('keywords', [])
+        actual_keywords = output_json.get('keywords', [])
+        keywords_f1 = calculate_f1(expected_keywords, actual_keywords)
+        results['accumulated_metrics']['keywords_f1'] += keywords_f1
+
+        item_result['metrics'] = {
+          'title_levenshtein': title_levenshtein,
+          'authors_f1': authors_f1,
+          'abstract_rouge': abstract_rouge,
+          'keywords_f1': keywords_f1,
+        }
+      except json.JSONDecodeError:
+        pass
+
+      results['outputs'].append(item_result)
 
   results['time_total'] = time.time() - time_start
   results['time_average'] = results['time_total'] / len(dataset)
@@ -181,7 +217,11 @@ def main():
 
   png_directory = Path(args.directory, 'png')
 
-  processor = AutoProcessor.from_pretrained('Qwen/Qwen2.5-VL-3B-Instruct')
+  processor = AutoProcessor.from_pretrained(
+    'Qwen/Qwen2.5-VL-3B-Instruct',
+    min_pixels=256 * 28 * 28,
+    max_pixels=1280 * 28 * 28
+  )
 
   with open(input_path, 'r', encoding='utf-8') as file:
     dataset = json.load(file)
@@ -195,7 +235,7 @@ def main():
     device_map="auto"
   )
 
-  base_results = evaluate_model(base_model, processor, dataset, png_directory)
+  base_results = evaluate_model(base_model, processor, dataset, png_directory, args.batch_size)
 
   # clear memory before loading tuned model
   del base_model; torch.cuda.empty_cache(); gc.collect()
@@ -207,7 +247,7 @@ def main():
   )
 
   tuned_model = PeftModel.from_pretrained(base_model, args.model)
-  tuned_results = evaluate_model(tuned_model, processor, dataset, png_directory)
+  tuned_results = evaluate_model(tuned_model, processor, dataset, png_directory, args.batch_size)
 
   report = {
     'base_model': base_results,
