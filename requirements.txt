@@ -3,6 +3,8 @@ accelerate
 annotated-doc
 anyio
 av
+beautifulsoup4
+bs4
 certifi
 charset-normalizer
 click
@@ -17,6 +19,7 @@ huggingface_hub
 idna
 Jinja2
 joblib
+lxml
 markdown-it-py
 MarkupSafe
 mdurl
@@ -40,6 +43,7 @@ safetensors
 setuptools
 shellingham
 six
+soupsieve
 sympy
 tokenizers
 torch

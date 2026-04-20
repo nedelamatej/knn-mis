@@ -1,7 +1,7 @@
 #!/bin/bash
 #PBS -N qwen-prepare-dataset
-#PBS -l select=1:ncpus=1:mem=8gb:scratch_local=128gb
-#PBS -l walltime=24:00:00
+#PBS -l select=1:ncpus=1:mem=8gb:scratch_local=64gb
+#PBS -l walltime=12:00:00
 
 # [KNN] Konvolucni neuronove site
 #
@@ -14,29 +14,30 @@
 
 set -euo pipefail
 
-export TMPDIR=${SCRATCHDIR}
+VENV_DIR="${PBS_O_WORKDIR}/../venv"
+
+export TMPDIR="${SCRATCHDIR}"
+
+mkdir -p "${TMPDIR}"
 
 cd ${SCRATCHDIR}
 
-cp ${PBS_O_WORKDIR}/data.tar .
-tar -xf data.tar
+cp -r ${PBS_O_WORKDIR}/data .
+
+mkdir -p data/jpg
+
+tar -xf data/jpg.tar -C data/jpg
 
 cp ${PBS_O_WORKDIR}/src/qwen-prepare-dataset.py .
-cp ${PBS_O_WORKDIR}/metadata.json .
-cp ${PBS_O_WORKDIR}/requirements.txt .
 
 module load python
 
-python -m venv venv
-source venv/bin/activate
-
-pip install --no-cache-dir --upgrade pip
-pip install --no-cache-dir -r requirements.txt
+source "${VENV_DIR}/bin/activate"
 
 python qwen-prepare-dataset.py
 
-cp train.json ${PBS_O_WORKDIR}
-cp eval.json ${PBS_O_WORKDIR}
-cp test.json ${PBS_O_WORKDIR}
+cp data/train.json ${PBS_O_WORKDIR}/data
+cp data/eval.json ${PBS_O_WORKDIR}/data
+cp data/test.json ${PBS_O_WORKDIR}/data
 
 clean_scratch
