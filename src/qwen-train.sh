@@ -50,7 +50,8 @@ mkdir -p \
 
 # Copy data
 cp "${JPG_TAR_PATH}" .
-tar -xf jpg.tar
+mkdir -p jpg
+tar -xf jpg.tar -C jpg
 cp "${TRAIN_PATH}" .
 cp "${EVAL_PATH}" .
 
