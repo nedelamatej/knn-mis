@@ -84,15 +84,14 @@ python src/train/train_sft.py \
   --num_lora_modules -1 \
   --model_id Qwen/Qwen2.5-VL-3B-Instruct \
   --data_path "${SCRATCHDIR}/${TRAIN_FILE}" \
+  --prediction_loss_only True \
   --eval_path "${SCRATCHDIR}/${EVAL_FILE}" \
   --eval_strategy steps \
   --eval_steps 1000 \
   --per_device_eval_batch_size 1 \
-  --prediction_loss_only False \
-  --generation_max_new_tokens 512 \
   --load_best_model_at_end True \
-  --metric_for_best_model authors_f1 \
-  --greater_is_better True \
+  --metric_for_best_model eval_loss \
+  --greater_is_better False \
   --image_folder "${SCRATCHDIR}/jpg" \
   --remove_unused_columns False \
   --freeze_vision_tower False \
@@ -119,7 +118,7 @@ python src/train/train_sft.py \
   --report_to tensorboard \
   --lazy_preprocess True \
   --save_strategy steps \
-  --save_steps 2000 \
+  --save_steps 1000 \
   --save_total_limit 3 \
   --dataloader_num_workers 2
 
