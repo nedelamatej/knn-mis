@@ -1,6 +1,6 @@
 #!/bin/bash
 #PBS -N qwen-metadata
-#PBS -l select=1:ncpus=4:mem=96gb:scratch_local=250gb:ngpus=1:gpu_mem=24gb
+#PBS -l select=1:ncpus=8:mem=96gb:scratch_local=250gb:ngpus=1:gpu_mem=24gb
 #PBS -l walltime=24:00:00
 
 # [KNN] Konvolucni neuronove site
@@ -12,33 +12,28 @@
 # Autor: David Machu (xmachu05)
 #        Matej Nedela (xnedel11)
 
-set -euo pipefail
-trap 'clean_scratch' EXIT TERM
+# Run this script in knn-mis directory
 
-# settings
-XLOGIN="xmachu05"
+set -euo pipefail
+trap 'clean_scratch || true' EXIT TERM
+
+# Files
 TRAIN_FILE="train.json"
-DATA_TAR_FILE="data.tar"
-DATA_DIR="${DATA_TAR_FILE%.tar}"
-OUTPUT_DIR="qwen-lora-$(date +%F_%H-%M-%S)"
-VENV="knn-qwen"
-REPO_DIR="/storage/brno2/home/${XLOGIN}/Qwen-VL-Series-Finetune"
-VENV_DIR="/storage/brno2/home/${XLOGIN}/venvs/${VENV}"
-OUTPUT_BASE_DIR="${PBS_O_WORKDIR}/outputs"
+EVAL_FILE="eval.json"
+JPG_TAR_FILE="jpg.tar"
+OUTPUT_DIR="qwen-lora-$(date +%F_%H-%M-%S)-${PBS_JOBID}"
+
+# Paths
+TRAIN_PATH="${PBS_O_WORKDIR}/data/${TRAIN_FILE}"
+EVAL_PATH="${PBS_O_WORKDIR}/data/${EVAL_FILE}"
+JPG_TAR_PATH="${PBS_O_WORKDIR}/data/${JPG_TAR_FILE}"
+OUTPUT_DIR_PATH="${PBS_O_WORKDIR}/outputs/${OUTPUT_DIR}"
+FRAMEWORK_DIR_PATH="$(dirname "${PBS_O_WORKDIR}")/knn-framework"
+VENV_PATH="$(dirname "${PBS_O_WORKDIR}")/venvs/knn-qwen"
 
 cd "${SCRATCHDIR}"
 
-echo "=== JOB INFO ==="
-echo "PBS_JOBID=${PBS_JOBID}"
-echo "PBS_O_WORKDIR=${PBS_O_WORKDIR}"
-echo "SCRATCHDIR=${SCRATCHDIR}"
-echo "TRAIN_FILE=${TRAIN_FILE}"
-echo "DATA_TAR_FILE=${DATA_TAR_FILE}"
-echo "DATA_DIR=${DATA_DIR}"
-echo "OUTPUT_DIR=${OUTPUT_DIR}"
-echo "VENV_DIR=${VENV_DIR}"
-hostname
-
+# Cache
 export TMPDIR="${SCRATCHDIR}/tmp"
 export TRITON_CACHE_DIR="${SCRATCHDIR}/triton-cache"
 export HF_HOME="${SCRATCHDIR}/hf-home"
@@ -51,19 +46,22 @@ mkdir -p \
   "${HF_HOME}" \
   "${HUGGINGFACE_HUB_CACHE}" \
   "${TORCH_EXTENSIONS_DIR}" \
-  "${OUTPUT_BASE_DIR}"
+  "${OUTPUT_DIR}"
 
-cp "${PBS_O_WORKDIR}/${DATA_TAR_FILE}" .
-tar -xf "${DATA_TAR_FILE}"
-cp "${PBS_O_WORKDIR}/${TRAIN_FILE}" .
+# Copy data
+cp "${JPG_TAR_PATH}" .
+tar -xf jpg.tar
+cp "${TRAIN_PATH}" .
+cp "${EVAL_PATH}" .
 
+# Load modules
 module add python/3.11
 module add cuda
 module add ffmpeg
 module add pkgconf
 module add gcc
 
-source "${VENV_DIR}/bin/activate"
+source "${VENV_PATH}/bin/activate"
 
 echo "=== ENV CHECK ==="
 echo "CUDA_VISIBLE_DEVICES before=${CUDA_VISIBLE_DEVICES:-<unset>}"
@@ -71,8 +69,8 @@ export CUDA_VISIBLE_DEVICES=0
 
 nvidia-smi || true
 
-cd "${REPO_DIR}"
-export PYTHONPATH="${REPO_DIR}/src:${PYTHONPATH:-}"
+cd "${FRAMEWORK_DIR_PATH}"
+export PYTHONPATH="${FRAMEWORK_DIR_PATH}/src:${PYTHONPATH:-}"
 
 python src/train/train_sft.py \
   --use_liger_kernel True \
@@ -85,18 +83,27 @@ python src/train/train_sft.py \
   --num_lora_modules -1 \
   --model_id Qwen/Qwen2.5-VL-3B-Instruct \
   --data_path "${SCRATCHDIR}/${TRAIN_FILE}" \
-  --image_folder "${SCRATCHDIR}/${DATA_DIR}/png" \
+  --eval_path "${SCRATCHDIR}/${EVAL_FILE}" \
+  --eval_strategy steps \
+  --eval_steps 1000 \
+  --per_device_eval_batch_size 1 \
+  --prediction_loss_only False \
+  --generation_max_new_tokens 512 \
+  --load_best_model_at_end True \
+  --metric_for_best_model authors_f1 \
+  --greater_is_better True \
+  --image_folder "${SCRATCHDIR}/jpg" \
   --remove_unused_columns False \
   --freeze_vision_tower False \
   --freeze_llm True \
   --freeze_merger False \
-  --bf16 False \
+  --bf16 True \
   --fp16 False \
   --disable_flash_attn2 True \
   --output_dir "${SCRATCHDIR}/${OUTPUT_DIR}" \
   --num_train_epochs 1 \
   --per_device_train_batch_size 1 \
-  --gradient_accumulation_steps 1 \
+  --gradient_accumulation_steps 4 \
   --image_min_pixels $((256 * 28 * 28)) \
   --image_max_pixels $((1280 * 28 * 28)) \
   --learning_rate 1e-4 \
@@ -115,6 +122,7 @@ python src/train/train_sft.py \
   --save_total_limit 3 \
   --dataloader_num_workers 2
 
-cp -r "${SCRATCHDIR}/${OUTPUT_DIR}" "${OUTPUT_BASE_DIR}/"
+mkdir -p "$(dirname "${OUTPUT_DIR_PATH}")"
+cp -r "${SCRATCHDIR}/${OUTPUT_DIR}" "${OUTPUT_DIR_PATH}"
 
 echo "=== DONE ==="
