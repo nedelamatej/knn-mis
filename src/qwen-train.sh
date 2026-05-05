@@ -17,11 +17,17 @@
 set -euo pipefail
 trap 'clean_scratch || true' EXIT TERM
 
+# Model
+MODEL_NAME="Qwen2-VL-2B-Instruct"
+#MODEL_NAME="Qwen2.5-VL-3B-Instruct"
+#MODEL_NAME="Qwen2.5-VL-7B-Instruct"
+#MODEL_NAME="Qwen2-VL-7B-Instruct"
+
 # Files
 TRAIN_FILE="train.json"
-EVAL_FILE="eval.json"
+EVAL_FILE="eval_small.json"
 JPG_TAR_FILE="jpg.tar"
-OUTPUT_DIR="qwen-lora-$(date +%F_%H-%M-%S)-${PBS_JOBID}"
+OUTPUT_DIR="${MODEL_NAME}-lora-$(date +%F_%H-%M-%S)-${PBS_JOBID}"
 
 # Paths
 TRAIN_PATH="${PBS_O_WORKDIR}/data/${TRAIN_FILE}"
@@ -82,7 +88,7 @@ python src/train/train_sft.py \
   --lora_alpha 64 \
   --lora_dropout 0.05 \
   --num_lora_modules -1 \
-  --model_id Qwen/Qwen2.5-VL-3B-Instruct \
+  --model_id "Qwen/${MODEL_NAME}" \
   --data_path "${SCRATCHDIR}/${TRAIN_FILE}" \
   --prediction_loss_only True \
   --eval_path "${SCRATCHDIR}/${EVAL_FILE}" \
