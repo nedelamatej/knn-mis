@@ -1,5 +1,5 @@
 #!/bin/bash
-#PBS -N qwen-metadata
+#PBS -N qwen-metadata-bbox
 #PBS -l select=1:ncpus=8:mem=96gb:scratch_local=250gb:ngpus=1:gpu_mem=24gb
 #PBS -l walltime=24:00:00
 
@@ -18,16 +18,16 @@ set -euo pipefail
 trap 'clean_scratch || true' EXIT TERM
 
 # Model
-MODEL_NAME="Qwen2-VL-2B-Instruct"
+#MODEL_NAME="Qwen2-VL-2B-Instruct"
 #MODEL_NAME="Qwen2.5-VL-3B-Instruct"
-#MODEL_NAME="Qwen2.5-VL-7B-Instruct"
+MODEL_NAME="Qwen2.5-VL-7B-Instruct"
 #MODEL_NAME="Qwen2-VL-7B-Instruct"
 
 # Files
-TRAIN_FILE="train.json"
-EVAL_FILE="eval_small.json"
+TRAIN_FILE="train_bbox_1.json"
+EVAL_FILE="eval_bbox_1_small.json"
 JPG_TAR_FILE="jpg.tar"
-OUTPUT_DIR="${MODEL_NAME}-lora-$(date +%F_%H-%M-%S)-${PBS_JOBID}"
+OUTPUT_DIR="${MODEL_NAME}-lora-bbox-$(date +%F_%H-%M-%S)-${PBS_JOBID}"
 
 # Paths
 TRAIN_PATH="${PBS_O_WORKDIR}/data/${TRAIN_FILE}"

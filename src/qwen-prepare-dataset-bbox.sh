@@ -25,6 +25,10 @@ mkdir -p "${TMPDIR}"
 
 cd "${SCRATCHDIR}"
 
+# Copy scripts
+cp "${PBS_O_WORKDIR}/src/qwen-prepare-dataset-bbox.py" .
+cp "${PBS_O_WORKDIR}/src/alto_utils.py" .
+
 # Copy data
 mkdir -p data
 cp "${PBS_O_WORKDIR}/data/metadata.json" data/
@@ -34,10 +38,6 @@ mkdir -p data/jpg
 tar -xf data/jpg.tar -C data/jpg
 mkdir -p data/alto
 tar -xzf data/alto.tar.gz -C data/alto
-
-# Copy scripts
-cp "${PBS_O_WORKDIR}/src/qwen-prepare-dataset-bbox.py" .
-cp "${PBS_O_WORKDIR}/src/alto_utils.py" .
 
 # Load modules
 module load python
@@ -49,8 +49,8 @@ export PYTHONPATH="${SCRATCHDIR}:${PERO_OCR_DIR}:${PYTHONPATH:-}"
 
 python qwen-prepare-dataset-bbox.py -d data
 
-cp data/train_bbox.json "${PBS_O_WORKDIR}/data"
-cp data/eval_bbox.json "${PBS_O_WORKDIR}/data"
-cp data/test_bbox.json "${PBS_O_WORKDIR}/data"
+cp data/train_bbox.json "${PBS_O_WORKDIR}/data/train_bbox.json"
+cp data/eval_bbox.json "${PBS_O_WORKDIR}/data/eval_bbox.json"
+cp data/test_bbox.json "${PBS_O_WORKDIR}/data/test_bbox.json"
 
 clean_scratch
