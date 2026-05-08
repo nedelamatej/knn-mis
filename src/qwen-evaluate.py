@@ -3,7 +3,7 @@
 # Vysoke uceni technicke v Brne
 # Fakulta informacnich technologii
 #
-# Nazev: evaluate-qwen.py
+# Nazev: qwen-evaluate.py
 # Autor: David Machu (xmachu05)
 #        Matej Nedela (xnedel11)
 
@@ -12,7 +12,7 @@ from peft import PeftModel
 from PIL import Image
 from rouge_score import rouge_scorer
 from tqdm import tqdm
-from transformers import AutoProcessor, Qwen2_5_VLForConditionalGeneration
+from transformers import AutoModelForImageTextToText, AutoProcessor
 import argparse
 import editdistance
 import gc
@@ -25,12 +25,13 @@ parser = argparse.ArgumentParser(
   formatter_class=lambda prog: argparse.ArgumentDefaultsHelpFormatter(prog, max_help_position=30)
 )
 
-parser.add_argument('-i', '--input', help='path to input data JSON file', default='test.json')
-parser.add_argument('-o', '--output', help='path to save evaluation report JSON', default='report.json')
+parser.add_argument('-m', '--model', help='name of the base model to evaluate', default='Qwen2.5-VL-3B-Instruct')
+parser.add_argument('-l', '--lora', help='path to the fine-tuned LoRA directory', default='Qwen2.5-VL-3B-Instruct-lora-19611240')
 parser.add_argument('-c', '--count', help='number of articles to evaluate', type=int, default=None)
 parser.add_argument('-b', '--batch-size', help='number of articles to process per forward pass', type=int, default=4)
-parser.add_argument('-m', '--model', help='path to the fine-tuned LoRA directory', default='qwen-lora-2026-04-11_09-20-37')
-parser.add_argument('-d', '--directory', help='directory to load PDF and PNG files from', default='data')
+parser.add_argument('-i', '--input', help='path to input data JSON file', default='test.json')
+parser.add_argument('-o', '--output', help='path to save evaluation report JSON', default='report.json')
+parser.add_argument('-d', '--directory', help='directory to load JSON and JPG files from', default='data')
 
 def calculate_f1(expected_list, actual_list):
   if not isinstance(expected_list, list): expected_list = []
@@ -65,6 +66,43 @@ def calculate_levenshtein(expected_text, actual_text):
 
   return 1.0 - (distance / max_len)
 
+def calculate_author_metrics(expected_authors, actual_authors):
+  if not isinstance(expected_authors, list): expected_authors = []
+  if not isinstance(actual_authors, list): actual_authors = []
+
+  if not expected_authors and not actual_authors: return {'firstName': 1.0, 'lastName': 1.0, 'email': 1.0, 'institution': 1.0}
+  if not expected_authors or not actual_authors: return {'firstName': 0.0, 'lastName': 0.0, 'email': 0.0, 'institution': 0.0}
+
+  n = max(len(expected_authors), len(actual_authors))
+
+  totals = {'firstName': 0.0, 'lastName': 0.0, 'email': 0.0, 'institution': 0.0}
+
+  for i in range(n):
+    expected_author = expected_authors[i] if i < len(expected_authors) else {}
+    actual_author = actual_authors[i] if i < len(actual_authors) else {}
+
+    if not isinstance(expected_author, dict): expected_author = {}
+    if not isinstance(actual_author, dict): actual_author = {}
+
+    for field in ('firstName', 'lastName', 'email'):
+      expected_value = expected_author.get(field) or ''
+      actual_value = actual_author.get(field) or ''
+
+      if not expected_value and field == 'email':
+        totals[field] += 1.0
+      else:
+        totals[field] += calculate_levenshtein(expected_value, actual_value)
+
+    expected_institution = expected_author.get('institution') or []
+    actual_institution = actual_author.get('institution') or []
+
+    if not expected_institution:
+      totals['institution'] += 1.0
+    else:
+      totals['institution'] += calculate_f1(expected_institution, actual_institution)
+
+  return {k: v / n for k, v in totals.items()}
+
 def clean_output(text):
   text = text.strip()
 
@@ -78,7 +116,7 @@ def clean_output(text):
 
   return text.strip()
 
-def evaluate_model(model, processor, dataset, png_directory, batch_size):
+def evaluate_model(model, processor, dataset, jpg_directory, batch_size):
   rouge = rouge_scorer.RougeScorer(['rougeL'], use_stemmer=True)
 
   results = {
@@ -89,15 +127,23 @@ def evaluate_model(model, processor, dataset, png_directory, batch_size):
     'valid_json_ratio': 0,
     'accumulated_metrics': {
       'title_levenshtein': 0.0,
-      'authors_f1': 0.0,
+      'authors_firstName_levenshtein': 0.0,
+      'authors_lastName_levenshtein': 0.0,
+      'authors_email_levenshtein': 0.0,
+      'authors_institution_f1': 0.0,
       'abstract_rouge': 0.0,
       'keywords_f1': 0.0,
+      'date_exact': 0.0,
     },
     'average_metrics': {
       'title_levenshtein': 0.0,
-      'authors_f1': 0.0,
+      'authors_firstName_levenshtein': 0.0,
+      'authors_lastName_levenshtein': 0.0,
+      'authors_email_levenshtein': 0.0,
+      'authors_institution_f1': 0.0,
       'abstract_rouge': 0.0,
       'keywords_f1': 0.0,
+      'date_exact': 0.0,
     },
     'outputs': [],
   }
@@ -115,7 +161,7 @@ def evaluate_model(model, processor, dataset, png_directory, batch_size):
     batch_meta = []
 
     for item in batch:
-      image_path = png_directory / item['image']
+      image_path = jpg_directory / item['image']
       input_text = item['conversations'][0]['value']
       expected_text = item['conversations'][1]['value']
 
@@ -150,10 +196,8 @@ def evaluate_model(model, processor, dataset, png_directory, batch_size):
 
       item_result = {
         'image': meta['image'],
-        'input': meta['input'],
-        'expected': meta['expected'],
-        'output': output_text,
         'valid_json': False,
+        'expected': expected_output,
         'actual': None,
         'metrics': None,
       }
@@ -164,35 +208,54 @@ def evaluate_model(model, processor, dataset, png_directory, batch_size):
         results['valid_json_count'] += 1
         item_result['valid_json'] = True
         item_result['actual'] = output_json
+      except json.JSONDecodeError:
+        output_json = None
 
-        expected_title = expected_output.get('title', '')
-        actual_title = output_json.get('title', '')
+      if output_json is not None:
+        expected_title = expected_output.get('title') or ''
+        actual_title = output_json.get('title') or ''
         title_levenshtein = calculate_levenshtein(expected_title, actual_title)
-        results['accumulated_metrics']['title_levenshtein'] += title_levenshtein
 
-        expected_authors = expected_output.get('authors', [])
-        actual_authors = output_json.get('authors', [])
-        authors_f1 = calculate_f1(expected_authors, actual_authors)
-        results['accumulated_metrics']['authors_f1'] += authors_f1
+        expected_authors = expected_output.get('authors') or []
+        actual_authors = output_json.get('authors') or []
+        author_metrics = calculate_author_metrics(expected_authors, actual_authors)
 
-        expected_abstract = expected_output.get('abstract', '')
-        actual_abstract = output_json.get('abstract', '')
+        expected_abstract = expected_output.get('abstract') or ''
+        actual_abstract = output_json.get('abstract') or ''
         abstract_rouge = rouge.score(expected_abstract, actual_abstract)['rougeL'].fmeasure
-        results['accumulated_metrics']['abstract_rouge'] += abstract_rouge
 
-        expected_keywords = expected_output.get('keywords', [])
-        actual_keywords = output_json.get('keywords', [])
-        keywords_f1 = calculate_f1(expected_keywords, actual_keywords)
-        results['accumulated_metrics']['keywords_f1'] += keywords_f1
+        expected_keywords = expected_output.get('keywords') or []
+        actual_keywords = output_json.get('keywords') or []
+        keywords_f1 = 1.0 if not expected_keywords else calculate_f1(expected_keywords, actual_keywords)
+
+        expected_date = str(expected_output.get('date') or '').strip()
+        actual_date = str(output_json.get('date') or '').strip()
+        date_exact = 1.0 if expected_date == actual_date else 0.0
 
         item_result['metrics'] = {
           'title_levenshtein': title_levenshtein,
-          'authors_f1': authors_f1,
+          'authors_firstName_levenshtein': author_metrics['firstName'],
+          'authors_lastName_levenshtein': author_metrics['lastName'],
+          'authors_email_levenshtein': author_metrics['email'],
+          'authors_institution_f1': author_metrics['institution'],
           'abstract_rouge': abstract_rouge,
           'keywords_f1': keywords_f1,
+          'date_exact': date_exact,
         }
-      except json.JSONDecodeError:
-        pass
+      else:
+        item_result['metrics'] = {
+          'title_levenshtein': 0.0,
+          'authors_firstName_levenshtein': 0.0,
+          'authors_lastName_levenshtein': 0.0,
+          'authors_email_levenshtein': 0.0,
+          'authors_institution_f1': 0.0,
+          'abstract_rouge': 0.0,
+          'keywords_f1': 0.0,
+          'date_exact': 0.0,
+        }
+
+      for key, value in item_result['metrics'].items():
+        results['accumulated_metrics'][key] += value
 
       results['outputs'].append(item_result)
 
@@ -200,27 +263,34 @@ def evaluate_model(model, processor, dataset, png_directory, batch_size):
   results['time_average'] = results['time_total'] / len(dataset)
   results['valid_json_ratio'] = results['valid_json_count'] / len(dataset)
 
-  if results['valid_json_count'] > 0:
-    for key, accumulated in results['accumulated_metrics'].items():
-      results['average_metrics'][key] = accumulated / results['valid_json_count']
-  else:
-    for key in results['accumulated_metrics'].keys():
-      results['average_metrics'][key] = 0.0
+  for key, accumulated in results['accumulated_metrics'].items():
+    results['average_metrics'][key] = accumulated / results['total_samples']
 
-  return results
+  return {
+    'summary': {
+      'time_total': results['time_total'],
+      'time_average': results['time_average'],
+      'total_samples': results['total_samples'],
+      'valid_json_count': results['valid_json_count'],
+      'valid_json_ratio': results['valid_json_ratio'],
+    },
+    'metrics': results['average_metrics'],
+    'samples': results['outputs'],
+  }
 
 def main():
   args = parser.parse_args()
 
-  input_path = Path(args.input)
+  input_path = Path(args.directory, args.input)
   output_path = Path(args.output)
 
-  png_directory = Path(args.directory, 'png')
+  jpg_directory = Path(args.directory, 'jpg')
 
   processor = AutoProcessor.from_pretrained(
-    'Qwen/Qwen2.5-VL-3B-Instruct',
+    f'Qwen/{args.model}',
     min_pixels=256 * 28 * 28,
-    max_pixels=1280 * 28 * 28
+    max_pixels=1280 * 28 * 28,
+    use_fast=False
   )
 
   with open(input_path, 'r', encoding='utf-8') as file:
@@ -229,29 +299,42 @@ def main():
   if args.count:
     dataset = dataset[:args.count]
 
-  base_model = Qwen2_5_VLForConditionalGeneration.from_pretrained(
-    'Qwen/Qwen2.5-VL-3B-Instruct',
-    torch_dtype=torch.float16,
-    device_map="auto"
+  base_model = AutoModelForImageTextToText.from_pretrained(
+    f'Qwen/{args.model}',
+    dtype=torch.float16,
+    device_map='auto'
   )
 
-  base_results = evaluate_model(base_model, processor, dataset, png_directory, args.batch_size)
+  base_results = evaluate_model(base_model, processor, dataset, jpg_directory, args.batch_size)
 
   # clear memory before loading tuned model
   del base_model; torch.cuda.empty_cache(); gc.collect()
 
-  base_model = Qwen2_5_VLForConditionalGeneration.from_pretrained(
-    'Qwen/Qwen2.5-VL-3B-Instruct',
-    torch_dtype=torch.float16,
-    device_map="auto"
+  base_model = AutoModelForImageTextToText.from_pretrained(
+    f'Qwen/{args.model}',
+    dtype=torch.float16,
+    device_map='auto'
   )
 
-  tuned_model = PeftModel.from_pretrained(base_model, args.model)
-  tuned_results = evaluate_model(tuned_model, processor, dataset, png_directory, args.batch_size)
+  tuned_model = PeftModel.from_pretrained(base_model, args.lora)
+  tuned_results = evaluate_model(tuned_model, processor, dataset, jpg_directory, args.batch_size)
+
+  samples = []
+
+  for base_item, tuned_item in zip(base_results['samples'], tuned_results['samples']):
+    samples.append({
+      'image': base_item['image'],
+      'valid_json': {'base': base_item['valid_json'], 'tuned': tuned_item['valid_json']},
+      'metrics': {'base': base_item['metrics'], 'tuned': tuned_item['metrics']},
+      'expected': base_item['expected'],
+      'base': base_item['actual'],
+      'tuned': tuned_item['actual'],
+    })
 
   report = {
-    'base_model': base_results,
-    'tuned_model': tuned_results
+    'metrics': {'base': base_results['metrics'], 'tuned': tuned_results['metrics']},
+    'summary': {'base': base_results['summary'], 'tuned': tuned_results['summary']},
+    'samples': samples,
   }
 
   with open(output_path, 'w', encoding='utf-8') as file:

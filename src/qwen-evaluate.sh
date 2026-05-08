@@ -1,18 +1,21 @@
 #!/bin/bash
-#PBS -N qwen-evaluate-gpu
-#PBS -l select=1:ncpus=16:mem=64gb:scratch_local=256gb:ngpus=1:gpu_mem=16gb
-#PBS -l walltime=24:00:00
+#PBS -N qwen-evaluate
+#PBS -l select=1:ncpus=8:mem=64gb:scratch_local=128gb:ngpus=1:gpu_mem=16gb
+#PBS -l walltime=12:00:00
 
 # [KNN] Konvolucni neuronove site
 #
 # Vysoke uceni technicke v Brne
 # Fakulta informacnich technologii
 #
-# Nazev: qwen-evaluate-gpu.sh
+# Nazev: qwen-evaluate.sh
 # Autor: David Machu (xmachu05)
 #        Matej Nedela (xnedel11)
 
 set -euo pipefail
+
+BASE=Qwen2.5-VL-3B-Instruct
+LORA=Qwen2.5-VL-3B-Instruct-lora-19611240
 
 VENV_DIR="${PBS_O_WORKDIR}/../venv"
 
@@ -24,22 +27,23 @@ mkdir -p "${TMPDIR}" "${HF_HOME}" "${HUGGINGFACE_HUB_CACHE}"
 
 cd ${SCRATCHDIR}
 
-cp ${PBS_O_WORKDIR}/data.tar .
-tar -xf data.tar
+cp -r ${PBS_O_WORKDIR}/data .
 
-cp -a /storage/brno2/home/xmachu05/knn-mis/outputs/qwen-lora-2026-04-11_09-20-37 .
+mkdir -p data/jpg
+
+tar -xf data/jpg.tar -C data/jpg
+
+cp -a /storage/brno2/home/xmachu05/knn-mis/outputs/${LORA} .
 
 cp ${PBS_O_WORKDIR}/src/qwen-evaluate.py .
-cp ${PBS_O_WORKDIR}/test.json .
-cp ${PBS_O_WORKDIR}/requirements.txt .
 
 module load python
 module load cuda
 
 source "${VENV_DIR}/bin/activate"
 
-python qwen-evaluate.py -c 5 -b 5
+python qwen-evaluate.py -m ${BASE} -l ${LORA}
 
-cp report.json ${PBS_O_WORKDIR}/better-report-gpu.json
+cp report.json ${PBS_O_WORKDIR}/${BASE}.json
 
 clean_scratch
