@@ -14,6 +14,8 @@
 
 set -euo pipefail
 
+# Run this script in knn-mis directory
+
 VENV_DIR="${PBS_O_WORKDIR}/../venv"
 
 export TMPDIR="${SCRATCHDIR}"
@@ -22,14 +24,15 @@ mkdir -p "${TMPDIR}"
 
 cd ${SCRATCHDIR}
 
+# Copy data
 cp -r ${PBS_O_WORKDIR}/data .
-
 mkdir -p data/jpg
-
 tar -xf data/jpg.tar -C data/jpg
 
+# Copy scripts
 cp ${PBS_O_WORKDIR}/src/qwen-prepare-dataset.py .
 
+# Load modules
 module load python
 
 source "${VENV_DIR}/bin/activate"

@@ -140,6 +140,32 @@ def find_text_bbox(target_text, words):
 
   return union_bboxes([words[i]["bbox"] for i in word_indices])
 
+def find_abstract_bbox(abstract, words, edge_word_count=8):
+  if abstract is None:
+    return None
+
+  abstract = str(abstract).strip()
+  if not abstract:
+    return None
+
+  tokens = abstract.split()
+
+  if len(tokens) <= edge_word_count * 2:
+    return find_text_bbox(abstract, words)
+
+  start_text = " ".join(tokens[:edge_word_count])
+  end_text = " ".join(tokens[-edge_word_count:])
+
+  start_bbox = find_text_bbox(start_text, words)
+  end_bbox = find_text_bbox(end_text, words)
+
+  bbox = union_bboxes([start_bbox, end_bbox])
+
+  if bbox is not None:
+    return bbox
+
+  return find_text_bbox(abstract, words)
+
 def normalize_for_similarity(text):
   return " ".join(str(text).lower().split())
 
