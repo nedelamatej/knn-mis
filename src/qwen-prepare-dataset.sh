@@ -24,13 +24,13 @@ mkdir -p "${TMPDIR}"
 
 cd ${SCRATCHDIR}
 
+# Copy scripts
+cp ${PBS_O_WORKDIR}/src/qwen-prepare-dataset.py .
+
 # Copy data
 cp -r ${PBS_O_WORKDIR}/data .
 mkdir -p data/jpg
 tar -xf data/jpg.tar -C data/jpg
-
-# Copy scripts
-cp ${PBS_O_WORKDIR}/src/qwen-prepare-dataset.py .
 
 # Load modules
 module load python

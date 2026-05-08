@@ -25,16 +25,16 @@ mkdir -p "${TMPDIR}"
 
 cd ${SCRATCHDIR}
 
+# Copy scripts
+cp ${PBS_O_WORKDIR}/src/qwen-prepare-dataset-bbox.py .
+cp ${PBS_O_WORKDIR}/src/alto_utils.py .
+
 # Copy data
 cp -r ${PBS_O_WORKDIR}/data .
 mkdir -p data/jpg
 tar -xf data/jpg.tar -C data/jpg
 mkdir -p data/alto
 tar -xzf data/alto.tar.gz -C data/alto
-
-# Copy scripts
-cp ${PBS_O_WORKDIR}/src/qwen-prepare-dataset-bbox.py .
-cp ${PBS_O_WORKDIR}/src/alto_utils.py .
 
 # Load modules
 module load python
