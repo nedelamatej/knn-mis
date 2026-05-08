@@ -1,6 +1,6 @@
 #!/bin/bash
 #PBS -N qwen-prepare-dataset-bbox
-#PBS -l select=1:ncpus=1:mem=16gb:scratch_local=128gb
+#PBS -l select=1:ncpus=1:mem=32gb:scratch_local=128gb
 #PBS -l walltime=12:00:00
 
 # [KNN] Konvolucni neuronove site
@@ -16,7 +16,7 @@ set -euo pipefail
 
 # Run this script in knn-mis directory
 
-VENV_DIR="${PBS_O_WORKDIR}/../venv"
+VENV_DIR="${PBS_O_WORKDIR}/../venvs/knn-prepare-bbox"
 PERO_OCR_DIR="${PBS_O_WORKDIR}/../pero-ocr"
 
 export TMPDIR="${SCRATCHDIR}"

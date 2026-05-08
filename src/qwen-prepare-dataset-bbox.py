@@ -6,6 +6,7 @@ import random
 from alto_utils import (
     parse_alto_words,
     find_text_bbox,
+    find_abstract_bbox,
     find_title_bbox,
     find_author_bboxes,
 )
@@ -76,7 +77,7 @@ def convert_item(item, jpg_directory, alto_directory):
 
   words = parse_alto_words(alto_path)
 
-  abstract_bbox = find_text_bbox(item.get('abstract'), words)
+  abstract_bbox = find_abstract_bbox(item.get('abstract'), words)
   title_bbox = find_title_bbox(item.get('title'), words, abstract_bbox)
 
   source_authors = item.get('authors', [])
