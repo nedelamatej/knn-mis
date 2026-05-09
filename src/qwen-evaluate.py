@@ -32,6 +32,22 @@ parser.add_argument('-b', '--batch-size', help='number of articles to process pe
 parser.add_argument('-i', '--input', help='path to input data JSON file', default='test.json')
 parser.add_argument('-o', '--output', help='path to save evaluation report JSON', default='report.json')
 parser.add_argument('-d', '--directory', help='directory to load JSON and JPG files from', default='data')
+parser.add_argument('--bbox', help='evaluate bounding box predictions using IoU metric', action='store_true')
+
+def extract_text(value, bbox):
+  if not value:
+    return ''
+
+  if bbox and isinstance(value, dict):
+    return value.get('text', '')
+
+  return str(value)
+
+def extract_array(items, bbox):
+  if not items:
+    return []
+
+  return [extract_text(item, bbox) for item in items]
 
 def calculate_f1(expected_list, actual_list):
   if not isinstance(expected_list, list): expected_list = []
@@ -103,6 +119,53 @@ def calculate_author_metrics(expected_authors, actual_authors):
 
   return {k: v / n for k, v in totals.items()}
 
+def calculate_iou(bbox1, bbox2):
+  if bbox1 is None or bbox2 is None: return 0.0
+
+  x1 = max(bbox1[0], bbox2[0])
+  y1 = max(bbox1[1], bbox2[1])
+  x2 = min(bbox1[2], bbox2[2])
+  y2 = min(bbox1[3], bbox2[3])
+
+  intersection = max(0, x2 - x1) * max(0, y2 - y1)
+
+  area1 = max(0, bbox1[2] - bbox1[0]) * max(0, bbox1[3] - bbox1[1])
+  area2 = max(0, bbox2[2] - bbox2[0]) * max(0, bbox2[3] - bbox2[1])
+
+  union = area1 + area2 - intersection
+
+  return intersection / union if union > 0.0 else 0.0
+
+def calculate_list_iou(expected_list, actual_list):
+  if not isinstance(expected_list, list): expected_list = []
+  if not isinstance(actual_list, list): actual_list = []
+
+  if not expected_list and not actual_list: return 1.0
+  if not expected_list or not actual_list: return 0.0
+
+  n = max(len(expected_list), len(actual_list))
+
+  total = 0.0
+
+  for i in range(n):
+    expected_item = expected_list[i] if i < len(expected_list) else {}
+    actual_item = actual_list[i] if i < len(actual_list) else {}
+
+    if not isinstance(expected_item, dict): expected_item = {}
+    if not isinstance(actual_item, dict): actual_item = {}
+
+    expected_bbox = expected_item.get('bbox')
+    actual_bbox = actual_item.get('bbox')
+
+    if not expected_bbox and not actual_bbox:
+      total += 1.0
+    elif not expected_bbox or not actual_bbox:
+      total += 0.0
+    else:
+      total += calculate_iou(expected_bbox, actual_bbox)
+
+  return total / n if n > 0 else 0.0
+
 def clean_output(text):
   text = text.strip()
 
@@ -116,8 +179,28 @@ def clean_output(text):
 
   return text.strip()
 
-def evaluate_model(model, processor, dataset, jpg_directory, batch_size):
+def evaluate_model(model, processor, dataset, jpg_directory, batch_size, bbox=False):
   rouge = rouge_scorer.RougeScorer(['rougeL'], use_stemmer=True)
+
+  base_metrics = [
+    'title_levenshtein',
+    'authors_firstName_levenshtein',
+    'authors_lastName_levenshtein',
+    'authors_email_levenshtein',
+    'authors_institution_f1',
+    'abstract_rouge',
+    'keywords_f1',
+    'date_exact',
+  ]
+
+  bbox_metrics = [
+    'title_bbox_iou',
+    'authors_bbox_iou',
+    'abstract_bbox_iou',
+    'keywords_bbox_iou',
+  ] if bbox else []
+
+  all_metrics = base_metrics + bbox_metrics
 
   results = {
     'time_total': 0,
@@ -125,26 +208,8 @@ def evaluate_model(model, processor, dataset, jpg_directory, batch_size):
     'total_samples': len(dataset),
     'valid_json_count': 0,
     'valid_json_ratio': 0,
-    'accumulated_metrics': {
-      'title_levenshtein': 0.0,
-      'authors_firstName_levenshtein': 0.0,
-      'authors_lastName_levenshtein': 0.0,
-      'authors_email_levenshtein': 0.0,
-      'authors_institution_f1': 0.0,
-      'abstract_rouge': 0.0,
-      'keywords_f1': 0.0,
-      'date_exact': 0.0,
-    },
-    'average_metrics': {
-      'title_levenshtein': 0.0,
-      'authors_firstName_levenshtein': 0.0,
-      'authors_lastName_levenshtein': 0.0,
-      'authors_email_levenshtein': 0.0,
-      'authors_institution_f1': 0.0,
-      'abstract_rouge': 0.0,
-      'keywords_f1': 0.0,
-      'date_exact': 0.0,
-    },
+    'accumulated_metrics': {k: 0.0 for k in all_metrics},
+    'average_metrics': {k: 0.0 for k in all_metrics},
     'outputs': [],
   }
 
@@ -210,26 +275,27 @@ def evaluate_model(model, processor, dataset, jpg_directory, batch_size):
         item_result['actual'] = output_json
       except json.JSONDecodeError:
         output_json = None
+        item_result['actual'] = output_text
 
       if output_json is not None:
-        expected_title = expected_output.get('title') or ''
-        actual_title = output_json.get('title') or ''
+        expected_title = extract_text(expected_output.get('title'), bbox)
+        actual_title = extract_text(output_json.get('title'), bbox)
         title_levenshtein = calculate_levenshtein(expected_title, actual_title)
 
         expected_authors = expected_output.get('authors') or []
         actual_authors = output_json.get('authors') or []
         author_metrics = calculate_author_metrics(expected_authors, actual_authors)
 
-        expected_abstract = expected_output.get('abstract') or ''
-        actual_abstract = output_json.get('abstract') or ''
+        expected_abstract = extract_text(expected_output.get('abstract'), bbox)
+        actual_abstract = extract_text(output_json.get('abstract'), bbox)
         abstract_rouge = rouge.score(expected_abstract, actual_abstract)['rougeL'].fmeasure
 
-        expected_keywords = expected_output.get('keywords') or []
-        actual_keywords = output_json.get('keywords') or []
+        expected_keywords = extract_array(expected_output.get('keywords'), bbox)
+        actual_keywords = extract_array(output_json.get('keywords'), bbox)
         keywords_f1 = 1.0 if not expected_keywords else calculate_f1(expected_keywords, actual_keywords)
 
-        expected_date = str(expected_output.get('date') or '').strip()
-        actual_date = str(output_json.get('date') or '').strip()
+        expected_date = str(extract_text(expected_output.get('date'), bbox)).strip()
+        actual_date = str(extract_text(output_json.get('date'), bbox)).strip()
         date_exact = 1.0 if expected_date == actual_date else 0.0
 
         item_result['metrics'] = {
@@ -242,17 +308,36 @@ def evaluate_model(model, processor, dataset, jpg_directory, batch_size):
           'keywords_f1': keywords_f1,
           'date_exact': date_exact,
         }
+
+        if bbox:
+          expected_title = expected_output.get('title')
+          actual_title = output_json.get('title')
+          title_iou = calculate_iou(
+            expected_title.get('bbox') if isinstance(expected_title, dict) else None,
+            actual_title.get('bbox') if isinstance(actual_title, dict) else None,
+          )
+
+          expected_abstract = expected_output.get('abstract')
+          actual_abstract = output_json.get('abstract')
+          abstract_iou = calculate_iou(
+            expected_abstract.get('bbox') if isinstance(expected_abstract, dict) else None,
+            actual_abstract.get('bbox') if isinstance(actual_abstract, dict) else None,
+          )
+
+          authors_iou = calculate_list_iou(expected_authors, actual_authors)
+          keywords_iou = calculate_list_iou(expected_output.get('keywords'), output_json.get('keywords'))
+
+          item_result['metrics'].update({
+            'title_bbox_iou': title_iou,
+            'abstract_bbox_iou': abstract_iou,
+            'authors_bbox_iou': authors_iou,
+            'keywords_bbox_iou': keywords_iou,
+          })
       else:
-        item_result['metrics'] = {
-          'title_levenshtein': 0.0,
-          'authors_firstName_levenshtein': 0.0,
-          'authors_lastName_levenshtein': 0.0,
-          'authors_email_levenshtein': 0.0,
-          'authors_institution_f1': 0.0,
-          'abstract_rouge': 0.0,
-          'keywords_f1': 0.0,
-          'date_exact': 0.0,
-        }
+        item_result['metrics'] = {k: 0.0 for k in base_metrics}
+
+        if bbox:
+          item_result['metrics'].update({k: 0.0 for k in bbox_metrics})
 
       for key, value in item_result['metrics'].items():
         results['accumulated_metrics'][key] += value
@@ -305,7 +390,7 @@ def main():
     device_map='auto'
   )
 
-  base_results = evaluate_model(base_model, processor, dataset, jpg_directory, args.batch_size)
+  base_results = evaluate_model(base_model, processor, dataset, jpg_directory, args.batch_size, bbox=args.bbox)
 
   # clear memory before loading tuned model
   del base_model; torch.cuda.empty_cache(); gc.collect()
@@ -317,7 +402,7 @@ def main():
   )
 
   tuned_model = PeftModel.from_pretrained(base_model, args.lora)
-  tuned_results = evaluate_model(tuned_model, processor, dataset, jpg_directory, args.batch_size)
+  tuned_results = evaluate_model(tuned_model, processor, dataset, jpg_directory, args.batch_size, bbox=args.bbox)
 
   samples = []
 

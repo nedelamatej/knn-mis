@@ -1,7 +1,7 @@
 #!/bin/bash
 #PBS -N qwen-evaluate
 #PBS -l select=1:ncpus=8:mem=64gb:scratch_local=128gb:ngpus=1:gpu_mem=16gb
-#PBS -l walltime=12:00:00
+#PBS -l walltime=24:00:00
 
 # [KNN] Konvolucni neuronove site
 #
@@ -16,6 +16,7 @@ set -euo pipefail
 
 BASE=Qwen2.5-VL-3B-Instruct
 LORA=Qwen2.5-VL-3B-Instruct-lora-19611240
+BBOX=false
 
 VENV_DIR="${PBS_O_WORKDIR}/../venv"
 
@@ -42,8 +43,14 @@ module load cuda
 
 source "${VENV_DIR}/bin/activate"
 
-python qwen-evaluate.py -m ${BASE} -l ${LORA}
+if [ "${BBOX}" = "true" ]; then
+  cp /storage/brno2/home/xmachu05/knn-mis/data/test_bbox_1.json data/test.json
 
-cp report.json ${PBS_O_WORKDIR}/${BASE}.json
+  python qwen-evaluate.py -m ${BASE} -l ${LORA} --bbox
+  cp report.json ${PBS_O_WORKDIR}/${BASE}-bbox.json
+else
+  python qwen-evaluate.py -m ${BASE} -l ${LORA}
+  cp report.json ${PBS_O_WORKDIR}/${BASE}.json
+fi
 
 clean_scratch
