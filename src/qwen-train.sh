@@ -12,7 +12,7 @@
 # Autor: David Machu (xmachu05)
 #        Matej Nedela (xnedel11)
 
-# This script uses framwork available at: https://github.com/2U1/Qwen-VL-Series-Finetune
+# This script uses framework available at: https://github.com/2U1/Qwen-VL-Series-Finetune
 
 # Run this script in knn-mis directory
 
