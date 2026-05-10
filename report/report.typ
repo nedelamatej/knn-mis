@@ -218,7 +218,11 @@ Nejnižší validační ztráty dosáhly větší modely. Model `Qwen2.5-VL-7B-I
 
 Po základním trénování byla datová sada rozšířena také o anotace pozic extrahovaných hodnot na stránce. Cílem této úpravy bylo, aby model nevracel pouze textová metadata, ale pro vybrané položky také jejich bounding box v pixelových souřadnicích obrázku. Pro tuto variantu byl použit upravený předzpracovací skript `qwen-prepare-dataset-bbox.py`, který kromě souboru `metadata.json` a obrázků z adresáře `jpg` využívá také OCR výstupy ve formátu ALTO XML uložené v adresáři `alto`.
 
-Oproti původní datové sadě se tedy změnila především očekávaná odpověď modelu. Textové hodnoty jsou nově doplněny o atribut `bbox`, který má tvar `[x1, y1, x2, y2]`. Pokud hodnota na stránce chybí nebo její pozici nelze spolehlivě určit, je bbox nastaven na `null`. Struktura požadovaného výstupu je následující:
+Oproti původní datové sadě se tedy změnila především očekávaná odpověď modelu. Textové hodnoty jsou nově doplněny o atribut `bbox`, který má tvar `[x1, y1, x2, y2]`. Pokud hodnota na stránce chybí nebo její pozici nelze spolehlivě určit, je bbox nastaven na `null`. 
+
+#pagebreak()
+
+Struktura požadovaného výstupu je následující:
 
 ```json
 {
