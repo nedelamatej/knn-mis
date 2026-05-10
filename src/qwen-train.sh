@@ -17,7 +17,7 @@
 set -euo pipefail
 trap 'clean_scratch || true' EXIT TERM
 
-# Model
+# Model selection
 #MODEL_NAME="Qwen2-VL-2B-Instruct"
 #MODEL_NAME="Qwen2.5-VL-3B-Instruct"
 MODEL_NAME="Qwen2.5-VL-7B-Instruct"

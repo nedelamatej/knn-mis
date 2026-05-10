@@ -1,3 +1,12 @@
+# [KNN] Konvolucni neuronove site
+#
+# Vysoke uceni technicke v Brne
+# Fakulta informacnich technologii
+#
+# Nazev: alto_utils.sh
+# Autor: David Machu (xmachu05)
+#        Matej Nedela (xnedel11)
+
 from pathlib import Path
 import re
 import unicodedata
@@ -260,7 +269,7 @@ def find_author_bbox_in_line(author, line_words, min_score=0.85):
     last_parts = [normalize_word(part) for part in str(last_name).split()]
     last_parts = [part for part in last_parts if part]
 
-    # Multi-word surnames, e.g. "Van Riet", "van der Wal".
+    # Multi-word surnames, e.g. "Van Riet", "van der Wal"
     if len(last_parts) > 1:
         for start in range(len(line_words)):
             selected = line_words[start:start + len(last_parts)]
@@ -283,14 +292,14 @@ def find_author_bbox_in_line(author, line_words, min_score=0.85):
             if ok:
                 return union_bboxes([word["bbox"] for word in selected])
 
-    # Exact or substring match in a single OCR word.
+    # Exact or substring match in a single OCR word
     for word in line_words:
         word_norm = normalize_word(word["text"])
 
         if last_norm == word_norm or last_norm in word_norm:
             return word["bbox"]
 
-    # Fuzzy match in a single OCR word.
+    # Fuzzy match in a single OCR word
     best_word = None
     best_score = 0.0
 

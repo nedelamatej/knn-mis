@@ -1,3 +1,12 @@
+# [KNN] Konvolucni neuronove site
+#
+# Vysoke uceni technicke v Brne
+# Fakulta informacnich technologii
+#
+# Nazev: qwen-prepare-dataset-bbox.py
+# Autor: David Machu (xmachu05)
+#        Matej Nedela (xnedel11)
+
 from pathlib import Path
 import argparse
 import json
