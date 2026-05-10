@@ -1,0 +1,832 @@
+<?xml version='1.0' encoding='utf-8'?>
+<alto xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/standards/alto/ns-v2#">
+  <Description>
+    <MeasurementUnit>pixel</MeasurementUnit>
+    <sourceImageInformation>
+      <fileName>0704.0009</fileName>
+    </sourceImageInformation>
+    <OCRProcessing ID="IdOcr">
+      <ocrProcessingStep>
+        <processingDateTime>2026-04-23T11:55:35.902045</processingDateTime>
+        <processingSoftware>
+          <softwareCreator>Project PERO</softwareCreator>
+          <softwareName>PERO OCR</softwareName>
+          <softwareVersion>v0.1.0</softwareVersion>
+        </processingSoftware>
+      </ocrProcessingStep>
+    </OCRProcessing>
+  </Description>
+  <Layout>
+    <Page ID="id_0704.0009" PHYSICAL_IMG_NR="1" HEIGHT="1650" WIDTH="1275">
+      <TopMargin HEIGHT="224" WIDTH="1275" VPOS="0" HPOS="0"/>
+      <LeftMargin HEIGHT="1650" WIDTH="143" VPOS="0" HPOS="0"/>
+      <RightMargin HEIGHT="1650" WIDTH="0" VPOS="0" HPOS="1275"/>
+      <BottomMargin HEIGHT="0" WIDTH="1275" VPOS="1650" HPOS="0"/>
+      <PrintSpace HEIGHT="1425" WIDTH="1131" VPOS="224" HPOS="143">
+        <TextBlock ID="block_r002" HEIGHT="163" WIDTH="978" VPOS="224" HPOS="146">
+          <TextLine ID="line_r002-l001" BASELINE="248" VPOS="224" HPOS="146" HEIGHT="32" WIDTH="978">
+            <String CONTENT="The" HEIGHT="32" WIDTH="50" VPOS="224" HPOS="152" WC="1"/>
+            <SP WIDTH="4" VPOS="224" HPOS="202"/>
+            <String CONTENT="Spitzer" HEIGHT="32" WIDTH="98" VPOS="224" HPOS="216" WC="1"/>
+            <SP WIDTH="4" VPOS="224" HPOS="314"/>
+            <String CONTENT="c2d" HEIGHT="32" WIDTH="44" VPOS="224" HPOS="328" WC="1"/>
+            <SP WIDTH="4" VPOS="224" HPOS="372"/>
+            <String CONTENT="Survey" HEIGHT="32" WIDTH="92" VPOS="224" HPOS="391" WC="1"/>
+            <SP WIDTH="4" VPOS="224" HPOS="483"/>
+            <String CONTENT="of" HEIGHT="32" WIDTH="26" VPOS="224" HPOS="501" WC="1"/>
+            <SP WIDTH="4" VPOS="224" HPOS="527"/>
+            <String CONTENT="Large," HEIGHT="32" WIDTH="88" VPOS="224" HPOS="539" WC="1"/>
+            <SP WIDTH="4" VPOS="224" HPOS="627"/>
+            <String CONTENT="Nearby," HEIGHT="32" WIDTH="110" VPOS="224" HPOS="644" WC="1"/>
+            <SP WIDTH="4" VPOS="224" HPOS="754"/>
+            <String CONTENT="Insterstellar" HEIGHT="32" WIDTH="174" VPOS="224" HPOS="762" WC="1"/>
+            <SP WIDTH="4" VPOS="224" HPOS="937"/>
+            <String CONTENT="Clouds." HEIGHT="32" WIDTH="104" VPOS="224" HPOS="957" WC="1"/>
+            <SP WIDTH="4" VPOS="224" HPOS="1061"/>
+            <String CONTENT="IX." HEIGHT="32" WIDTH="44" VPOS="224" HPOS="1077" WC="1"/>
+          </TextLine>
+          <TextLine ID="line_r002-l002" BASELINE="289" VPOS="263" HPOS="147" HEIGHT="33" WIDTH="975">
+            <String CONTENT="The" HEIGHT="31" WIDTH="49" VPOS="263" HPOS="152" WC="1.0"/>
+            <SP WIDTH="4" VPOS="263" HPOS="202"/>
+            <String CONTENT="Serpens" HEIGHT="32" WIDTH="111" VPOS="263" HPOS="216" WC="1.0"/>
+            <SP WIDTH="4" VPOS="263" HPOS="328"/>
+            <String CONTENT="YSO" HEIGHT="31" WIDTH="53" VPOS="264" HPOS="348" WC="1.0"/>
+            <SP WIDTH="4" VPOS="264" HPOS="401"/>
+            <String CONTENT="Population" HEIGHT="31" WIDTH="151" VPOS="264" HPOS="423" WC="1.0"/>
+            <SP WIDTH="4" VPOS="264" HPOS="575"/>
+            <String CONTENT="As" HEIGHT="31" WIDTH="27" VPOS="264" HPOS="599" WC="1.0"/>
+            <SP WIDTH="4" VPOS="264" HPOS="627"/>
+            <String CONTENT="Observed" HEIGHT="31" WIDTH="123" VPOS="264" HPOS="646" WC="1.0"/>
+            <SP WIDTH="4" VPOS="264" HPOS="770"/>
+            <String CONTENT="With" HEIGHT="31" WIDTH="61" VPOS="264" HPOS="794" WC="1.0"/>
+            <SP WIDTH="4" VPOS="264" HPOS="856"/>
+            <String CONTENT="IRAC" HEIGHT="31" WIDTH="77" VPOS="264" HPOS="877" WC="1.0"/>
+            <SP WIDTH="4" VPOS="264" HPOS="955"/>
+            <String CONTENT="and" HEIGHT="31" WIDTH="45" VPOS="264" HPOS="975" WC="1.0"/>
+            <SP WIDTH="4" VPOS="264" HPOS="1021"/>
+            <String CONTENT="MIPS" HEIGHT="31" WIDTH="73" VPOS="263" HPOS="1043" WC="1.0"/>
+          </TextLine>
+          <TextLine ID="line_r002-l003" BASELINE="348" VPOS="326" HPOS="165" HEIGHT="29" WIDTH="935">
+            <String CONTENT="Paul" HEIGHT="29" WIDTH="49" VPOS="325" HPOS="172" WC="1.0"/>
+            <SP WIDTH="4" VPOS="325" HPOS="222"/>
+            <String CONTENT="Harveyl," HEIGHT="29" WIDTH="94" VPOS="325" HPOS="229" WC="0.98"/>
+            <SP WIDTH="4" VPOS="325" HPOS="324"/>
+            <String CONTENT="Bruno" HEIGHT="29" WIDTH="61" VPOS="325" HPOS="331" WC="1.0"/>
+            <SP WIDTH="4" VPOS="325" HPOS="392"/>
+            <String CONTENT="Merín2," HEIGHT="29" WIDTH="79" VPOS="325" HPOS="405" WC="1.0"/>
+            <SP WIDTH="4" VPOS="325" HPOS="484"/>
+            <String CONTENT="Tracy" HEIGHT="29" WIDTH="55" VPOS="325" HPOS="496" WC="1.0"/>
+            <SP WIDTH="4" VPOS="325" HPOS="551"/>
+            <String CONTENT="L." HEIGHT="29" WIDTH="27" VPOS="325" HPOS="560" WC="1.0"/>
+            <SP WIDTH="4" VPOS="325" HPOS="588"/>
+            <String CONTENT="Huard3," HEIGHT="29" WIDTH="86" VPOS="325" HPOS="592" WC="0.95"/>
+            <SP WIDTH="4" VPOS="325" HPOS="679"/>
+            <String CONTENT="Luisa" HEIGHT="29" WIDTH="51" VPOS="325" HPOS="686" WC="1.0"/>
+            <SP WIDTH="4" VPOS="325" HPOS="738"/>
+            <String CONTENT="M." HEIGHT="29" WIDTH="29" VPOS="325" HPOS="751" WC="1.0"/>
+            <SP WIDTH="4" VPOS="325" HPOS="780"/>
+            <String CONTENT="Rebull4," HEIGHT="29" WIDTH="85" VPOS="325" HPOS="788" WC="0.99"/>
+            <SP WIDTH="4" VPOS="325" HPOS="873"/>
+            <String CONTENT="Nicholas" HEIGHT="29" WIDTH="86" VPOS="325" HPOS="884" WC="1.0"/>
+            <SP WIDTH="4" VPOS="325" HPOS="971"/>
+            <String CONTENT="Chapman5," HEIGHT="29" WIDTH="114" VPOS="325" HPOS="984" WC="0.93"/>
+          </TextLine>
+          <TextLine ID="line_r002-l004" BASELINE="381" VPOS="358" HPOS="440" HEIGHT="29" WIDTH="388">
+            <String CONTENT="Neal" HEIGHT="29" WIDTH="49" VPOS="358" HPOS="447" WC="1.0"/>
+            <SP WIDTH="4" VPOS="358" HPOS="497"/>
+            <String CONTENT="J." HEIGHT="29" WIDTH="20" VPOS="358" HPOS="504" WC="1.0"/>
+            <SP WIDTH="4" VPOS="358" HPOS="524"/>
+            <String CONTENT="Evans" HEIGHT="29" WIDTH="60" VPOS="358" HPOS="532" WC="1.0"/>
+            <SP WIDTH="4" VPOS="358" HPOS="592"/>
+            <String CONTENT="II1," HEIGHT="29" WIDTH="35" VPOS="358" HPOS="602" WC="0.27"/>
+            <SP WIDTH="4" VPOS="358" HPOS="637"/>
+            <String CONTENT="Philip" HEIGHT="29" WIDTH="60" VPOS="358" HPOS="644" WC="1.0"/>
+            <SP WIDTH="4" VPOS="358" HPOS="705"/>
+            <String CONTENT="C." HEIGHT="29" WIDTH="24" VPOS="358" HPOS="720" WC="1.0"/>
+            <SP WIDTH="4" VPOS="358" HPOS="744"/>
+            <String CONTENT="Myers3" HEIGHT="29" WIDTH="72" VPOS="357" HPOS="751" WC="0.98"/>
+          </TextLine>
+        </TextBlock>
+        <TextBlock ID="block_r004" HEIGHT="30" WIDTH="165" VPOS="438" HPOS="552">
+          <TextLine ID="line_r004-l005" BASELINE="461" VPOS="438" HPOS="552" HEIGHT="30" WIDTH="165">
+            <String CONTENT="ABSTRACT" HEIGHT="30" WIDTH="149" VPOS="438" HPOS="560" WC="1.0"/>
+          </TextLine>
+        </TextBlock>
+        <TextBlock ID="block_r003" HEIGHT="624" WIDTH="860" VPOS="514" HPOS="205">
+          <TextLine ID="line_r003-l006" BASELINE="536" VPOS="514" HPOS="240" HEIGHT="30" WIDTH="825">
+            <String CONTENT="We" HEIGHT="27" WIDTH="29" VPOS="514" HPOS="246" WC="1"/>
+            <SP WIDTH="4" VPOS="514" HPOS="276"/>
+            <String CONTENT="discuss" HEIGHT="27" WIDTH="68" VPOS="514" HPOS="286" WC="1"/>
+            <SP WIDTH="4" VPOS="514" HPOS="355"/>
+            <String CONTENT="the" HEIGHT="27" WIDTH="36" VPOS="515" HPOS="361" WC="1"/>
+            <SP WIDTH="4" VPOS="515" HPOS="398"/>
+            <String CONTENT="results" HEIGHT="27" WIDTH="68" VPOS="515" HPOS="404" WC="1"/>
+            <SP WIDTH="4" VPOS="515" HPOS="473"/>
+            <String CONTENT="from" HEIGHT="27" WIDTH="39" VPOS="516" HPOS="478" WC="1"/>
+            <SP WIDTH="4" VPOS="516" HPOS="518"/>
+            <String CONTENT="the" HEIGHT="27" WIDTH="32" VPOS="516" HPOS="537" WC="1"/>
+            <SP WIDTH="4" VPOS="516" HPOS="570"/>
+            <String CONTENT="combined" HEIGHT="27" WIDTH="98" VPOS="516" HPOS="576" WC="1"/>
+            <SP WIDTH="4" VPOS="516" HPOS="674"/>
+            <String CONTENT="IRAC" HEIGHT="27" WIDTH="56" VPOS="516" HPOS="683" WC="1"/>
+            <SP WIDTH="4" VPOS="516" HPOS="740"/>
+            <String CONTENT="and" HEIGHT="27" WIDTH="36" VPOS="516" HPOS="752" WC="1"/>
+            <SP WIDTH="4" VPOS="516" HPOS="788"/>
+            <String CONTENT="MIPS" HEIGHT="27" WIDTH="53" VPOS="515" HPOS="800" WC="1"/>
+            <SP WIDTH="4" VPOS="515" HPOS="853"/>
+            <String CONTENT="c2d" HEIGHT="27" WIDTH="32" VPOS="515" HPOS="865" WC="1"/>
+            <SP WIDTH="4" VPOS="515" HPOS="898"/>
+            <String CONTENT="Spitzer" HEIGHT="28" WIDTH="74" VPOS="514" HPOS="908" WC="1"/>
+            <SP WIDTH="4" VPOS="514" HPOS="982"/>
+            <String CONTENT="Legacy" HEIGHT="28" WIDTH="69" VPOS="514" HPOS="989" WC="1"/>
+          </TextLine>
+          <TextLine ID="line_r003-l007" BASELINE="569" VPOS="547" HPOS="205" HEIGHT="28" WIDTH="860">
+            <String CONTENT="observations" HEIGHT="27" WIDTH="127" VPOS="548" HPOS="209" WC="1"/>
+            <SP WIDTH="4" VPOS="548" HPOS="337"/>
+            <String CONTENT="of" HEIGHT="27" WIDTH="18" VPOS="549" HPOS="347" WC="1"/>
+            <SP WIDTH="4" VPOS="549" HPOS="366"/>
+            <String CONTENT="the" HEIGHT="27" WIDTH="35" VPOS="549" HPOS="372" WC="1"/>
+            <SP WIDTH="4" VPOS="549" HPOS="408"/>
+            <String CONTENT="Serpens" HEIGHT="27" WIDTH="81" VPOS="549" HPOS="415" WC="1"/>
+            <SP WIDTH="4" VPOS="549" HPOS="496"/>
+            <String CONTENT="star-forming" HEIGHT="27" WIDTH="129" VPOS="549" HPOS="503" WC="1"/>
+            <SP WIDTH="4" VPOS="549" HPOS="632"/>
+            <String CONTENT="region." HEIGHT="27" WIDTH="72" VPOS="548" HPOS="644" WC="1"/>
+            <SP WIDTH="4" VPOS="548" HPOS="717"/>
+            <String CONTENT="In" HEIGHT="27" WIDTH="16" VPOS="548" HPOS="727" WC="1"/>
+            <SP WIDTH="4" VPOS="548" HPOS="744"/>
+            <String CONTENT="particular" HEIGHT="27" WIDTH="101" VPOS="548" HPOS="756" WC="1"/>
+            <SP WIDTH="4" VPOS="548" HPOS="858"/>
+            <String CONTENT="we" HEIGHT="27" WIDTH="27" VPOS="548" HPOS="868" WC="1"/>
+            <SP WIDTH="4" VPOS="548" HPOS="895"/>
+            <String CONTENT="present" HEIGHT="27" WIDTH="74" VPOS="547" HPOS="903" WC="1"/>
+            <SP WIDTH="4" VPOS="547" HPOS="978"/>
+            <String CONTENT="a" HEIGHT="27" WIDTH="10" VPOS="547" HPOS="986" WC="1"/>
+            <SP WIDTH="4" VPOS="547" HPOS="997"/>
+            <String CONTENT="set" HEIGHT="27" WIDTH="30" VPOS="547" HPOS="1005" WC="1"/>
+            <SP WIDTH="4" VPOS="547" HPOS="1036"/>
+            <String CONTENT="of" HEIGHT="27" WIDTH="20" VPOS="547" HPOS="1044" WC="1"/>
+          </TextLine>
+          <TextLine ID="line_r003-l008" BASELINE="603" VPOS="582" HPOS="206" HEIGHT="26" WIDTH="857">
+            <String CONTENT="criteria" HEIGHT="26" WIDTH="70" VPOS="581" HPOS="211" WC="1"/>
+            <SP WIDTH="4" VPOS="581" HPOS="281"/>
+            <String CONTENT="for" HEIGHT="26" WIDTH="28" VPOS="581" HPOS="293" WC="1"/>
+            <SP WIDTH="4" VPOS="581" HPOS="322"/>
+            <String CONTENT="isolating" HEIGHT="26" WIDTH="86" VPOS="581" HPOS="332" WC="1"/>
+            <SP WIDTH="4" VPOS="581" HPOS="418"/>
+            <String CONTENT="bona" HEIGHT="26" WIDTH="50" VPOS="581" HPOS="430" WC="1"/>
+            <SP WIDTH="4" VPOS="581" HPOS="481"/>
+            <String CONTENT="fide" HEIGHT="26" WIDTH="37" VPOS="581" HPOS="493" WC="1"/>
+            <SP WIDTH="4" VPOS="581" HPOS="530"/>
+            <String CONTENT="young" HEIGHT="26" WIDTH="57" VPOS="581" HPOS="541" WC="1"/>
+            <SP WIDTH="4" VPOS="581" HPOS="599"/>
+            <String CONTENT="stellar" HEIGHT="26" WIDTH="65" VPOS="581" HPOS="611" WC="1"/>
+            <SP WIDTH="4" VPOS="581" HPOS="677"/>
+            <String CONTENT="objects," HEIGHT="26" WIDTH="84" VPOS="581" HPOS="688" WC="1"/>
+            <SP WIDTH="4" VPOS="581" HPOS="773"/>
+            <String CONTENT="YSO's," HEIGHT="26" WIDTH="70" VPOS="581" HPOS="785" WC="1"/>
+            <SP WIDTH="4" VPOS="581" HPOS="856"/>
+            <String CONTENT="from" HEIGHT="26" WIDTH="40" VPOS="581" HPOS="862" WC="1"/>
+            <SP WIDTH="4" VPOS="581" HPOS="903"/>
+            <String CONTENT="the" HEIGHT="26" WIDTH="32" VPOS="581" HPOS="923" WC="1"/>
+            <SP WIDTH="4" VPOS="581" HPOS="955"/>
+            <String CONTENT="extensive" HEIGHT="26" WIDTH="94" VPOS="581" HPOS="967" WC="1"/>
+          </TextLine>
+          <TextLine ID="line_r003-l009" BASELINE="636" VPOS="614" HPOS="206" HEIGHT="28" WIDTH="855">
+            <String CONTENT="background" HEIGHT="28" WIDTH="120" VPOS="613" HPOS="207" WC="1"/>
+            <SP WIDTH="4" VPOS="613" HPOS="327"/>
+            <String CONTENT="contamination" HEIGHT="28" WIDTH="149" VPOS="614" HPOS="341" WC="1"/>
+            <SP WIDTH="4" VPOS="614" HPOS="490"/>
+            <String CONTENT="by" HEIGHT="27" WIDTH="22" VPOS="615" HPOS="502" WC="1"/>
+            <SP WIDTH="4" VPOS="615" HPOS="524"/>
+            <String CONTENT="extra-galactic" HEIGHT="27" WIDTH="142" VPOS="615" HPOS="536" WC="1"/>
+            <SP WIDTH="4" VPOS="615" HPOS="678"/>
+            <String CONTENT="objects." HEIGHT="27" WIDTH="84" VPOS="615" HPOS="689" WC="1"/>
+            <SP WIDTH="4" VPOS="615" HPOS="773"/>
+            <String CONTENT="We" HEIGHT="27" WIDTH="30" VPOS="615" HPOS="785" WC="1"/>
+            <SP WIDTH="4" VPOS="615" HPOS="816"/>
+            <String CONTENT="then" HEIGHT="27" WIDTH="44" VPOS="615" HPOS="824" WC="1"/>
+            <SP WIDTH="4" VPOS="615" HPOS="869"/>
+            <String CONTENT="discuss" HEIGHT="27" WIDTH="70" VPOS="615" HPOS="882" WC="1"/>
+            <SP WIDTH="4" VPOS="615" HPOS="953"/>
+            <String CONTENT="the" HEIGHT="27" WIDTH="36" VPOS="614" HPOS="961" WC="1"/>
+            <SP WIDTH="4" VPOS="614" HPOS="997"/>
+            <String CONTENT="prop-" HEIGHT="27" WIDTH="55" VPOS="614" HPOS="1006" WC="1"/>
+          </TextLine>
+          <TextLine ID="line_r003-l010" BASELINE="668" VPOS="647" HPOS="206" HEIGHT="29" WIDTH="857">
+            <String CONTENT="erties" HEIGHT="27" WIDTH="53" VPOS="646" HPOS="211" WC="1"/>
+            <SP WIDTH="4" VPOS="646" HPOS="264"/>
+            <String CONTENT="of" HEIGHT="27" WIDTH="20" VPOS="646" HPOS="273" WC="1"/>
+            <SP WIDTH="4" VPOS="646" HPOS="294"/>
+            <String CONTENT="the" HEIGHT="27" WIDTH="33" VPOS="646" HPOS="300" WC="1"/>
+            <SP WIDTH="4" VPOS="646" HPOS="333"/>
+            <String CONTENT="resulting" HEIGHT="27" WIDTH="91" VPOS="646" HPOS="342" WC="1"/>
+            <SP WIDTH="4" VPOS="646" HPOS="434"/>
+            <String CONTENT="high" HEIGHT="27" WIDTH="39" VPOS="646" HPOS="444" WC="1"/>
+            <SP WIDTH="4" VPOS="646" HPOS="484"/>
+            <String CONTENT="confidence" HEIGHT="27" WIDTH="107" VPOS="646" HPOS="499" WC="1"/>
+            <SP WIDTH="4" VPOS="646" HPOS="606"/>
+            <String CONTENT="set" HEIGHT="27" WIDTH="31" VPOS="646" HPOS="615" WC="1"/>
+            <SP WIDTH="4" VPOS="646" HPOS="646"/>
+            <String CONTENT="of" HEIGHT="27" WIDTH="20" VPOS="646" HPOS="655" WC="1"/>
+            <SP WIDTH="4" VPOS="646" HPOS="676"/>
+            <String CONTENT="YSO’s." HEIGHT="27" WIDTH="72" VPOS="646" HPOS="688" WC="1"/>
+            <SP WIDTH="4" VPOS="646" HPOS="760"/>
+            <String CONTENT="We" HEIGHT="27" WIDTH="32" VPOS="646" HPOS="769" WC="1"/>
+            <SP WIDTH="4" VPOS="646" HPOS="802"/>
+            <String CONTENT="find" HEIGHT="27" WIDTH="38" VPOS="647" HPOS="809" WC="1"/>
+            <SP WIDTH="4" VPOS="647" HPOS="847"/>
+            <String CONTENT="235" HEIGHT="27" WIDTH="32" VPOS="647" HPOS="859" WC="1"/>
+            <SP WIDTH="4" VPOS="647" HPOS="891"/>
+            <String CONTENT="such" HEIGHT="27" WIDTH="43" VPOS="647" HPOS="902" WC="1"/>
+            <SP WIDTH="4" VPOS="647" HPOS="945"/>
+            <String CONTENT="objects" HEIGHT="28" WIDTH="72" VPOS="647" HPOS="961" WC="1"/>
+            <SP WIDTH="4" VPOS="647" HPOS="1033"/>
+            <String CONTENT="in" HEIGHT="27" WIDTH="17" VPOS="648" HPOS="1042" WC="1"/>
+          </TextLine>
+          <TextLine ID="line_r003-l011" BASELINE="703" VPOS="680" HPOS="206" HEIGHT="29" WIDTH="857">
+            <String CONTENT="the" HEIGHT="27" WIDTH="32" VPOS="680" HPOS="207" WC="1"/>
+            <SP WIDTH="4" VPOS="680" HPOS="240"/>
+            <String CONTENT="0.85" HEIGHT="27" WIDTH="38" VPOS="680" HPOS="252" WC="1"/>
+            <SP WIDTH="4" VPOS="680" HPOS="290"/>
+            <String CONTENT="deg2" HEIGHT="27" WIDTH="43" VPOS="680" HPOS="306" WC="1"/>
+            <SP WIDTH="4" VPOS="680" HPOS="349"/>
+            <String CONTENT="field" HEIGHT="27" WIDTH="41" VPOS="681" HPOS="358" WC="1"/>
+            <SP WIDTH="4" VPOS="681" HPOS="399"/>
+            <String CONTENT="that" HEIGHT="27" WIDTH="43" VPOS="681" HPOS="412" WC="1"/>
+            <SP WIDTH="4" VPOS="681" HPOS="455"/>
+            <String CONTENT="was" HEIGHT="27" WIDTH="34" VPOS="681" HPOS="467" WC="1"/>
+            <SP WIDTH="4" VPOS="681" HPOS="502"/>
+            <String CONTENT="covered" HEIGHT="27" WIDTH="74" VPOS="681" HPOS="515" WC="1"/>
+            <SP WIDTH="4" VPOS="681" HPOS="590"/>
+            <String CONTENT="with" HEIGHT="27" WIDTH="43" VPOS="681" HPOS="602" WC="1"/>
+            <SP WIDTH="4" VPOS="681" HPOS="645"/>
+            <String CONTENT="both" HEIGHT="27" WIDTH="46" VPOS="681" HPOS="657" WC="1"/>
+            <SP WIDTH="4" VPOS="681" HPOS="704"/>
+            <String CONTENT="IRAC" HEIGHT="27" WIDTH="57" VPOS="681" HPOS="718" WC="1"/>
+            <SP WIDTH="4" VPOS="681" HPOS="775"/>
+            <String CONTENT="and" HEIGHT="27" WIDTH="32" VPOS="681" HPOS="791" WC="1"/>
+            <SP WIDTH="4" VPOS="681" HPOS="824"/>
+            <String CONTENT="MIPS." HEIGHT="27" WIDTH="71" VPOS="681" HPOS="837" WC="1"/>
+            <SP WIDTH="4" VPOS="681" HPOS="908"/>
+            <String CONTENT="An" HEIGHT="27" WIDTH="26" VPOS="681" HPOS="917" WC="1"/>
+            <SP WIDTH="4" VPOS="681" HPOS="943"/>
+            <String CONTENT="additional" HEIGHT="27" WIDTH="107" VPOS="681" HPOS="955" WC="1"/>
+          </TextLine>
+          <TextLine ID="line_r003-l012" BASELINE="735" VPOS="714" HPOS="205" HEIGHT="29" WIDTH="858">
+            <String CONTENT="set" HEIGHT="27" WIDTH="29" VPOS="712" HPOS="206" WC="1"/>
+            <SP WIDTH="4" VPOS="712" HPOS="236"/>
+            <String CONTENT="of" HEIGHT="27" WIDTH="19" VPOS="713" HPOS="249" WC="1"/>
+            <SP WIDTH="4" VPOS="713" HPOS="268"/>
+            <String CONTENT="51" HEIGHT="27" WIDTH="22" VPOS="713" HPOS="277" WC="1"/>
+            <SP WIDTH="4" VPOS="713" HPOS="300"/>
+            <String CONTENT="lower" HEIGHT="27" WIDTH="57" VPOS="713" HPOS="310" WC="1"/>
+            <SP WIDTH="4" VPOS="713" HPOS="367"/>
+            <String CONTENT="confidence" HEIGHT="28" WIDTH="107" VPOS="714" HPOS="379" WC="1"/>
+            <SP WIDTH="4" VPOS="714" HPOS="486"/>
+            <String CONTENT="YSO’s" HEIGHT="27" WIDTH="62" VPOS="714" HPOS="500" WC="1"/>
+            <SP WIDTH="4" VPOS="714" HPOS="562"/>
+            <String CONTENT="outside" HEIGHT="27" WIDTH="76" VPOS="714" HPOS="574" WC="1"/>
+            <SP WIDTH="4" VPOS="714" HPOS="650"/>
+            <String CONTENT="this" HEIGHT="27" WIDTH="38" VPOS="714" HPOS="659" WC="1"/>
+            <SP WIDTH="4" VPOS="714" HPOS="697"/>
+            <String CONTENT="area" HEIGHT="27" WIDTH="41" VPOS="714" HPOS="709" WC="1"/>
+            <SP WIDTH="4" VPOS="714" HPOS="751"/>
+            <String CONTENT="is" HEIGHT="27" WIDTH="17" VPOS="714" HPOS="763" WC="1"/>
+            <SP WIDTH="4" VPOS="714" HPOS="780"/>
+            <String CONTENT="identified" HEIGHT="27" WIDTH="93" VPOS="714" HPOS="790" WC="1"/>
+            <SP WIDTH="4" VPOS="714" HPOS="884"/>
+            <String CONTENT="from" HEIGHT="27" WIDTH="39" VPOS="714" HPOS="896" WC="1"/>
+            <SP WIDTH="4" VPOS="714" HPOS="935"/>
+            <String CONTENT="the" HEIGHT="27" WIDTH="32" VPOS="714" HPOS="956" WC="1"/>
+            <SP WIDTH="4" VPOS="714" HPOS="989"/>
+            <String CONTENT="MIPS" HEIGHT="27" WIDTH="53" VPOS="713" HPOS="1004" WC="1"/>
+          </TextLine>
+          <TextLine ID="line_r003-l013" BASELINE="767" VPOS="746" HPOS="205" HEIGHT="29" WIDTH="858">
+            <String CONTENT="data" HEIGHT="27" WIDTH="43" VPOS="746" HPOS="210" WC="1"/>
+            <SP WIDTH="4" VPOS="746" HPOS="253"/>
+            <String CONTENT="combined" HEIGHT="27" WIDTH="96" VPOS="746" HPOS="266" WC="1"/>
+            <SP WIDTH="4" VPOS="746" HPOS="363"/>
+            <String CONTENT="with" HEIGHT="27" WIDTH="39" VPOS="746" HPOS="378" WC="1"/>
+            <SP WIDTH="4" VPOS="746" HPOS="418"/>
+            <String CONTENT="2MASS" HEIGHT="27" WIDTH="74" VPOS="746" HPOS="437" WC="1"/>
+            <SP WIDTH="4" VPOS="746" HPOS="511"/>
+            <String CONTENT="photometry." HEIGHT="27" WIDTH="134" VPOS="746" HPOS="523" WC="1"/>
+            <SP WIDTH="4" VPOS="746" HPOS="658"/>
+            <String CONTENT="To" HEIGHT="27" WIDTH="22" VPOS="746" HPOS="675" WC="1"/>
+            <SP WIDTH="4" VPOS="746" HPOS="697"/>
+            <String CONTENT="understand" HEIGHT="27" WIDTH="113" VPOS="746" HPOS="709" WC="1"/>
+            <SP WIDTH="4" VPOS="746" HPOS="823"/>
+            <String CONTENT="the" HEIGHT="27" WIDTH="32" VPOS="746" HPOS="838" WC="1"/>
+            <SP WIDTH="4" VPOS="746" HPOS="871"/>
+            <String CONTENT="properties" HEIGHT="27" WIDTH="105" VPOS="746" HPOS="883" WC="1"/>
+            <SP WIDTH="4" VPOS="746" HPOS="988"/>
+            <String CONTENT="of" HEIGHT="27" WIDTH="18" VPOS="746" HPOS="1000" WC="1"/>
+            <SP WIDTH="4" VPOS="746" HPOS="1019"/>
+            <String CONTENT="the" HEIGHT="27" WIDTH="32" VPOS="745" HPOS="1030" WC="1"/>
+          </TextLine>
+          <TextLine ID="line_r003-l014" BASELINE="801" VPOS="779" HPOS="206" HEIGHT="30" WIDTH="855">
+            <String CONTENT="circumstellar" HEIGHT="28" WIDTH="134" VPOS="778" HPOS="211" WC="1"/>
+            <SP WIDTH="4" VPOS="778" HPOS="345"/>
+            <String CONTENT="material" HEIGHT="28" WIDTH="88" VPOS="779" HPOS="355" WC="1"/>
+            <SP WIDTH="4" VPOS="779" HPOS="444"/>
+            <String CONTENT="that" HEIGHT="27" WIDTH="43" VPOS="779" HPOS="447" WC="1"/>
+            <SP WIDTH="4" VPOS="779" HPOS="491"/>
+            <String CONTENT="produces" HEIGHT="28" WIDTH="93" VPOS="780" HPOS="501" WC="1"/>
+            <SP WIDTH="4" VPOS="780" HPOS="595"/>
+            <String CONTENT="the" HEIGHT="27" WIDTH="33" VPOS="780" HPOS="602" WC="1"/>
+            <SP WIDTH="4" VPOS="780" HPOS="635"/>
+            <String CONTENT="observed" HEIGHT="27" WIDTH="88" VPOS="780" HPOS="646" WC="1"/>
+            <SP WIDTH="4" VPOS="780" HPOS="734"/>
+            <String CONTENT="infrared" HEIGHT="27" WIDTH="80" VPOS="780" HPOS="745" WC="1"/>
+            <SP WIDTH="4" VPOS="780" HPOS="825"/>
+            <String CONTENT="emission," HEIGHT="27" WIDTH="97" VPOS="780" HPOS="837" WC="1"/>
+            <SP WIDTH="4" VPOS="780" HPOS="935"/>
+            <String CONTENT="we" HEIGHT="27" WIDTH="28" VPOS="780" HPOS="941" WC="1"/>
+            <SP WIDTH="4" VPOS="780" HPOS="969"/>
+            <String CONTENT="describe" HEIGHT="28" WIDTH="85" VPOS="780" HPOS="976" WC="1"/>
+          </TextLine>
+          <TextLine ID="line_r003-l015" BASELINE="834" VPOS="813" HPOS="206" HEIGHT="28" WIDTH="856">
+            <String CONTENT="two" HEIGHT="27" WIDTH="36" VPOS="813" HPOS="207" WC="1"/>
+            <SP WIDTH="4" VPOS="813" HPOS="243"/>
+            <String CONTENT="sets" HEIGHT="27" WIDTH="37" VPOS="813" HPOS="252" WC="1"/>
+            <SP WIDTH="4" VPOS="813" HPOS="289"/>
+            <String CONTENT="of" HEIGHT="27" WIDTH="18" VPOS="813" HPOS="299" WC="1"/>
+            <SP WIDTH="4" VPOS="813" HPOS="318"/>
+            <String CONTENT="results," HEIGHT="27" WIDTH="78" VPOS="813" HPOS="323" WC="1"/>
+            <SP WIDTH="4" VPOS="813" HPOS="402"/>
+            <String CONTENT="the" HEIGHT="27" WIDTH="32" VPOS="813" HPOS="407" WC="1"/>
+            <SP WIDTH="4" VPOS="813" HPOS="440"/>
+            <String CONTENT="use" HEIGHT="27" WIDTH="30" VPOS="813" HPOS="448" WC="1"/>
+            <SP WIDTH="4" VPOS="813" HPOS="479"/>
+            <String CONTENT="of" HEIGHT="27" WIDTH="20" VPOS="813" HPOS="487" WC="1"/>
+            <SP WIDTH="4" VPOS="813" HPOS="508"/>
+            <String CONTENT="color-color" HEIGHT="27" WIDTH="111" VPOS="813" HPOS="515" WC="1"/>
+            <SP WIDTH="4" VPOS="813" HPOS="626"/>
+            <String CONTENT="diagrams" HEIGHT="27" WIDTH="92" VPOS="813" HPOS="633" WC="1"/>
+            <SP WIDTH="4" VPOS="813" HPOS="725"/>
+            <String CONTENT="to" HEIGHT="27" WIDTH="18" VPOS="813" HPOS="732" WC="1"/>
+            <SP WIDTH="4" VPOS="813" HPOS="751"/>
+            <String CONTENT="compare" HEIGHT="27" WIDTH="88" VPOS="813" HPOS="762" WC="1"/>
+            <SP WIDTH="4" VPOS="813" HPOS="851"/>
+            <String CONTENT="our" HEIGHT="27" WIDTH="34" VPOS="813" HPOS="858" WC="1"/>
+            <SP WIDTH="4" VPOS="813" HPOS="892"/>
+            <String CONTENT="observed" HEIGHT="27" WIDTH="88" VPOS="813" HPOS="899" WC="1"/>
+            <SP WIDTH="4" VPOS="813" HPOS="988"/>
+            <String CONTENT="source" HEIGHT="27" WIDTH="64" VPOS="813" HPOS="997" WC="1"/>
+          </TextLine>
+          <TextLine ID="line_r003-l016" BASELINE="867" VPOS="846" HPOS="206" HEIGHT="28" WIDTH="854">
+            <String CONTENT="properties" HEIGHT="27" WIDTH="102" VPOS="846" HPOS="211" WC="1"/>
+            <SP WIDTH="4" VPOS="846" HPOS="313"/>
+            <String CONTENT="with" HEIGHT="27" WIDTH="42" VPOS="846" HPOS="324" WC="1"/>
+            <SP WIDTH="4" VPOS="846" HPOS="367"/>
+            <String CONTENT="those" HEIGHT="27" WIDTH="56" VPOS="846" HPOS="382" WC="1"/>
+            <SP WIDTH="4" VPOS="846" HPOS="438"/>
+            <String CONTENT="of" HEIGHT="27" WIDTH="18" VPOS="846" HPOS="447" WC="1"/>
+            <SP WIDTH="4" VPOS="846" HPOS="466"/>
+            <String CONTENT="theoretical" HEIGHT="27" WIDTH="115" VPOS="845" HPOS="476" WC="1"/>
+            <SP WIDTH="4" VPOS="845" HPOS="591"/>
+            <String CONTENT="models" HEIGHT="27" WIDTH="71" VPOS="845" HPOS="601" WC="1"/>
+            <SP WIDTH="4" VPOS="845" HPOS="673"/>
+            <String CONTENT="for" HEIGHT="27" WIDTH="30" VPOS="845" HPOS="681" WC="1"/>
+            <SP WIDTH="4" VPOS="845" HPOS="712"/>
+            <String CONTENT="star/disk/" HEIGHT="27" WIDTH="108" VPOS="845" HPOS="720" WC="1"/>
+            <SP WIDTH="4" VPOS="845" HPOS="829"/>
+            <String CONTENT="envelope" HEIGHT="27" WIDTH="86" VPOS="846" HPOS="832" WC="1"/>
+            <SP WIDTH="4" VPOS="846" HPOS="919"/>
+            <String CONTENT="systems" HEIGHT="27" WIDTH="81" VPOS="846" HPOS="931" WC="1"/>
+            <SP WIDTH="4" VPOS="846" HPOS="1013"/>
+            <String CONTENT="and" HEIGHT="27" WIDTH="32" VPOS="847" HPOS="1026" WC="1"/>
+          </TextLine>
+          <TextLine ID="line_r003-l017" BASELINE="901" VPOS="880" HPOS="205" HEIGHT="28" WIDTH="855">
+            <String CONTENT="our" HEIGHT="27" WIDTH="33" VPOS="879" HPOS="210" WC="1"/>
+            <SP WIDTH="4" VPOS="879" HPOS="243"/>
+            <String CONTENT="own" HEIGHT="27" WIDTH="37" VPOS="879" HPOS="250" WC="1"/>
+            <SP WIDTH="4" VPOS="879" HPOS="288"/>
+            <String CONTENT="modeling" HEIGHT="27" WIDTH="91" VPOS="879" HPOS="303" WC="1"/>
+            <SP WIDTH="4" VPOS="879" HPOS="394"/>
+            <String CONTENT="of" HEIGHT="27" WIDTH="20" VPOS="880" HPOS="406" WC="1"/>
+            <SP WIDTH="4" VPOS="880" HPOS="426"/>
+            <String CONTENT="the" HEIGHT="27" WIDTH="35" VPOS="880" HPOS="430" WC="1"/>
+            <SP WIDTH="4" VPOS="880" HPOS="465"/>
+            <String CONTENT="subset" HEIGHT="27" WIDTH="66" VPOS="880" HPOS="472" WC="1"/>
+            <SP WIDTH="4" VPOS="880" HPOS="538"/>
+            <String CONTENT="of" HEIGHT="27" WIDTH="18" VPOS="880" HPOS="547" WC="1"/>
+            <SP WIDTH="4" VPOS="880" HPOS="565"/>
+            <String CONTENT="our" HEIGHT="27" WIDTH="32" VPOS="880" HPOS="576" WC="1"/>
+            <SP WIDTH="4" VPOS="880" HPOS="608"/>
+            <String CONTENT="objects" HEIGHT="27" WIDTH="72" VPOS="880" HPOS="618" WC="1"/>
+            <SP WIDTH="4" VPOS="880" HPOS="691"/>
+            <String CONTENT="that" HEIGHT="27" WIDTH="45" VPOS="880" HPOS="698" WC="1"/>
+            <SP WIDTH="4" VPOS="880" HPOS="743"/>
+            <String CONTENT="appear" HEIGHT="27" WIDTH="71" VPOS="880" HPOS="752" WC="1"/>
+            <SP WIDTH="4" VPOS="880" HPOS="823"/>
+            <String CONTENT="to" HEIGHT="27" WIDTH="20" VPOS="880" HPOS="830" WC="1"/>
+            <SP WIDTH="4" VPOS="880" HPOS="850"/>
+            <String CONTENT="be" HEIGHT="27" WIDTH="25" VPOS="880" HPOS="859" WC="1"/>
+            <SP WIDTH="4" VPOS="880" HPOS="884"/>
+            <String CONTENT="well" HEIGHT="27" WIDTH="42" VPOS="880" HPOS="892" WC="1"/>
+            <SP WIDTH="4" VPOS="880" HPOS="935"/>
+            <String CONTENT="represented" HEIGHT="27" WIDTH="118" VPOS="880" HPOS="940" WC="1"/>
+          </TextLine>
+          <TextLine ID="line_r003-l018" BASELINE="933" VPOS="911" HPOS="206" HEIGHT="28" WIDTH="854">
+            <String CONTENT="by" HEIGHT="27" WIDTH="22" VPOS="911" HPOS="207" WC="1"/>
+            <SP WIDTH="4" VPOS="911" HPOS="229"/>
+            <String CONTENT="a" HEIGHT="27" WIDTH="8" VPOS="911" HPOS="246" WC="1"/>
+            <SP WIDTH="4" VPOS="911" HPOS="255"/>
+            <String CONTENT="stellar" HEIGHT="27" WIDTH="66" VPOS="911" HPOS="265" WC="1"/>
+            <SP WIDTH="4" VPOS="911" HPOS="332"/>
+            <String CONTENT="photosphere" HEIGHT="27" WIDTH="126" VPOS="912" HPOS="344" WC="1"/>
+            <SP WIDTH="4" VPOS="912" HPOS="470"/>
+            <String CONTENT="plus" HEIGHT="27" WIDTH="39" VPOS="912" HPOS="482" WC="1"/>
+            <SP WIDTH="4" VPOS="912" HPOS="522"/>
+            <String CONTENT="circumstellar" HEIGHT="27" WIDTH="135" VPOS="912" HPOS="537" WC="1"/>
+            <SP WIDTH="4" VPOS="912" HPOS="672"/>
+            <String CONTENT="disk." HEIGHT="27" WIDTH="53" VPOS="912" HPOS="684" WC="1"/>
+            <SP WIDTH="4" VPOS="912" HPOS="737"/>
+            <String CONTENT="These" HEIGHT="27" WIDTH="58" VPOS="912" HPOS="754" WC="1"/>
+            <SP WIDTH="4" VPOS="912" HPOS="812"/>
+            <String CONTENT="objects" HEIGHT="27" WIDTH="71" VPOS="912" HPOS="825" WC="1"/>
+            <SP WIDTH="4" VPOS="912" HPOS="897"/>
+            <String CONTENT="exhibit" HEIGHT="27" WIDTH="71" VPOS="912" HPOS="909" WC="1"/>
+            <SP WIDTH="4" VPOS="912" HPOS="981"/>
+            <String CONTENT="a" HEIGHT="27" WIDTH="8" VPOS="912" HPOS="995" WC="1"/>
+            <SP WIDTH="4" VPOS="912" HPOS="1003"/>
+            <String CONTENT="very" HEIGHT="27" WIDTH="41" VPOS="912" HPOS="1018" WC="1"/>
+          </TextLine>
+          <TextLine ID="line_r003-l019" BASELINE="966" VPOS="945" HPOS="206" HEIGHT="29" WIDTH="855">
+            <String CONTENT="wide" HEIGHT="27" WIDTH="44" VPOS="944" HPOS="211" WC="1"/>
+            <SP WIDTH="4" VPOS="944" HPOS="255"/>
+            <String CONTENT="range" HEIGHT="27" WIDTH="56" VPOS="944" HPOS="266" WC="1"/>
+            <SP WIDTH="4" VPOS="944" HPOS="322"/>
+            <String CONTENT="of" HEIGHT="27" WIDTH="18" VPOS="944" HPOS="331" WC="1"/>
+            <SP WIDTH="4" VPOS="944" HPOS="350"/>
+            <String CONTENT="disk" HEIGHT="27" WIDTH="37" VPOS="944" HPOS="360" WC="1"/>
+            <SP WIDTH="4" VPOS="944" HPOS="398"/>
+            <String CONTENT="properties," HEIGHT="27" WIDTH="115" VPOS="945" HPOS="410" WC="1"/>
+            <SP WIDTH="4" VPOS="945" HPOS="525"/>
+            <String CONTENT="from" HEIGHT="27" WIDTH="39" VPOS="945" HPOS="532" WC="1"/>
+            <SP WIDTH="4" VPOS="945" HPOS="572"/>
+            <String CONTENT="many" HEIGHT="27" WIDTH="53" VPOS="945" HPOS="592" WC="1"/>
+            <SP WIDTH="4" VPOS="945" HPOS="646"/>
+            <String CONTENT="that" HEIGHT="27" WIDTH="46" VPOS="945" HPOS="656" WC="1"/>
+            <SP WIDTH="4" VPOS="945" HPOS="702"/>
+            <String CONTENT="can" HEIGHT="27" WIDTH="32" VPOS="945" HPOS="711" WC="1"/>
+            <SP WIDTH="4" VPOS="945" HPOS="744"/>
+            <String CONTENT="be" HEIGHT="27" WIDTH="22" VPOS="945" HPOS="756" WC="1"/>
+            <SP WIDTH="4" VPOS="945" HPOS="778"/>
+            <String CONTENT="fit" HEIGHT="27" WIDTH="22" VPOS="945" HPOS="788" WC="1"/>
+            <SP WIDTH="4" VPOS="945" HPOS="811"/>
+            <String CONTENT="with" HEIGHT="27" WIDTH="39" VPOS="945" HPOS="823" WC="1"/>
+            <SP WIDTH="4" VPOS="945" HPOS="862"/>
+            <String CONTENT="actively" HEIGHT="27" WIDTH="77" VPOS="945" HPOS="878" WC="1"/>
+            <SP WIDTH="4" VPOS="945" HPOS="955"/>
+            <String CONTENT="accreting" HEIGHT="27" WIDTH="94" VPOS="945" HPOS="967" WC="1"/>
+          </TextLine>
+          <TextLine ID="line_r003-l020" BASELINE="999" VPOS="976" HPOS="206" HEIGHT="30" WIDTH="857">
+            <String CONTENT="disks" HEIGHT="27" WIDTH="48" VPOS="976" HPOS="211" WC="1"/>
+            <SP WIDTH="4" VPOS="976" HPOS="259"/>
+            <String CONTENT="to" HEIGHT="27" WIDTH="20" VPOS="977" HPOS="268" WC="1"/>
+            <SP WIDTH="4" VPOS="977" HPOS="289"/>
+            <String CONTENT="some" HEIGHT="27" WIDTH="50" VPOS="977" HPOS="301" WC="1"/>
+            <SP WIDTH="4" VPOS="977" HPOS="352"/>
+            <String CONTENT="with" HEIGHT="27" WIDTH="43" VPOS="977" HPOS="365" WC="1"/>
+            <SP WIDTH="4" VPOS="977" HPOS="409"/>
+            <String CONTENT="both" HEIGHT="27" WIDTH="45" VPOS="977" HPOS="421" WC="1"/>
+            <SP WIDTH="4" VPOS="977" HPOS="466"/>
+            <String CONTENT="passive" HEIGHT="27" WIDTH="73" VPOS="977" HPOS="482" WC="1"/>
+            <SP WIDTH="4" VPOS="977" HPOS="555"/>
+            <String CONTENT="disks" HEIGHT="27" WIDTH="48" VPOS="977" HPOS="567" WC="1"/>
+            <SP WIDTH="4" VPOS="977" HPOS="616"/>
+            <String CONTENT="and" HEIGHT="27" WIDTH="36" VPOS="977" HPOS="628" WC="1"/>
+            <SP WIDTH="4" VPOS="977" HPOS="664"/>
+            <String CONTENT="even" HEIGHT="27" WIDTH="43" VPOS="977" HPOS="677" WC="1"/>
+            <SP WIDTH="4" VPOS="977" HPOS="720"/>
+            <String CONTENT="possibly" HEIGHT="27" WIDTH="79" VPOS="977" HPOS="736" WC="1"/>
+            <SP WIDTH="4" VPOS="977" HPOS="816"/>
+            <String CONTENT="debris" HEIGHT="27" WIDTH="62" VPOS="978" HPOS="831" WC="1"/>
+            <SP WIDTH="4" VPOS="978" HPOS="894"/>
+            <String CONTENT="disks." HEIGHT="27" WIDTH="62" VPOS="978" HPOS="903" WC="1"/>
+            <SP WIDTH="4" VPOS="978" HPOS="965"/>
+            <String CONTENT="We" HEIGHT="27" WIDTH="27" VPOS="978" HPOS="983" WC="1"/>
+            <SP WIDTH="4" VPOS="978" HPOS="1010"/>
+            <String CONTENT="find" HEIGHT="27" WIDTH="38" VPOS="978" HPOS="1021" WC="1"/>
+          </TextLine>
+          <TextLine ID="line_r003-l021" BASELINE="1033" VPOS="1011" HPOS="206" HEIGHT="29" WIDTH="857">
+            <String CONTENT="that" HEIGHT="27" WIDTH="43" VPOS="1011" HPOS="207" WC="1"/>
+            <SP WIDTH="4" VPOS="1011" HPOS="250"/>
+            <String CONTENT="the" HEIGHT="27" WIDTH="32" VPOS="1011" HPOS="262" WC="1"/>
+            <SP WIDTH="4" VPOS="1011" HPOS="295"/>
+            <String CONTENT="luminosity" HEIGHT="27" WIDTH="110" VPOS="1011" HPOS="307" WC="1"/>
+            <SP WIDTH="4" VPOS="1011" HPOS="417"/>
+            <String CONTENT="function" HEIGHT="27" WIDTH="86" VPOS="1012" HPOS="429" WC="1"/>
+            <SP WIDTH="4" VPOS="1012" HPOS="515"/>
+            <String CONTENT="of" HEIGHT="27" WIDTH="18" VPOS="1012" HPOS="532" WC="1"/>
+            <SP WIDTH="4" VPOS="1012" HPOS="551"/>
+            <String CONTENT="YSO’s" HEIGHT="27" WIDTH="61" VPOS="1012" HPOS="567" WC="1"/>
+            <SP WIDTH="4" VPOS="1012" HPOS="629"/>
+            <String CONTENT="in" HEIGHT="27" WIDTH="17" VPOS="1012" HPOS="641" WC="1"/>
+            <SP WIDTH="4" VPOS="1012" HPOS="658"/>
+            <String CONTENT="Serpens" HEIGHT="27" WIDTH="80" VPOS="1012" HPOS="672" WC="1"/>
+            <SP WIDTH="4" VPOS="1012" HPOS="753"/>
+            <String CONTENT="extends" HEIGHT="27" WIDTH="80" VPOS="1012" HPOS="765" WC="1"/>
+            <SP WIDTH="4" VPOS="1012" HPOS="846"/>
+            <String CONTENT="down" HEIGHT="27" WIDTH="51" VPOS="1012" HPOS="859" WC="1"/>
+            <SP WIDTH="4" VPOS="1012" HPOS="911"/>
+            <String CONTENT="to" HEIGHT="27" WIDTH="22" VPOS="1012" HPOS="923" WC="1"/>
+            <SP WIDTH="4" VPOS="1012" HPOS="946"/>
+            <String CONTENT="at" HEIGHT="27" WIDTH="19" VPOS="1012" HPOS="961" WC="1"/>
+            <SP WIDTH="4" VPOS="1012" HPOS="980"/>
+            <String CONTENT="least" HEIGHT="27" WIDTH="46" VPOS="1012" HPOS="992" WC="1"/>
+            <SP WIDTH="4" VPOS="1012" HPOS="1038"/>
+            <String CONTENT="a" HEIGHT="27" WIDTH="10" VPOS="1012" HPOS="1052" WC="1"/>
+          </TextLine>
+          <TextLine ID="line_r003-l022" BASELINE="1066" VPOS="1044" HPOS="205" HEIGHT="29" WIDTH="860">
+            <String CONTENT="few" HEIGHT="28" WIDTH="30" VPOS="1043" HPOS="206" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1043" HPOS="236"/>
+            <String CONTENT="x10—3" HEIGHT="28" WIDTH="59" VPOS="1044" HPOS="257" WC="0.76"/>
+            <SP WIDTH="4" VPOS="1044" HPOS="317"/>
+            <String CONTENT="Lo" HEIGHT="28" WIDTH="24" VPOS="1044" HPOS="331" WC="0.41"/>
+            <SP WIDTH="4" VPOS="1044" HPOS="355"/>
+            <String CONTENT="or" HEIGHT="28" WIDTH="19" VPOS="1044" HPOS="367" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1044" HPOS="387"/>
+            <String CONTENT="lower" HEIGHT="28" WIDTH="54" VPOS="1045" HPOS="397" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1045" HPOS="452"/>
+            <String CONTENT="for" HEIGHT="28" WIDTH="31" VPOS="1045" HPOS="459" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1045" HPOS="490"/>
+            <String CONTENT="an" HEIGHT="28" WIDTH="21" VPOS="1045" HPOS="499" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1045" HPOS="520"/>
+            <String CONTENT="assumed" HEIGHT="28" WIDTH="84" VPOS="1045" HPOS="534" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1045" HPOS="618"/>
+            <String CONTENT="distance" HEIGHT="28" WIDTH="85" VPOS="1045" HPOS="630" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1045" HPOS="716"/>
+            <String CONTENT="of" HEIGHT="28" WIDTH="19" VPOS="1045" HPOS="729" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1045" HPOS="748"/>
+            <String CONTENT="260" HEIGHT="28" WIDTH="33" VPOS="1045" HPOS="755" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1045" HPOS="788"/>
+            <String CONTENT="pc." HEIGHT="28" WIDTH="33" VPOS="1045" HPOS="801" WC="0.99"/>
+            <SP WIDTH="4" VPOS="1045" HPOS="834"/>
+            <String CONTENT="The" HEIGHT="28" WIDTH="38" VPOS="1045" HPOS="846" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1045" HPOS="885"/>
+            <String CONTENT="lower" HEIGHT="28" WIDTH="54" VPOS="1045" HPOS="895" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1045" HPOS="950"/>
+            <String CONTENT="limit" HEIGHT="28" WIDTH="49" VPOS="1044" HPOS="957" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1044" HPOS="1006"/>
+            <String CONTENT="may" HEIGHT="28" WIDTH="42" VPOS="1044" HPOS="1018" WC="1.0"/>
+          </TextLine>
+          <TextLine ID="line_r003-l023" BASELINE="1100" VPOS="1078" HPOS="205" HEIGHT="29" WIDTH="860">
+            <String CONTENT="be" HEIGHT="27" WIDTH="20" VPOS="1077" HPOS="209" WC="1"/>
+            <SP WIDTH="4" VPOS="1077" HPOS="230"/>
+            <String CONTENT="set" HEIGHT="27" WIDTH="29" VPOS="1077" HPOS="244" WC="1"/>
+            <SP WIDTH="4" VPOS="1077" HPOS="273"/>
+            <String CONTENT="by" HEIGHT="27" WIDTH="22" VPOS="1078" HPOS="285" WC="1"/>
+            <SP WIDTH="4" VPOS="1078" HPOS="308"/>
+            <String CONTENT="our" HEIGHT="27" WIDTH="34" VPOS="1078" HPOS="323" WC="1"/>
+            <SP WIDTH="4" VPOS="1078" HPOS="357"/>
+            <String CONTENT="inability" HEIGHT="27" WIDTH="84" VPOS="1078" HPOS="368" WC="1"/>
+            <SP WIDTH="4" VPOS="1078" HPOS="452"/>
+            <String CONTENT="to" HEIGHT="27" WIDTH="19" VPOS="1079" HPOS="467" WC="1"/>
+            <SP WIDTH="4" VPOS="1079" HPOS="486"/>
+            <String CONTENT="distinguish" HEIGHT="27" WIDTH="110" VPOS="1079" HPOS="502" WC="1"/>
+            <SP WIDTH="4" VPOS="1079" HPOS="612"/>
+            <String CONTENT="YSO’s" HEIGHT="27" WIDTH="65" VPOS="1079" HPOS="631" WC="1"/>
+            <SP WIDTH="4" VPOS="1079" HPOS="696"/>
+            <String CONTENT="from" HEIGHT="27" WIDTH="41" VPOS="1079" HPOS="704" WC="1"/>
+            <SP WIDTH="4" VPOS="1079" HPOS="746"/>
+            <String CONTENT="extra-galactic" HEIGHT="28" WIDTH="141" VPOS="1078" HPOS="768" WC="1"/>
+            <SP WIDTH="4" VPOS="1078" HPOS="909"/>
+            <String CONTENT="sources" HEIGHT="28" WIDTH="74" VPOS="1078" HPOS="923" WC="1"/>
+            <SP WIDTH="4" VPOS="1078" HPOS="997"/>
+            <String CONTENT="more" HEIGHT="27" WIDTH="51" VPOS="1077" HPOS="1012" WC="1"/>
+          </TextLine>
+          <TextLine ID="line_r003-l024" BASELINE="1134" VPOS="1112" HPOS="205" HEIGHT="27" WIDTH="860">
+            <String CONTENT="than" HEIGHT="27" WIDTH="47" VPOS="1111" HPOS="206" WC="1"/>
+            <SP WIDTH="4" VPOS="1111" HPOS="254"/>
+            <String CONTENT="by" HEIGHT="27" WIDTH="22" VPOS="1112" HPOS="269" WC="1"/>
+            <SP WIDTH="4" VPOS="1112" HPOS="291"/>
+            <String CONTENT="the" HEIGHT="27" WIDTH="34" VPOS="1112" HPOS="303" WC="1"/>
+            <SP WIDTH="4" VPOS="1112" HPOS="337"/>
+            <String CONTENT="lack" HEIGHT="27" WIDTH="37" VPOS="1112" HPOS="350" WC="1"/>
+            <SP WIDTH="4" VPOS="1112" HPOS="388"/>
+            <String CONTENT="of" HEIGHT="27" WIDTH="17" VPOS="1112" HPOS="405" WC="1"/>
+            <SP WIDTH="4" VPOS="1112" HPOS="422"/>
+            <String CONTENT="YSO’s" HEIGHT="27" WIDTH="61" VPOS="1112" HPOS="439" WC="1"/>
+            <SP WIDTH="4" VPOS="1112" HPOS="500"/>
+            <String CONTENT="at" HEIGHT="27" WIDTH="22" VPOS="1112" HPOS="512" WC="1"/>
+            <SP WIDTH="4" VPOS="1112" HPOS="534"/>
+            <String CONTENT="very" HEIGHT="27" WIDTH="39" VPOS="1112" HPOS="546" WC="1"/>
+            <SP WIDTH="4" VPOS="1112" HPOS="585"/>
+            <String CONTENT="low" HEIGHT="27" WIDTH="27" VPOS="1112" HPOS="600" WC="1"/>
+            <SP WIDTH="4" VPOS="1112" HPOS="627"/>
+            <String CONTENT="luminosities." HEIGHT="27" WIDTH="135" VPOS="1112" HPOS="648" WC="1"/>
+            <SP WIDTH="4" VPOS="1112" HPOS="783"/>
+            <String CONTENT="We" HEIGHT="27" WIDTH="28" VPOS="1112" HPOS="804" WC="1"/>
+            <SP WIDTH="4" VPOS="1112" HPOS="833"/>
+            <String CONTENT="find" HEIGHT="27" WIDTH="39" VPOS="1112" HPOS="843" WC="1"/>
+            <SP WIDTH="4" VPOS="1112" HPOS="882"/>
+            <String CONTENT="no" HEIGHT="27" WIDTH="22" VPOS="1112" HPOS="897" WC="1"/>
+            <SP WIDTH="4" VPOS="1112" HPOS="919"/>
+            <String CONTENT="evidence" HEIGHT="27" WIDTH="86" VPOS="1112" HPOS="934" WC="1"/>
+            <SP WIDTH="4" VPOS="1112" HPOS="1021"/>
+            <String CONTENT="for" HEIGHT="27" WIDTH="30" VPOS="1111" HPOS="1033" WC="1"/>
+          </TextLine>
+        </TextBlock>
+        <TextBlock ID="block_r000" HEIGHT="52" WIDTH="981" VPOS="1192" HPOS="143">
+          <TextLine ID="line_r000-l025" BASELINE="1212" VPOS="1192" HPOS="173" HEIGHT="27" WIDTH="951">
+            <String CONTENT="1" HEIGHT="24" WIDTH="7" VPOS="1191" HPOS="177" WC="1"/>
+            <SP WIDTH="4" VPOS="1191" HPOS="185"/>
+            <String CONTENT="Astronomy" HEIGHT="24" WIDTH="93" VPOS="1191" HPOS="187" WC="1"/>
+            <SP WIDTH="4" VPOS="1191" HPOS="281"/>
+            <String CONTENT="Department," HEIGHT="24" WIDTH="114" VPOS="1192" HPOS="294" WC="1"/>
+            <SP WIDTH="4" VPOS="1192" HPOS="409"/>
+            <String CONTENT="University" HEIGHT="24" WIDTH="87" VPOS="1193" HPOS="415" WC="1"/>
+            <SP WIDTH="4" VPOS="1193" HPOS="502"/>
+            <String CONTENT="of" HEIGHT="24" WIDTH="16" VPOS="1194" HPOS="514" WC="1"/>
+            <SP WIDTH="4" VPOS="1194" HPOS="531"/>
+            <String CONTENT="Texas" HEIGHT="24" WIDTH="49" VPOS="1194" HPOS="538" WC="1"/>
+            <SP WIDTH="4" VPOS="1194" HPOS="588"/>
+            <String CONTENT="at" HEIGHT="24" WIDTH="16" VPOS="1194" HPOS="597" WC="1"/>
+            <SP WIDTH="4" VPOS="1194" HPOS="614"/>
+            <String CONTENT="Austin," HEIGHT="24" WIDTH="66" VPOS="1194" HPOS="624" WC="1"/>
+            <SP WIDTH="4" VPOS="1194" HPOS="690"/>
+            <String CONTENT="1" HEIGHT="24" WIDTH="7" VPOS="1194" HPOS="696" WC="1"/>
+            <SP WIDTH="4" VPOS="1194" HPOS="704"/>
+            <String CONTENT="University" HEIGHT="24" WIDTH="88" VPOS="1194" HPOS="711" WC="1"/>
+            <SP WIDTH="4" VPOS="1194" HPOS="800"/>
+            <String CONTENT="Station" HEIGHT="24" WIDTH="63" VPOS="1194" HPOS="811" WC="1"/>
+            <SP WIDTH="4" VPOS="1194" HPOS="874"/>
+            <String CONTENT="C1400," HEIGHT="24" WIDTH="60" VPOS="1193" HPOS="888" WC="1"/>
+            <SP WIDTH="4" VPOS="1193" HPOS="948"/>
+            <String CONTENT="Austin," HEIGHT="24" WIDTH="66" VPOS="1193" HPOS="957" WC="1"/>
+            <SP WIDTH="4" VPOS="1193" HPOS="1023"/>
+            <String CONTENT="TX" HEIGHT="24" WIDTH="21" VPOS="1193" HPOS="1029" WC="1"/>
+            <SP WIDTH="4" VPOS="1193" HPOS="1050"/>
+            <String CONTENT="78712-" HEIGHT="24" WIDTH="57" VPOS="1192" HPOS="1065" WC="1"/>
+          </TextLine>
+          <TextLine ID="line_r000-l026" BASELINE="1239" VPOS="1221" HPOS="143" HEIGHT="23" WIDTH="521">
+            <String CONTENT="0259;" HEIGHT="23" WIDTH="48" VPOS="1220" HPOS="148" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1220" HPOS="197"/>
+            <String CONTENT="pmhOastro." HEIGHT="23" WIDTH="107" VPOS="1220" HPOS="203" WC="0.67"/>
+            <SP WIDTH="4" VPOS="1220" HPOS="310"/>
+            <String CONTENT="as.utexas.edu," HEIGHT="23" WIDTH="126" VPOS="1221" HPOS="311" WC="0.8"/>
+            <SP WIDTH="4" VPOS="1221" HPOS="438"/>
+            <String CONTENT="njeOastro." HEIGHT="23" WIDTH="96" VPOS="1221" HPOS="444" WC="0.31"/>
+            <SP WIDTH="4" VPOS="1221" HPOS="541"/>
+            <String CONTENT="as." HEIGHT="23" WIDTH="25" VPOS="1221" HPOS="539" WC="0.81"/>
+            <SP WIDTH="4" VPOS="1221" HPOS="564"/>
+            <String CONTENT="utexas.edu" HEIGHT="23" WIDTH="92" VPOS="1220" HPOS="564" WC="0.85"/>
+          </TextLine>
+        </TextBlock>
+        <TextBlock ID="block_r001" HEIGHT="229" WIDTH="981" VPOS="1258" HPOS="144">
+          <TextLine ID="line_r001-l027" BASELINE="1280" VPOS="1258" HPOS="171" HEIGHT="28" WIDTH="952">
+            <String CONTENT="2Research" HEIGHT="25" WIDTH="87" VPOS="1259" HPOS="175" WC="0.98"/>
+            <SP WIDTH="4" VPOS="1259" HPOS="262"/>
+            <String CONTENT="and" HEIGHT="25" WIDTH="30" VPOS="1259" HPOS="273" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1259" HPOS="303"/>
+            <String CONTENT="Scientific" HEIGHT="25" WIDTH="82" VPOS="1260" HPOS="314" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1260" HPOS="397"/>
+            <String CONTENT="Support" HEIGHT="25" WIDTH="74" VPOS="1260" HPOS="404" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1260" HPOS="479"/>
+            <String CONTENT="Dept.," HEIGHT="25" WIDTH="56" VPOS="1261" HPOS="490" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1261" HPOS="547"/>
+            <String CONTENT="ESTEC" HEIGHT="25" WIDTH="64" VPOS="1261" HPOS="555" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1261" HPOS="619"/>
+            <String CONTENT="(ESA)," HEIGHT="25" WIDTH="64" VPOS="1261" HPOS="632" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1261" HPOS="697"/>
+            <String CONTENT="Keplerlaan," HEIGHT="25" WIDTH="106" VPOS="1261" HPOS="705" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1261" HPOS="811"/>
+            <String CONTENT="1," HEIGHT="25" WIDTH="17" VPOS="1260" HPOS="817" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1260" HPOS="834"/>
+            <String CONTENT="PO" HEIGHT="25" WIDTH="22" VPOS="1260" HPOS="844" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1260" HPOS="866"/>
+            <String CONTENT="Box" HEIGHT="25" WIDTH="33" VPOS="1260" HPOS="882" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1260" HPOS="915"/>
+            <String CONTENT="299," HEIGHT="25" WIDTH="36" VPOS="1260" HPOS="926" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1260" HPOS="962"/>
+            <String CONTENT="2200" HEIGHT="25" WIDTH="39" VPOS="1260" HPOS="972" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1260" HPOS="1011"/>
+            <String CONTENT="AG" HEIGHT="25" WIDTH="22" VPOS="1259" HPOS="1022" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1259" HPOS="1045"/>
+            <String CONTENT="Noord-" HEIGHT="25" WIDTH="61" VPOS="1259" HPOS="1062" WC="1.0"/>
+          </TextLine>
+          <TextLine ID="line_r001-l028" BASELINE="1307" VPOS="1287" HPOS="144" HEIGHT="28" WIDTH="979">
+            <String CONTENT="wijk," HEIGHT="25" WIDTH="43" VPOS="1287" HPOS="149" WC="1"/>
+            <SP WIDTH="4" VPOS="1287" HPOS="193"/>
+            <String CONTENT="The" HEIGHT="25" WIDTH="31" VPOS="1287" HPOS="204" WC="1"/>
+            <SP WIDTH="4" VPOS="1287" HPOS="235"/>
+            <String CONTENT="Netherlands" HEIGHT="25" WIDTH="106" VPOS="1287" HPOS="249" WC="1"/>
+            <SP WIDTH="4" VPOS="1287" HPOS="355"/>
+            <String CONTENT="and" HEIGHT="24" WIDTH="29" VPOS="1288" HPOS="366" WC="1"/>
+            <SP WIDTH="4" VPOS="1288" HPOS="395"/>
+            <String CONTENT="Leiden" HEIGHT="25" WIDTH="56" VPOS="1288" HPOS="410" WC="1"/>
+            <SP WIDTH="4" VPOS="1288" HPOS="466"/>
+            <String CONTENT="Observatory," HEIGHT="25" WIDTH="115" VPOS="1288" HPOS="481" WC="1"/>
+            <SP WIDTH="4" VPOS="1288" HPOS="597"/>
+            <String CONTENT="Leiden" HEIGHT="24" WIDTH="54" VPOS="1288" HPOS="606" WC="1"/>
+            <SP WIDTH="4" VPOS="1288" HPOS="661"/>
+            <String CONTENT="University," HEIGHT="24" WIDTH="99" VPOS="1288" HPOS="675" WC="1"/>
+            <SP WIDTH="4" VPOS="1288" HPOS="774"/>
+            <String CONTENT="Postbus" HEIGHT="24" WIDTH="70" VPOS="1288" HPOS="782" WC="1"/>
+            <SP WIDTH="4" VPOS="1288" HPOS="852"/>
+            <String CONTENT="9513," HEIGHT="24" WIDTH="48" VPOS="1288" HPOS="863" WC="1"/>
+            <SP WIDTH="4" VPOS="1288" HPOS="912"/>
+            <String CONTENT="2300" HEIGHT="24" WIDTH="39" VPOS="1288" HPOS="921" WC="1"/>
+            <SP WIDTH="4" VPOS="1288" HPOS="960"/>
+            <String CONTENT="RA" HEIGHT="24" WIDTH="21" VPOS="1288" HPOS="974" WC="1"/>
+            <SP WIDTH="4" VPOS="1288" HPOS="996"/>
+            <String CONTENT="Leiden," HEIGHT="25" WIDTH="68" VPOS="1288" HPOS="1011" WC="1"/>
+            <SP WIDTH="4" VPOS="1288" HPOS="1080"/>
+            <String CONTENT="The" HEIGHT="24" WIDTH="32" VPOS="1288" HPOS="1091" WC="1"/>
+          </TextLine>
+          <TextLine ID="line_r001-l029" BASELINE="1334" VPOS="1315" HPOS="145" HEIGHT="25" WIDTH="309">
+            <String CONTENT="Netherlands;" HEIGHT="25" WIDTH="114" VPOS="1315" HPOS="149" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1315" HPOS="264"/>
+            <String CONTENT="bmerin" HEIGHT="25" WIDTH="60" VPOS="1315" HPOS="270" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1315" HPOS="330"/>
+            <String CONTENT="Orssd." HEIGHT="25" WIDTH="57" VPOS="1315" HPOS="337" WC="0.36"/>
+            <SP WIDTH="4" VPOS="1315" HPOS="394"/>
+            <String CONTENT="esa.int" HEIGHT="25" WIDTH="57" VPOS="1315" HPOS="392" WC="0.93"/>
+          </TextLine>
+          <TextLine ID="line_r001-l030" BASELINE="1375" VPOS="1349" HPOS="171" HEIGHT="32" WIDTH="954">
+            <String CONTENT="3Smithsonian" HEIGHT="27" WIDTH="117" VPOS="1351" HPOS="175" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1351" HPOS="293"/>
+            <String CONTENT="Astrophysical" HEIGHT="27" WIDTH="122" VPOS="1352" HPOS="320" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1352" HPOS="442"/>
+            <String CONTENT="Observatory," HEIGHT="27" WIDTH="116" VPOS="1354" HPOS="462" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1354" HPOS="578"/>
+            <String CONTENT="60" HEIGHT="26" WIDTH="20" VPOS="1355" HPOS="596" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1355" HPOS="616"/>
+            <String CONTENT="Garden" HEIGHT="26" WIDTH="63" VPOS="1355" HPOS="639" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1355" HPOS="702"/>
+            <String CONTENT="Street," HEIGHT="26" WIDTH="61" VPOS="1355" HPOS="724" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1355" HPOS="785"/>
+            <String CONTENT="MS42," HEIGHT="26" WIDTH="59" VPOS="1355" HPOS="808" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1355" HPOS="868"/>
+            <String CONTENT="Cambridge," HEIGHT="26" WIDTH="104" VPOS="1355" HPOS="889" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1355" HPOS="994"/>
+            <String CONTENT="MA" HEIGHT="26" WIDTH="28" VPOS="1355" HPOS="1013" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1355" HPOS="1042"/>
+            <String CONTENT="02138;" HEIGHT="26" WIDTH="58" VPOS="1354" HPOS="1066" WC="1.0"/>
+          </TextLine>
+          <TextLine ID="line_r001-l031" BASELINE="1403" VPOS="1382" HPOS="144" HEIGHT="27" WIDTH="459">
+            <String CONTENT="thuardOcfa." HEIGHT="26" WIDTH="109" VPOS="1382" HPOS="148" WC="0.76"/>
+            <SP WIDTH="4" VPOS="1382" HPOS="257"/>
+            <String CONTENT="harvard.edu," HEIGHT="25" WIDTH="117" VPOS="1384" HPOS="256" WC="0.97"/>
+            <SP WIDTH="4" VPOS="1384" HPOS="373"/>
+            <String CONTENT="pmyers" HEIGHT="24" WIDTH="64" VPOS="1384" HPOS="377" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1384" HPOS="442"/>
+            <String CONTENT="Ocfa." HEIGHT="24" WIDTH="46" VPOS="1384" HPOS="445" WC="0.75"/>
+            <SP WIDTH="4" VPOS="1384" HPOS="491"/>
+            <String CONTENT="harvard.edu" HEIGHT="25" WIDTH="104" VPOS="1384" HPOS="491" WC="0.96"/>
+          </TextLine>
+          <TextLine ID="line_r001-l032" BASELINE="1444" VPOS="1420" HPOS="174" HEIGHT="29" WIDTH="747">
+            <String CONTENT="ASpitzer" HEIGHT="27" WIDTH="73" VPOS="1420" HPOS="175" WC="0.82"/>
+            <SP WIDTH="4" VPOS="1420" HPOS="249"/>
+            <String CONTENT="Science" HEIGHT="27" WIDTH="65" VPOS="1422" HPOS="255" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1422" HPOS="320"/>
+            <String CONTENT="Center," HEIGHT="27" WIDTH="65" VPOS="1423" HPOS="332" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1423" HPOS="397"/>
+            <String CONTENT="MC" HEIGHT="26" WIDTH="26" VPOS="1423" HPOS="404" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1423" HPOS="431"/>
+            <String CONTENT="220-6," HEIGHT="26" WIDTH="56" VPOS="1423" HPOS="442" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1423" HPOS="499"/>
+            <String CONTENT="Pasadena," HEIGHT="26" WIDTH="93" VPOS="1424" HPOS="504" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1424" HPOS="598"/>
+            <String CONTENT="CA" HEIGHT="26" WIDTH="21" VPOS="1424" HPOS="606" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1424" HPOS="628"/>
+            <String CONTENT="91125;" HEIGHT="26" WIDTH="60" VPOS="1423" HPOS="639" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1423" HPOS="700"/>
+            <String CONTENT="rebull@ipac." HEIGHT="27" WIDTH="113" VPOS="1423" HPOS="704" WC="0.85"/>
+            <SP WIDTH="4" VPOS="1423" HPOS="818"/>
+            <String CONTENT="caltech.edu" HEIGHT="27" WIDTH="98" VPOS="1422" HPOS="816" WC="0.96"/>
+          </TextLine>
+          <TextLine ID="line_r001-l033" BASELINE="1483" VPOS="1462" HPOS="173" HEIGHT="25" WIDTH="928">
+            <String CONTENT="5" HEIGHT="23" WIDTH="7" VPOS="1462" HPOS="174" WC="1"/>
+            <SP WIDTH="4" VPOS="1462" HPOS="181"/>
+            <String CONTENT="Astronomy" HEIGHT="24" WIDTH="94" VPOS="1463" HPOS="187" WC="1"/>
+            <SP WIDTH="4" VPOS="1463" HPOS="282"/>
+            <String CONTENT="Department," HEIGHT="24" WIDTH="113" VPOS="1463" HPOS="294" WC="1"/>
+            <SP WIDTH="4" VPOS="1463" HPOS="407"/>
+            <String CONTENT="University" HEIGHT="23" WIDTH="88" VPOS="1464" HPOS="415" WC="1"/>
+            <SP WIDTH="4" VPOS="1464" HPOS="503"/>
+            <String CONTENT="of" HEIGHT="23" WIDTH="16" VPOS="1465" HPOS="514" WC="1"/>
+            <SP WIDTH="4" VPOS="1465" HPOS="530"/>
+            <String CONTENT="Maryland," HEIGHT="23" WIDTH="93" VPOS="1465" HPOS="539" WC="1"/>
+            <SP WIDTH="4" VPOS="1465" HPOS="632"/>
+            <String CONTENT="College" HEIGHT="23" WIDTH="62" VPOS="1465" HPOS="641" WC="1"/>
+            <SP WIDTH="4" VPOS="1465" HPOS="703"/>
+            <String CONTENT="Park," HEIGHT="23" WIDTH="51" VPOS="1465" HPOS="710" WC="1"/>
+            <SP WIDTH="4" VPOS="1465" HPOS="762"/>
+            <String CONTENT="MD" HEIGHT="23" WIDTH="23" VPOS="1465" HPOS="769" WC="1"/>
+            <SP WIDTH="4" VPOS="1465" HPOS="793"/>
+            <String CONTENT="20742;" HEIGHT="23" WIDTH="57" VPOS="1464" HPOS="810" WC="1"/>
+            <SP WIDTH="4" VPOS="1464" HPOS="868"/>
+            <String CONTENT="chapman" HEIGHT="23" WIDTH="77" VPOS="1464" HPOS="874" WC="1"/>
+            <SP WIDTH="4" VPOS="1464" HPOS="951"/>
+            <String CONTENT="@astro.umd.edu" HEIGHT="24" WIDTH="139" VPOS="1463" HPOS="957" WC="1"/>
+          </TextLine>
+        </TextBlock>
+      </PrintSpace>
+    </Page>
+  </Layout>
+</alto>

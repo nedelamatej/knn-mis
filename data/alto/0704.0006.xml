@@ -1,0 +1,1799 @@
+<?xml version='1.0' encoding='utf-8'?>
+<alto xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/standards/alto/ns-v2#">
+  <Description>
+    <MeasurementUnit>pixel</MeasurementUnit>
+    <sourceImageInformation>
+      <fileName>0704.0006</fileName>
+    </sourceImageInformation>
+    <OCRProcessing ID="IdOcr">
+      <ocrProcessingStep>
+        <processingDateTime>2026-04-23T11:55:28.868047</processingDateTime>
+        <processingSoftware>
+          <softwareCreator>Project PERO</softwareCreator>
+          <softwareName>PERO OCR</softwareName>
+          <softwareVersion>v0.1.0</softwareVersion>
+        </processingSoftware>
+      </ocrProcessingStep>
+    </OCRProcessing>
+  </Description>
+  <Layout>
+    <Page ID="id_0704.0006" PHYSICAL_IMG_NR="1" HEIGHT="1650" WIDTH="1275">
+      <TopMargin HEIGHT="109" WIDTH="1275" VPOS="0" HPOS="0"/>
+      <LeftMargin HEIGHT="1650" WIDTH="106" VPOS="0" HPOS="0"/>
+      <RightMargin HEIGHT="1650" WIDTH="0" VPOS="0" HPOS="1275"/>
+      <BottomMargin HEIGHT="0" WIDTH="1275" VPOS="1650" HPOS="0"/>
+      <PrintSpace HEIGHT="1540" WIDTH="1168" VPOS="109" HPOS="106">
+        <TextBlock ID="block_r004" HEIGHT="25" WIDTH="714" VPOS="109" HPOS="268">
+          <TextLine ID="line_r004-l001" BASELINE="128" VPOS="109" HPOS="268" HEIGHT="25" WIDTH="714">
+            <String CONTENT="Bosonic" HEIGHT="23" WIDTH="89" VPOS="109" HPOS="276" WC="1"/>
+            <SP WIDTH="4" VPOS="109" HPOS="366"/>
+            <String CONTENT="characters" HEIGHT="23" WIDTH="119" VPOS="109" HPOS="381" WC="1"/>
+            <SP WIDTH="4" VPOS="109" HPOS="500"/>
+            <String CONTENT="of" HEIGHT="23" WIDTH="19" VPOS="109" HPOS="513" WC="1"/>
+            <SP WIDTH="4" VPOS="109" HPOS="532"/>
+            <String CONTENT="atomic" HEIGHT="23" WIDTH="78" VPOS="109" HPOS="544" WC="1"/>
+            <SP WIDTH="4" VPOS="109" HPOS="623"/>
+            <String CONTENT="Cooper" HEIGHT="23" WIDTH="81" VPOS="109" HPOS="641" WC="1"/>
+            <SP WIDTH="4" VPOS="109" HPOS="723"/>
+            <String CONTENT="pairs" HEIGHT="23" WIDTH="55" VPOS="109" HPOS="736" WC="1"/>
+            <SP WIDTH="4" VPOS="109" HPOS="791"/>
+            <String CONTENT="across" HEIGHT="23" WIDTH="69" VPOS="109" HPOS="804" WC="1"/>
+            <SP WIDTH="4" VPOS="109" HPOS="874"/>
+            <String CONTENT="resonan" HEIGHT="23" WIDTH="84" VPOS="109" HPOS="889" WC="1"/>
+          </TextLine>
+        </TextBlock>
+        <TextBlock ID="block_r005" HEIGHT="89" WIDTH="628" VPOS="159" HPOS="327">
+          <TextLine ID="line_r005-l002" BASELINE="177" VPOS="159" HPOS="500" HEIGHT="23" WIDTH="279">
+            <String CONTENT="Y." HEIGHT="22" WIDTH="20" VPOS="159" HPOS="508" WC="0.99"/>
+            <SP WIDTH="4" VPOS="159" HPOS="528"/>
+            <String CONTENT="H." HEIGHT="22" WIDTH="22" VPOS="160" HPOS="537" WC="1.0"/>
+            <SP WIDTH="4" VPOS="160" HPOS="560"/>
+            <String CONTENT="Pong" HEIGHT="22" WIDTH="44" VPOS="160" HPOS="570" WC="1.0"/>
+            <SP WIDTH="4" VPOS="160" HPOS="614"/>
+            <String CONTENT="and" HEIGHT="22" WIDTH="29" VPOS="160" HPOS="627" WC="1.0"/>
+            <SP WIDTH="4" VPOS="160" HPOS="657"/>
+            <String CONTENT="C." HEIGHT="22" WIDTH="20" VPOS="160" HPOS="675" WC="1.0"/>
+            <SP WIDTH="4" VPOS="160" HPOS="695"/>
+            <String CONTENT="K." HEIGHT="22" WIDTH="22" VPOS="160" HPOS="705" WC="1.0"/>
+            <SP WIDTH="4" VPOS="160" HPOS="728"/>
+            <String CONTENT="Law" HEIGHT="22" WIDTH="31" VPOS="159" HPOS="737" WC="1.0"/>
+          </TextLine>
+          <TextLine ID="line_r005-l003" BASELINE="199" VPOS="182" HPOS="376" HEIGHT="22" WIDTH="524">
+            <String CONTENT="Department" HEIGHT="21" WIDTH="96" VPOS="182" HPOS="383" WC="1"/>
+            <SP WIDTH="4" VPOS="182" HPOS="480"/>
+            <String CONTENT="of" HEIGHT="21" WIDTH="14" VPOS="182" HPOS="490" WC="1"/>
+            <SP WIDTH="4" VPOS="182" HPOS="505"/>
+            <String CONTENT="Physics" HEIGHT="21" WIDTH="60" VPOS="182" HPOS="517" WC="1"/>
+            <SP WIDTH="4" VPOS="182" HPOS="577"/>
+            <String CONTENT="and" HEIGHT="21" WIDTH="28" VPOS="182" HPOS="587" WC="1"/>
+            <SP WIDTH="4" VPOS="182" HPOS="615"/>
+            <String CONTENT="Institute" HEIGHT="21" WIDTH="67" VPOS="182" HPOS="627" WC="1"/>
+            <SP WIDTH="4" VPOS="182" HPOS="695"/>
+            <String CONTENT="of" HEIGHT="21" WIDTH="16" VPOS="182" HPOS="706" WC="1"/>
+            <SP WIDTH="4" VPOS="182" HPOS="722"/>
+            <String CONTENT="Theoretical" HEIGHT="22" WIDTH="91" VPOS="182" HPOS="733" WC="1"/>
+            <SP WIDTH="4" VPOS="182" HPOS="825"/>
+            <String CONTENT="Physics," HEIGHT="22" WIDTH="66" VPOS="183" HPOS="834" WC="1"/>
+          </TextLine>
+          <TextLine ID="line_r005-l004" BASELINE="221" VPOS="205" HPOS="327" HEIGHT="22" WIDTH="628">
+            <String CONTENT="The" HEIGHT="20" WIDTH="28" VPOS="205" HPOS="332" WC="1.0"/>
+            <SP WIDTH="4" VPOS="205" HPOS="360"/>
+            <String CONTENT="Chinese" HEIGHT="20" WIDTH="58" VPOS="205" HPOS="376" WC="1.0"/>
+            <SP WIDTH="4" VPOS="205" HPOS="435"/>
+            <String CONTENT="university" HEIGHT="20" WIDTH="80" VPOS="205" HPOS="446" WC="1.0"/>
+            <SP WIDTH="4" VPOS="205" HPOS="527"/>
+            <String CONTENT="of" HEIGHT="20" WIDTH="14" VPOS="205" HPOS="538" WC="1.0"/>
+            <SP WIDTH="4" VPOS="205" HPOS="552"/>
+            <String CONTENT="Hong" HEIGHT="20" WIDTH="39" VPOS="205" HPOS="564" WC="1.0"/>
+            <SP WIDTH="4" VPOS="205" HPOS="603"/>
+            <String CONTENT="Kong," HEIGHT="20" WIDTH="48" VPOS="205" HPOS="616" WC="1.0"/>
+            <SP WIDTH="4" VPOS="205" HPOS="664"/>
+            <String CONTENT="Shatin," HEIGHT="20" WIDTH="58" VPOS="205" HPOS="675" WC="1.0"/>
+            <SP WIDTH="4" VPOS="205" HPOS="733"/>
+            <String CONTENT="Hong" HEIGHT="20" WIDTH="41" VPOS="205" HPOS="744" WC="1.0"/>
+            <SP WIDTH="4" VPOS="205" HPOS="785"/>
+            <String CONTENT="Kong" HEIGHT="20" WIDTH="40" VPOS="205" HPOS="796" WC="1.0"/>
+            <SP WIDTH="4" VPOS="205" HPOS="836"/>
+            <String CONTENT="SAR," HEIGHT="20" WIDTH="41" VPOS="205" HPOS="851" WC="1.0"/>
+            <SP WIDTH="4" VPOS="205" HPOS="892"/>
+            <String CONTENT="China" HEIGHT="20" WIDTH="44" VPOS="205" HPOS="907" WC="1.0"/>
+          </TextLine>
+          <TextLine ID="line_r005-l005" BASELINE="243" VPOS="226" HPOS="520" HEIGHT="22" WIDTH="238">
+            <String CONTENT="(Dated:" HEIGHT="21" WIDTH="64" VPOS="227" HPOS="524" WC="1.0"/>
+            <SP WIDTH="4" VPOS="227" HPOS="589"/>
+            <String CONTENT="November" HEIGHT="21" WIDTH="83" VPOS="227" HPOS="598" WC="1.0"/>
+            <SP WIDTH="4" VPOS="227" HPOS="681"/>
+            <String CONTENT="4," HEIGHT="21" WIDTH="16" VPOS="227" HPOS="688" WC="1.0"/>
+            <SP WIDTH="4" VPOS="227" HPOS="704"/>
+            <String CONTENT="2018)" HEIGHT="21" WIDTH="45" VPOS="226" HPOS="709" WC="1.0"/>
+          </TextLine>
+        </TextBlock>
+        <TextBlock ID="block_r001" HEIGHT="216" WIDTH="836" VPOS="262" HPOS="220">
+          <TextLine ID="line_r001-l006" BASELINE="278" VPOS="262" HPOS="241" HEIGHT="21" WIDTH="815">
+            <String CONTENT="We" HEIGHT="21" WIDTH="23" VPOS="262" HPOS="246" WC="1"/>
+            <SP WIDTH="4" VPOS="262" HPOS="270"/>
+            <String CONTENT="study" HEIGHT="21" WIDTH="43" VPOS="262" HPOS="276" WC="1"/>
+            <SP WIDTH="4" VPOS="262" HPOS="320"/>
+            <String CONTENT="the" HEIGHT="21" WIDTH="25" VPOS="261" HPOS="329" WC="1"/>
+            <SP WIDTH="4" VPOS="261" HPOS="354"/>
+            <String CONTENT="two-particle" HEIGHT="21" WIDTH="98" VPOS="261" HPOS="362" WC="1"/>
+            <SP WIDTH="4" VPOS="261" HPOS="461"/>
+            <String CONTENT="wave" HEIGHT="21" WIDTH="39" VPOS="261" HPOS="469" WC="1"/>
+            <SP WIDTH="4" VPOS="261" HPOS="508"/>
+            <String CONTENT="function" HEIGHT="21" WIDTH="67" VPOS="261" HPOS="513" WC="1"/>
+            <SP WIDTH="4" VPOS="261" HPOS="581"/>
+            <String CONTENT="of" HEIGHT="21" WIDTH="15" VPOS="261" HPOS="590" WC="1"/>
+            <SP WIDTH="4" VPOS="261" HPOS="606"/>
+            <String CONTENT="paired" HEIGHT="21" WIDTH="50" VPOS="261" HPOS="612" WC="1"/>
+            <SP WIDTH="4" VPOS="261" HPOS="663"/>
+            <String CONTENT="atoms" HEIGHT="21" WIDTH="48" VPOS="261" HPOS="672" WC="1"/>
+            <SP WIDTH="4" VPOS="261" HPOS="721"/>
+            <String CONTENT="in" HEIGHT="21" WIDTH="13" VPOS="261" HPOS="726" WC="1"/>
+            <SP WIDTH="4" VPOS="261" HPOS="739"/>
+            <String CONTENT="a" HEIGHT="21" WIDTH="6" VPOS="261" HPOS="751" WC="1"/>
+            <SP WIDTH="4" VPOS="261" HPOS="757"/>
+            <String CONTENT="Fermi" HEIGHT="21" WIDTH="47" VPOS="261" HPOS="767" WC="1"/>
+            <SP WIDTH="4" VPOS="261" HPOS="814"/>
+            <String CONTENT="gas" HEIGHT="21" WIDTH="25" VPOS="262" HPOS="821" WC="1"/>
+            <SP WIDTH="4" VPOS="262" HPOS="846"/>
+            <String CONTENT="with" HEIGHT="21" WIDTH="33" VPOS="262" HPOS="854" WC="1"/>
+            <SP WIDTH="4" VPOS="262" HPOS="887"/>
+            <String CONTENT="tunable" HEIGHT="21" WIDTH="63" VPOS="262" HPOS="896" WC="1"/>
+            <SP WIDTH="4" VPOS="262" HPOS="959"/>
+            <String CONTENT="interaction" HEIGHT="21" WIDTH="88" VPOS="262" HPOS="964" WC="1"/>
+          </TextLine>
+          <TextLine ID="line_r001-l007" BASELINE="300" VPOS="284" HPOS="221" HEIGHT="21" WIDTH="836">
+            <String CONTENT="strengths" HEIGHT="19" WIDTH="77" VPOS="284" HPOS="224" WC="1"/>
+            <SP WIDTH="4" VPOS="284" HPOS="302"/>
+            <String CONTENT="controlled" HEIGHT="19" WIDTH="78" VPOS="284" HPOS="310" WC="1"/>
+            <SP WIDTH="4" VPOS="284" HPOS="389"/>
+            <String CONTENT="by" HEIGHT="19" WIDTH="18" VPOS="284" HPOS="401" WC="1"/>
+            <SP WIDTH="4" VPOS="284" HPOS="420"/>
+            <String CONTENT="Feshbach" HEIGHT="19" WIDTH="72" VPOS="284" HPOS="430" WC="1"/>
+            <SP WIDTH="4" VPOS="284" HPOS="502"/>
+            <String CONTENT="resonance." HEIGHT="19" WIDTH="88" VPOS="284" HPOS="515" WC="1"/>
+            <SP WIDTH="4" VPOS="284" HPOS="603"/>
+            <String CONTENT="The" HEIGHT="19" WIDTH="28" VPOS="284" HPOS="618" WC="1"/>
+            <SP WIDTH="4" VPOS="284" HPOS="647"/>
+            <String CONTENT="Cooper" HEIGHT="19" WIDTH="56" VPOS="285" HPOS="662" WC="1"/>
+            <SP WIDTH="4" VPOS="285" HPOS="718"/>
+            <String CONTENT="pair" HEIGHT="19" WIDTH="33" VPOS="285" HPOS="726" WC="1"/>
+            <SP WIDTH="4" VPOS="285" HPOS="760"/>
+            <String CONTENT="wave" HEIGHT="19" WIDTH="38" VPOS="285" HPOS="769" WC="1"/>
+            <SP WIDTH="4" VPOS="285" HPOS="807"/>
+            <String CONTENT="function" HEIGHT="19" WIDTH="64" VPOS="285" HPOS="817" WC="1"/>
+            <SP WIDTH="4" VPOS="285" HPOS="882"/>
+            <String CONTENT="is" HEIGHT="19" WIDTH="11" VPOS="285" HPOS="896" WC="1"/>
+            <SP WIDTH="4" VPOS="285" HPOS="907"/>
+            <String CONTENT="examined" HEIGHT="19" WIDTH="77" VPOS="285" HPOS="916" WC="1"/>
+            <SP WIDTH="4" VPOS="285" HPOS="993"/>
+            <String CONTENT="for" HEIGHT="19" WIDTH="21" VPOS="285" HPOS="1004" WC="1"/>
+            <SP WIDTH="4" VPOS="285" HPOS="1026"/>
+            <String CONTENT="its" HEIGHT="19" WIDTH="19" VPOS="285" HPOS="1036" WC="1"/>
+          </TextLine>
+          <TextLine ID="line_r001-l008" BASELINE="321" VPOS="304" HPOS="221" HEIGHT="21" WIDTH="836">
+            <String CONTENT="bosonic" HEIGHT="20" WIDTH="59" VPOS="305" HPOS="225" WC="1"/>
+            <SP WIDTH="4" VPOS="305" HPOS="285"/>
+            <String CONTENT="characters," HEIGHT="20" WIDTH="90" VPOS="305" HPOS="296" WC="1"/>
+            <SP WIDTH="4" VPOS="305" HPOS="387"/>
+            <String CONTENT="which" HEIGHT="19" WIDTH="42" VPOS="305" HPOS="396" WC="1"/>
+            <SP WIDTH="4" VPOS="305" HPOS="439"/>
+            <String CONTENT="is" HEIGHT="19" WIDTH="11" VPOS="305" HPOS="452" WC="1"/>
+            <SP WIDTH="4" VPOS="305" HPOS="463"/>
+            <String CONTENT="quantified" HEIGHT="19" WIDTH="80" VPOS="305" HPOS="474" WC="1"/>
+            <SP WIDTH="4" VPOS="305" HPOS="555"/>
+            <String CONTENT="by" HEIGHT="19" WIDTH="17" VPOS="305" HPOS="566" WC="1"/>
+            <SP WIDTH="4" VPOS="305" HPOS="583"/>
+            <String CONTENT="the" HEIGHT="19" WIDTH="27" VPOS="305" HPOS="595" WC="1"/>
+            <SP WIDTH="4" VPOS="305" HPOS="622"/>
+            <String CONTENT="correction" HEIGHT="19" WIDTH="79" VPOS="305" HPOS="632" WC="1"/>
+            <SP WIDTH="4" VPOS="305" HPOS="711"/>
+            <String CONTENT="of" HEIGHT="19" WIDTH="13" VPOS="305" HPOS="723" WC="1"/>
+            <SP WIDTH="4" VPOS="305" HPOS="737"/>
+            <String CONTENT="Bose" HEIGHT="19" WIDTH="37" VPOS="305" HPOS="748" WC="1"/>
+            <SP WIDTH="4" VPOS="305" HPOS="785"/>
+            <String CONTENT="enhancement" HEIGHT="20" WIDTH="107" VPOS="305" HPOS="795" WC="1"/>
+            <SP WIDTH="4" VPOS="305" HPOS="903"/>
+            <String CONTENT="factor" HEIGHT="20" WIDTH="48" VPOS="306" HPOS="913" WC="1"/>
+            <SP WIDTH="4" VPOS="306" HPOS="961"/>
+            <String CONTENT="associated" HEIGHT="20" WIDTH="83" VPOS="306" HPOS="970" WC="1"/>
+          </TextLine>
+          <TextLine ID="line_r001-l009" BASELINE="343" VPOS="326" HPOS="221" HEIGHT="21" WIDTH="836">
+            <String CONTENT="with" HEIGHT="20" WIDTH="31" VPOS="327" HPOS="225" WC="1"/>
+            <SP WIDTH="4" VPOS="327" HPOS="257"/>
+            <String CONTENT="the" HEIGHT="20" WIDTH="25" VPOS="327" HPOS="268" WC="1"/>
+            <SP WIDTH="4" VPOS="327" HPOS="294"/>
+            <String CONTENT="creation" HEIGHT="20" WIDTH="63" VPOS="327" HPOS="302" WC="1"/>
+            <SP WIDTH="4" VPOS="327" HPOS="365"/>
+            <String CONTENT="and" HEIGHT="20" WIDTH="27" VPOS="328" HPOS="378" WC="1"/>
+            <SP WIDTH="4" VPOS="328" HPOS="406"/>
+            <String CONTENT="annihilation" HEIGHT="20" WIDTH="94" VPOS="328" HPOS="417" WC="1"/>
+            <SP WIDTH="4" VPOS="328" HPOS="511"/>
+            <String CONTENT="composite" HEIGHT="20" WIDTH="79" VPOS="328" HPOS="525" WC="1"/>
+            <SP WIDTH="4" VPOS="328" HPOS="605"/>
+            <String CONTENT="particle" HEIGHT="20" WIDTH="60" VPOS="328" HPOS="616" WC="1"/>
+            <SP WIDTH="4" VPOS="328" HPOS="676"/>
+            <String CONTENT="operators." HEIGHT="20" WIDTH="85" VPOS="327" HPOS="685" WC="1"/>
+            <SP WIDTH="4" VPOS="327" HPOS="771"/>
+            <String CONTENT="An" HEIGHT="20" WIDTH="20" VPOS="327" HPOS="781" WC="1"/>
+            <SP WIDTH="4" VPOS="327" HPOS="801"/>
+            <String CONTENT="example" HEIGHT="20" WIDTH="68" VPOS="327" HPOS="812" WC="1"/>
+            <SP WIDTH="4" VPOS="327" HPOS="880"/>
+            <String CONTENT="is" HEIGHT="20" WIDTH="11" VPOS="327" HPOS="888" WC="1"/>
+            <SP WIDTH="4" VPOS="327" HPOS="899"/>
+            <String CONTENT="given" HEIGHT="20" WIDTH="39" VPOS="327" HPOS="909" WC="1"/>
+            <SP WIDTH="4" VPOS="327" HPOS="948"/>
+            <String CONTENT="for" HEIGHT="20" WIDTH="22" VPOS="327" HPOS="958" WC="1"/>
+            <SP WIDTH="4" VPOS="327" HPOS="981"/>
+            <String CONTENT="a" HEIGHT="20" WIDTH="6" VPOS="327" HPOS="990" WC="1"/>
+            <SP WIDTH="4" VPOS="327" HPOS="996"/>
+            <String CONTENT="three-" HEIGHT="20" WIDTH="51" VPOS="326" HPOS="1005" WC="1"/>
+          </TextLine>
+          <TextLine ID="line_r001-l010" BASELINE="366" VPOS="349" HPOS="221" HEIGHT="22" WIDTH="836">
+            <String CONTENT="dimensional" HEIGHT="20" WIDTH="98" VPOS="349" HPOS="226" WC="1"/>
+            <SP WIDTH="4" VPOS="349" HPOS="324"/>
+            <String CONTENT="uniform" HEIGHT="20" WIDTH="56" VPOS="349" HPOS="329" WC="1"/>
+            <SP WIDTH="4" VPOS="349" HPOS="385"/>
+            <String CONTENT="gas." HEIGHT="20" WIDTH="33" VPOS="349" HPOS="401" WC="1"/>
+            <SP WIDTH="4" VPOS="349" HPOS="434"/>
+            <String CONTENT="Two" HEIGHT="20" WIDTH="31" VPOS="349" HPOS="444" WC="1"/>
+            <SP WIDTH="4" VPOS="349" HPOS="476"/>
+            <String CONTENT="definitions" HEIGHT="20" WIDTH="83" VPOS="349" HPOS="485" WC="1"/>
+            <SP WIDTH="4" VPOS="349" HPOS="568"/>
+            <String CONTENT="of" HEIGHT="20" WIDTH="16" VPOS="349" HPOS="575" WC="1"/>
+            <SP WIDTH="4" VPOS="349" HPOS="591"/>
+            <String CONTENT="Cooper" HEIGHT="20" WIDTH="56" VPOS="349" HPOS="600" WC="1"/>
+            <SP WIDTH="4" VPOS="349" HPOS="657"/>
+            <String CONTENT="pair" HEIGHT="20" WIDTH="33" VPOS="349" HPOS="663" WC="1"/>
+            <SP WIDTH="4" VPOS="349" HPOS="696"/>
+            <String CONTENT="wave" HEIGHT="20" WIDTH="38" VPOS="349" HPOS="703" WC="1"/>
+            <SP WIDTH="4" VPOS="349" HPOS="741"/>
+            <String CONTENT="function" HEIGHT="20" WIDTH="67" VPOS="349" HPOS="746" WC="1"/>
+            <SP WIDTH="4" VPOS="349" HPOS="814"/>
+            <String CONTENT="are" HEIGHT="20" WIDTH="24" VPOS="349" HPOS="823" WC="1"/>
+            <SP WIDTH="4" VPOS="349" HPOS="847"/>
+            <String CONTENT="examined." HEIGHT="20" WIDTH="85" VPOS="349" HPOS="853" WC="1"/>
+            <SP WIDTH="4" VPOS="349" HPOS="939"/>
+            <String CONTENT="One" HEIGHT="20" WIDTH="29" VPOS="349" HPOS="951" WC="1"/>
+            <SP WIDTH="4" VPOS="349" HPOS="980"/>
+            <String CONTENT="of" HEIGHT="20" WIDTH="14" VPOS="349" HPOS="988" WC="1"/>
+            <SP WIDTH="4" VPOS="349" HPOS="1002"/>
+            <String CONTENT="which" HEIGHT="20" WIDTH="40" VPOS="349" HPOS="1009" WC="1"/>
+          </TextLine>
+          <TextLine ID="line_r001-l011" BASELINE="388" VPOS="371" HPOS="221" HEIGHT="21" WIDTH="836">
+            <String CONTENT="is" HEIGHT="19" WIDTH="11" VPOS="372" HPOS="224" WC="1"/>
+            <SP WIDTH="4" VPOS="372" HPOS="236"/>
+            <String CONTENT="chosen" HEIGHT="19" WIDTH="51" VPOS="372" HPOS="244" WC="1"/>
+            <SP WIDTH="4" VPOS="372" HPOS="296"/>
+            <String CONTENT="to" HEIGHT="19" WIDTH="16" VPOS="372" HPOS="304" WC="1"/>
+            <SP WIDTH="4" VPOS="372" HPOS="321"/>
+            <String CONTENT="reflect" HEIGHT="19" WIDTH="48" VPOS="372" HPOS="329" WC="1"/>
+            <SP WIDTH="4" VPOS="372" HPOS="378"/>
+            <String CONTENT="the" HEIGHT="19" WIDTH="25" VPOS="372" HPOS="387" WC="1"/>
+            <SP WIDTH="4" VPOS="372" HPOS="412"/>
+            <String CONTENT="off-diagonal" HEIGHT="20" WIDTH="96" VPOS="372" HPOS="422" WC="1"/>
+            <SP WIDTH="4" VPOS="372" HPOS="518"/>
+            <String CONTENT="long" HEIGHT="19" WIDTH="32" VPOS="372" HPOS="524" WC="1"/>
+            <SP WIDTH="4" VPOS="372" HPOS="557"/>
+            <String CONTENT="range" HEIGHT="19" WIDTH="45" VPOS="372" HPOS="565" WC="1"/>
+            <SP WIDTH="4" VPOS="372" HPOS="611"/>
+            <String CONTENT="order" HEIGHT="19" WIDTH="42" VPOS="372" HPOS="619" WC="1"/>
+            <SP WIDTH="4" VPOS="372" HPOS="662"/>
+            <String CONTENT="(ODLRO)." HEIGHT="20" WIDTH="92" VPOS="372" HPOS="669" WC="1"/>
+            <SP WIDTH="4" VPOS="372" HPOS="762"/>
+            <String CONTENT="Another" HEIGHT="20" WIDTH="66" VPOS="372" HPOS="768" WC="1"/>
+            <SP WIDTH="4" VPOS="372" HPOS="834"/>
+            <String CONTENT="one" HEIGHT="19" WIDTH="27" VPOS="372" HPOS="842" WC="1"/>
+            <SP WIDTH="4" VPOS="372" HPOS="869"/>
+            <String CONTENT="corresponds" HEIGHT="20" WIDTH="96" VPOS="373" HPOS="878" WC="1"/>
+            <SP WIDTH="4" VPOS="373" HPOS="974"/>
+            <String CONTENT="to" HEIGHT="19" WIDTH="15" VPOS="373" HPOS="982" WC="1"/>
+            <SP WIDTH="4" VPOS="373" HPOS="997"/>
+            <String CONTENT="a" HEIGHT="19" WIDTH="6" VPOS="373" HPOS="1007" WC="1"/>
+            <SP WIDTH="4" VPOS="373" HPOS="1013"/>
+            <String CONTENT="pair" HEIGHT="20" WIDTH="32" VPOS="373" HPOS="1023" WC="1"/>
+          </TextLine>
+          <TextLine ID="line_r001-l012" BASELINE="409" VPOS="392" HPOS="221" HEIGHT="21" WIDTH="836">
+            <String CONTENT="projection" HEIGHT="20" WIDTH="79" VPOS="392" HPOS="225" WC="1"/>
+            <SP WIDTH="4" VPOS="392" HPOS="305"/>
+            <String CONTENT="of" HEIGHT="20" WIDTH="13" VPOS="393" HPOS="316" WC="1"/>
+            <SP WIDTH="4" VPOS="393" HPOS="330"/>
+            <String CONTENT="a" HEIGHT="20" WIDTH="6" VPOS="393" HPOS="338" WC="1"/>
+            <SP WIDTH="4" VPOS="393" HPOS="344"/>
+            <String CONTENT="BCS" HEIGHT="20" WIDTH="34" VPOS="393" HPOS="353" WC="1"/>
+            <SP WIDTH="4" VPOS="393" HPOS="387"/>
+            <String CONTENT="state." HEIGHT="20" WIDTH="49" VPOS="393" HPOS="395" WC="1"/>
+            <SP WIDTH="4" VPOS="393" HPOS="445"/>
+            <String CONTENT="On" HEIGHT="20" WIDTH="20" VPOS="393" HPOS="453" WC="1"/>
+            <SP WIDTH="4" VPOS="393" HPOS="474"/>
+            <String CONTENT="the" HEIGHT="20" WIDTH="25" VPOS="393" HPOS="482" WC="1"/>
+            <SP WIDTH="4" VPOS="393" HPOS="508"/>
+            <String CONTENT="side" HEIGHT="20" WIDTH="31" VPOS="393" HPOS="515" WC="1"/>
+            <SP WIDTH="4" VPOS="393" HPOS="547"/>
+            <String CONTENT="with" HEIGHT="20" WIDTH="31" VPOS="393" HPOS="554" WC="1"/>
+            <SP WIDTH="4" VPOS="393" HPOS="586"/>
+            <String CONTENT="negative" HEIGHT="20" WIDTH="68" VPOS="393" HPOS="596" WC="1"/>
+            <SP WIDTH="4" VPOS="393" HPOS="664"/>
+            <String CONTENT="scattering" HEIGHT="20" WIDTH="79" VPOS="393" HPOS="671" WC="1"/>
+            <SP WIDTH="4" VPOS="393" HPOS="751"/>
+            <String CONTENT="length," HEIGHT="20" WIDTH="57" VPOS="392" HPOS="761" WC="1"/>
+            <SP WIDTH="4" VPOS="392" HPOS="819"/>
+            <String CONTENT="we" HEIGHT="20" WIDTH="20" VPOS="392" HPOS="824" WC="1"/>
+            <SP WIDTH="4" VPOS="392" HPOS="844"/>
+            <String CONTENT="found" HEIGHT="20" WIDTH="44" VPOS="392" HPOS="851" WC="1"/>
+            <SP WIDTH="4" VPOS="392" HPOS="895"/>
+            <String CONTENT="that" HEIGHT="20" WIDTH="36" VPOS="392" HPOS="904" WC="1"/>
+            <SP WIDTH="4" VPOS="392" HPOS="941"/>
+            <String CONTENT="paired" HEIGHT="20" WIDTH="49" VPOS="392" HPOS="947" WC="1"/>
+            <SP WIDTH="4" VPOS="392" HPOS="996"/>
+            <String CONTENT="atoms" HEIGHT="20" WIDTH="49" VPOS="392" HPOS="1005" WC="1"/>
+          </TextLine>
+          <TextLine ID="line_r001-l013" BASELINE="431" VPOS="414" HPOS="220" HEIGHT="21" WIDTH="836">
+            <String CONTENT="described" HEIGHT="20" WIDTH="72" VPOS="414" HPOS="226" WC="1"/>
+            <SP WIDTH="4" VPOS="414" HPOS="298"/>
+            <String CONTENT="by" HEIGHT="20" WIDTH="17" VPOS="414" HPOS="310" WC="1"/>
+            <SP WIDTH="4" VPOS="414" HPOS="328"/>
+            <String CONTENT="ODLRO" HEIGHT="20" WIDTH="61" VPOS="414" HPOS="339" WC="1"/>
+            <SP WIDTH="4" VPOS="414" HPOS="400"/>
+            <String CONTENT="are" HEIGHT="20" WIDTH="21" VPOS="414" HPOS="416" WC="1"/>
+            <SP WIDTH="4" VPOS="414" HPOS="437"/>
+            <String CONTENT="more" HEIGHT="20" WIDTH="39" VPOS="414" HPOS="446" WC="1"/>
+            <SP WIDTH="4" VPOS="414" HPOS="486"/>
+            <String CONTENT="bosonic" HEIGHT="20" WIDTH="58" VPOS="414" HPOS="496" WC="1"/>
+            <SP WIDTH="4" VPOS="414" HPOS="555"/>
+            <String CONTENT="than" HEIGHT="20" WIDTH="34" VPOS="414" HPOS="564" WC="1"/>
+            <SP WIDTH="4" VPOS="414" HPOS="598"/>
+            <String CONTENT="the" HEIGHT="20" WIDTH="25" VPOS="414" HPOS="610" WC="1"/>
+            <SP WIDTH="4" VPOS="414" HPOS="635"/>
+            <String CONTENT="pair" HEIGHT="20" WIDTH="31" VPOS="414" HPOS="643" WC="1"/>
+            <SP WIDTH="4" VPOS="414" HPOS="675"/>
+            <String CONTENT="projected" HEIGHT="20" WIDTH="75" VPOS="414" HPOS="684" WC="1"/>
+            <SP WIDTH="4" VPOS="414" HPOS="759"/>
+            <String CONTENT="definition." HEIGHT="20" WIDTH="85" VPOS="414" HPOS="769" WC="1"/>
+            <SP WIDTH="4" VPOS="414" HPOS="855"/>
+            <String CONTENT="It" HEIGHT="20" WIDTH="14" VPOS="414" HPOS="861" WC="1"/>
+            <SP WIDTH="4" VPOS="414" HPOS="875"/>
+            <String CONTENT="is" HEIGHT="20" WIDTH="12" VPOS="414" HPOS="883" WC="1"/>
+            <SP WIDTH="4" VPOS="414" HPOS="896"/>
+            <String CONTENT="also" HEIGHT="20" WIDTH="28" VPOS="414" HPOS="905" WC="1"/>
+            <SP WIDTH="4" VPOS="414" HPOS="933"/>
+            <String CONTENT="found" HEIGHT="20" WIDTH="43" VPOS="414" HPOS="942" WC="1"/>
+            <SP WIDTH="4" VPOS="414" HPOS="985"/>
+            <String CONTENT="that" HEIGHT="20" WIDTH="34" VPOS="414" HPOS="997" WC="1"/>
+            <SP WIDTH="4" VPOS="414" HPOS="1031"/>
+            <String CONTENT="at" HEIGHT="20" WIDTH="14" VPOS="414" HPOS="1040" WC="1"/>
+          </TextLine>
+          <TextLine ID="line_r001-l014" BASELINE="453" VPOS="436" HPOS="222" HEIGHT="21" WIDTH="835">
+            <String CONTENT="(kFa)" HEIGHT="20" WIDTH="46" VPOS="438" HPOS="225" WC="1"/>
+            <SP WIDTH="4" VPOS="438" HPOS="272"/>
+            <String CONTENT="1" HEIGHT="20" WIDTH="6" VPOS="438" HPOS="284" WC="1"/>
+            <SP WIDTH="4" VPOS="438" HPOS="291"/>
+            <String CONTENT="1," HEIGHT="20" WIDTH="13" VPOS="438" HPOS="323" WC="1"/>
+            <SP WIDTH="4" VPOS="438" HPOS="337"/>
+            <String CONTENT="both" HEIGHT="20" WIDTH="32" VPOS="438" HPOS="344" WC="1"/>
+            <SP WIDTH="4" VPOS="438" HPOS="377"/>
+            <String CONTENT="definitions" HEIGHT="20" WIDTH="85" VPOS="438" HPOS="391" WC="1"/>
+            <SP WIDTH="4" VPOS="438" HPOS="476"/>
+            <String CONTENT="give" HEIGHT="20" WIDTH="31" VPOS="437" HPOS="485" WC="1"/>
+            <SP WIDTH="4" VPOS="437" HPOS="517"/>
+            <String CONTENT="similar" HEIGHT="20" WIDTH="56" VPOS="437" HPOS="523" WC="1"/>
+            <SP WIDTH="4" VPOS="437" HPOS="579"/>
+            <String CONTENT="results," HEIGHT="20" WIDTH="60" VPOS="437" HPOS="589" WC="1"/>
+            <SP WIDTH="4" VPOS="437" HPOS="650"/>
+            <String CONTENT="where" HEIGHT="20" WIDTH="47" VPOS="437" HPOS="656" WC="1"/>
+            <SP WIDTH="4" VPOS="437" HPOS="704"/>
+            <String CONTENT="more" HEIGHT="20" WIDTH="40" VPOS="437" HPOS="714" WC="1"/>
+            <SP WIDTH="4" VPOS="437" HPOS="754"/>
+            <String CONTENT="than" HEIGHT="20" WIDTH="35" VPOS="437" HPOS="760" WC="1"/>
+            <SP WIDTH="4" VPOS="437" HPOS="795"/>
+            <String CONTENT="90%" HEIGHT="20" WIDTH="25" VPOS="437" HPOS="809" WC="1"/>
+            <SP WIDTH="4" VPOS="437" HPOS="834"/>
+            <String CONTENT="of" HEIGHT="20" WIDTH="15" VPOS="437" HPOS="851" WC="1"/>
+            <SP WIDTH="4" VPOS="437" HPOS="866"/>
+            <String CONTENT="the" HEIGHT="20" WIDTH="26" VPOS="437" HPOS="872" WC="1"/>
+            <SP WIDTH="4" VPOS="437" HPOS="898"/>
+            <String CONTENT="atoms" HEIGHT="20" WIDTH="49" VPOS="436" HPOS="907" WC="1"/>
+            <SP WIDTH="4" VPOS="436" HPOS="956"/>
+            <String CONTENT="occupy" HEIGHT="20" WIDTH="54" VPOS="436" HPOS="965" WC="1"/>
+            <SP WIDTH="4" VPOS="436" HPOS="1019"/>
+            <String CONTENT="the" HEIGHT="20" WIDTH="26" VPOS="436" HPOS="1030" WC="1"/>
+          </TextLine>
+          <TextLine ID="line_r001-l015" BASELINE="475" VPOS="458" HPOS="220" HEIGHT="20" WIDTH="323">
+            <String CONTENT="corresponding" HEIGHT="21" WIDTH="114" VPOS="458" HPOS="225" WC="1"/>
+            <SP WIDTH="4" VPOS="458" HPOS="339"/>
+            <String CONTENT="molecular" HEIGHT="20" WIDTH="79" VPOS="459" HPOS="348" WC="1"/>
+            <SP WIDTH="4" VPOS="459" HPOS="428"/>
+            <String CONTENT="condensates." HEIGHT="22" WIDTH="104" VPOS="457" HPOS="438" WC="1"/>
+          </TextLine>
+        </TextBlock>
+        <TextBlock ID="block_r002" HEIGHT="18" WIDTH="430" VPOS="501" HPOS="222">
+          <TextLine ID="line_r002-l016" BASELINE="516" VPOS="501" HPOS="222" HEIGHT="18" WIDTH="430">
+            <String CONTENT="PACS" HEIGHT="19" WIDTH="40" VPOS="500" HPOS="226" WC="1.0"/>
+            <SP WIDTH="4" VPOS="500" HPOS="267"/>
+            <String CONTENT="numbers:" HEIGHT="19" WIDTH="69" VPOS="501" HPOS="277" WC="1.0"/>
+            <SP WIDTH="4" VPOS="501" HPOS="347"/>
+            <String CONTENT="03.75.Ss," HEIGHT="18" WIDTH="66" VPOS="501" HPOS="355" WC="0.97"/>
+            <SP WIDTH="4" VPOS="501" HPOS="422"/>
+            <String CONTENT="05.30.Fk," HEIGHT="19" WIDTH="71" VPOS="501" HPOS="429" WC="0.93"/>
+            <SP WIDTH="4" VPOS="501" HPOS="500"/>
+            <String CONTENT="74.20.Fg," HEIGHT="19" WIDTH="72" VPOS="501" HPOS="505" WC="0.95"/>
+            <SP WIDTH="4" VPOS="501" HPOS="577"/>
+            <String CONTENT="03.67.Mn" HEIGHT="19" WIDTH="67" VPOS="500" HPOS="582" WC="0.92"/>
+          </TextLine>
+        </TextBlock>
+        <TextBlock ID="block_r000" HEIGHT="888" WIDTH="518" VPOS="621" HPOS="106">
+          <TextLine ID="line_r000-l021" BASELINE="638" VPOS="621" HPOS="127" HEIGHT="21" WIDTH="497">
+            <String CONTENT="Recent" HEIGHT="21" WIDTH="59" VPOS="620" HPOS="132" WC="1"/>
+            <SP WIDTH="4" VPOS="620" HPOS="191"/>
+            <String CONTENT="advancement" HEIGHT="21" WIDTH="116" VPOS="620" HPOS="210" WC="1"/>
+            <SP WIDTH="4" VPOS="620" HPOS="327"/>
+            <String CONTENT="in" HEIGHT="21" WIDTH="13" VPOS="620" HPOS="344" WC="1"/>
+            <SP WIDTH="4" VPOS="620" HPOS="358"/>
+            <String CONTENT="the" HEIGHT="21" WIDTH="28" VPOS="620" HPOS="379" WC="1"/>
+            <SP WIDTH="4" VPOS="620" HPOS="407"/>
+            <String CONTENT="control" HEIGHT="21" WIDTH="63" VPOS="620" HPOS="426" WC="1"/>
+            <SP WIDTH="4" VPOS="620" HPOS="489"/>
+            <String CONTENT="of" HEIGHT="21" WIDTH="14" VPOS="620" HPOS="507" WC="1"/>
+            <SP WIDTH="4" VPOS="620" HPOS="521"/>
+            <String CONTENT="Feshbach" HEIGHT="21" WIDTH="75" VPOS="620" HPOS="542" WC="1"/>
+          </TextLine>
+          <TextLine ID="line_r000-l023" BASELINE="661" VPOS="644" HPOS="106" HEIGHT="22" WIDTH="518">
+            <String CONTENT="molecules" HEIGHT="21" WIDTH="84" VPOS="644" HPOS="111" WC="1"/>
+            <SP WIDTH="4" VPOS="644" HPOS="195"/>
+            <String CONTENT="has" HEIGHT="21" WIDTH="28" VPOS="644" HPOS="202" WC="1"/>
+            <SP WIDTH="4" VPOS="644" HPOS="231"/>
+            <String CONTENT="given" HEIGHT="21" WIDTH="43" VPOS="644" HPOS="239" WC="1"/>
+            <SP WIDTH="4" VPOS="644" HPOS="282"/>
+            <String CONTENT="rise" HEIGHT="21" WIDTH="31" VPOS="644" HPOS="289" WC="1"/>
+            <SP WIDTH="4" VPOS="644" HPOS="320"/>
+            <String CONTENT="to" HEIGHT="21" WIDTH="17" VPOS="644" HPOS="325" WC="1"/>
+            <SP WIDTH="4" VPOS="644" HPOS="343"/>
+            <String CONTENT="many" HEIGHT="21" WIDTH="47" VPOS="644" HPOS="349" WC="1"/>
+            <SP WIDTH="4" VPOS="644" HPOS="397"/>
+            <String CONTENT="new" HEIGHT="21" WIDTH="29" VPOS="644" HPOS="404" WC="1"/>
+            <SP WIDTH="4" VPOS="644" HPOS="434"/>
+            <String CONTENT="experimental" HEIGHT="21" WIDTH="115" VPOS="644" HPOS="447" WC="1"/>
+            <SP WIDTH="4" VPOS="644" HPOS="563"/>
+            <String CONTENT="obser-" HEIGHT="21" WIDTH="56" VPOS="644" HPOS="568" WC="1"/>
+          </TextLine>
+          <TextLine ID="line_r000-l025" BASELINE="685" VPOS="667" HPOS="106" HEIGHT="22" WIDTH="516">
+            <String CONTENT="vations" HEIGHT="21" WIDTH="62" VPOS="668" HPOS="111" WC="1.0"/>
+            <SP WIDTH="4" VPOS="668" HPOS="173"/>
+            <String CONTENT="in" HEIGHT="21" WIDTH="13" VPOS="668" HPOS="180" WC="1.0"/>
+            <SP WIDTH="4" VPOS="668" HPOS="193"/>
+            <String CONTENT="the" HEIGHT="21" WIDTH="27" VPOS="668" HPOS="202" WC="1.0"/>
+            <SP WIDTH="4" VPOS="668" HPOS="230"/>
+            <String CONTENT="world" HEIGHT="21" WIDTH="45" VPOS="668" HPOS="239" WC="1.0"/>
+            <SP WIDTH="4" VPOS="668" HPOS="285"/>
+            <String CONTENT="of" HEIGHT="21" WIDTH="17" VPOS="668" HPOS="294" WC="1.0"/>
+            <SP WIDTH="4" VPOS="668" HPOS="311"/>
+            <String CONTENT="ultracold" HEIGHT="21" WIDTH="78" VPOS="668" HPOS="316" WC="1.0"/>
+            <SP WIDTH="4" VPOS="668" HPOS="395"/>
+            <String CONTENT="atomic" HEIGHT="21" WIDTH="59" VPOS="668" HPOS="404" WC="1.0"/>
+            <SP WIDTH="4" VPOS="668" HPOS="464"/>
+            <String CONTENT="gas" HEIGHT="21" WIDTH="26" VPOS="668" HPOS="472" WC="1.0"/>
+            <SP WIDTH="4" VPOS="668" HPOS="498"/>
+            <String CONTENT="[1," HEIGHT="21" WIDTH="23" VPOS="668" HPOS="503" WC="0.99"/>
+            <SP WIDTH="4" VPOS="668" HPOS="527"/>
+            <String CONTENT="2," HEIGHT="21" WIDTH="16" VPOS="668" HPOS="534" WC="1.0"/>
+            <SP WIDTH="4" VPOS="668" HPOS="550"/>
+            <String CONTENT="3," HEIGHT="21" WIDTH="16" VPOS="668" HPOS="556" WC="1.0"/>
+            <SP WIDTH="4" VPOS="668" HPOS="572"/>
+            <String CONTENT="4," HEIGHT="21" WIDTH="16" VPOS="669" HPOS="579" WC="1.0"/>
+            <SP WIDTH="4" VPOS="669" HPOS="595"/>
+            <String CONTENT="5]." HEIGHT="21" WIDTH="21" VPOS="669" HPOS="600" WC="0.64"/>
+          </TextLine>
+          <TextLine ID="line_r000-l027" BASELINE="709" VPOS="691" HPOS="108" HEIGHT="22" WIDTH="517">
+            <String CONTENT="At" HEIGHT="21" WIDTH="18" VPOS="691" HPOS="113" WC="1"/>
+            <SP WIDTH="4" VPOS="691" HPOS="131"/>
+            <String CONTENT="sufficiently" HEIGHT="21" WIDTH="93" VPOS="692" HPOS="143" WC="1"/>
+            <SP WIDTH="4" VPOS="692" HPOS="237"/>
+            <String CONTENT="low" HEIGHT="21" WIDTH="23" VPOS="692" HPOS="253" WC="1"/>
+            <SP WIDTH="4" VPOS="692" HPOS="277"/>
+            <String CONTENT="temperatures," HEIGHT="21" WIDTH="128" VPOS="693" HPOS="294" WC="1"/>
+            <SP WIDTH="4" VPOS="693" HPOS="422"/>
+            <String CONTENT="fermionic" HEIGHT="21" WIDTH="84" VPOS="693" HPOS="431" WC="1"/>
+            <SP WIDTH="4" VPOS="693" HPOS="516"/>
+            <String CONTENT="atoms" HEIGHT="21" WIDTH="51" VPOS="693" HPOS="529" WC="1"/>
+            <SP WIDTH="4" VPOS="693" HPOS="581"/>
+            <String CONTENT="are" HEIGHT="21" WIDTH="25" VPOS="692" HPOS="597" WC="1"/>
+          </TextLine>
+          <TextLine ID="line_r000-l029" BASELINE="733" VPOS="717" HPOS="106" HEIGHT="21" WIDTH="518">
+            <String CONTENT="known" HEIGHT="21" WIDTH="56" VPOS="717" HPOS="110" WC="1"/>
+            <SP WIDTH="4" VPOS="717" HPOS="166"/>
+            <String CONTENT="to" HEIGHT="21" WIDTH="14" VPOS="717" HPOS="175" WC="1"/>
+            <SP WIDTH="4" VPOS="717" HPOS="190"/>
+            <String CONTENT="form" HEIGHT="21" WIDTH="33" VPOS="717" HPOS="198" WC="1"/>
+            <SP WIDTH="4" VPOS="717" HPOS="231"/>
+            <String CONTENT="pairs" HEIGHT="21" WIDTH="42" VPOS="717" HPOS="246" WC="1"/>
+            <SP WIDTH="4" VPOS="717" HPOS="289"/>
+            <String CONTENT="under" HEIGHT="21" WIDTH="49" VPOS="717" HPOS="296" WC="1"/>
+            <SP WIDTH="4" VPOS="717" HPOS="345"/>
+            <String CONTENT="an" HEIGHT="21" WIDTH="17" VPOS="717" HPOS="353" WC="1"/>
+            <SP WIDTH="4" VPOS="717" HPOS="371"/>
+            <String CONTENT="attractive" HEIGHT="21" WIDTH="84" VPOS="717" HPOS="383" WC="1"/>
+            <SP WIDTH="4" VPOS="717" HPOS="467"/>
+            <String CONTENT="interaction." HEIGHT="21" WIDTH="105" VPOS="717" HPOS="472" WC="1"/>
+            <SP WIDTH="4" VPOS="717" HPOS="578"/>
+            <String CONTENT="The" HEIGHT="21" WIDTH="30" VPOS="717" HPOS="587" WC="1"/>
+          </TextLine>
+          <TextLine ID="line_r000-l031" BASELINE="757" VPOS="741" HPOS="106" HEIGHT="23" WIDTH="516">
+            <String CONTENT="interaction" HEIGHT="21" WIDTH="95" VPOS="741" HPOS="110" WC="1"/>
+            <SP WIDTH="4" VPOS="741" HPOS="205"/>
+            <String CONTENT="strength" HEIGHT="21" WIDTH="69" VPOS="741" HPOS="214" WC="1"/>
+            <SP WIDTH="4" VPOS="741" HPOS="284"/>
+            <String CONTENT="can" HEIGHT="21" WIDTH="28" VPOS="741" HPOS="296" WC="1"/>
+            <SP WIDTH="4" VPOS="741" HPOS="325"/>
+            <String CONTENT="be" HEIGHT="21" WIDTH="21" VPOS="741" HPOS="334" WC="1"/>
+            <SP WIDTH="4" VPOS="741" HPOS="355"/>
+            <String CONTENT="manipulated" HEIGHT="21" WIDTH="110" VPOS="741" HPOS="362" WC="1"/>
+            <SP WIDTH="4" VPOS="741" HPOS="472"/>
+            <String CONTENT="by" HEIGHT="21" WIDTH="20" VPOS="741" HPOS="482" WC="1"/>
+            <SP WIDTH="4" VPOS="741" HPOS="502"/>
+            <String CONTENT="tuning" HEIGHT="21" WIDTH="56" VPOS="741" HPOS="511" WC="1"/>
+            <SP WIDTH="4" VPOS="741" HPOS="568"/>
+            <String CONTENT="mag-" HEIGHT="21" WIDTH="44" VPOS="741" HPOS="577" WC="1"/>
+          </TextLine>
+          <TextLine ID="line_r000-l033" BASELINE="781" VPOS="763" HPOS="106" HEIGHT="23" WIDTH="517">
+            <String CONTENT="netic" HEIGHT="21" WIDTH="41" VPOS="763" HPOS="111" WC="1"/>
+            <SP WIDTH="4" VPOS="763" HPOS="153"/>
+            <String CONTENT="fields" HEIGHT="21" WIDTH="46" VPOS="763" HPOS="163" WC="1"/>
+            <SP WIDTH="4" VPOS="763" HPOS="209"/>
+            <String CONTENT="near" HEIGHT="21" WIDTH="37" VPOS="763" HPOS="222" WC="1"/>
+            <SP WIDTH="4" VPOS="763" HPOS="259"/>
+            <String CONTENT="Feshbach" HEIGHT="21" WIDTH="77" VPOS="763" HPOS="273" WC="1"/>
+            <SP WIDTH="4" VPOS="763" HPOS="350"/>
+            <String CONTENT="resonance," HEIGHT="21" WIDTH="95" VPOS="763" HPOS="365" WC="1"/>
+            <SP WIDTH="4" VPOS="763" HPOS="461"/>
+            <String CONTENT="which" HEIGHT="21" WIDTH="48" VPOS="763" HPOS="470" WC="1"/>
+            <SP WIDTH="4" VPOS="763" HPOS="519"/>
+            <String CONTENT="is" HEIGHT="21" WIDTH="13" VPOS="763" HPOS="532" WC="1"/>
+            <SP WIDTH="4" VPOS="763" HPOS="546"/>
+            <String CONTENT="charac-" HEIGHT="21" WIDTH="66" VPOS="763" HPOS="556" WC="1"/>
+          </TextLine>
+          <TextLine ID="line_r000-l035" BASELINE="806" VPOS="788" HPOS="106" HEIGHT="22" WIDTH="517">
+            <String CONTENT="terized" HEIGHT="21" WIDTH="57" VPOS="789" HPOS="109" WC="1"/>
+            <SP WIDTH="4" VPOS="789" HPOS="167"/>
+            <String CONTENT="by" HEIGHT="21" WIDTH="17" VPOS="789" HPOS="180" WC="1"/>
+            <SP WIDTH="4" VPOS="789" HPOS="198"/>
+            <String CONTENT="a" HEIGHT="21" WIDTH="6" VPOS="789" HPOS="210" WC="1"/>
+            <SP WIDTH="4" VPOS="789" HPOS="216"/>
+            <String CONTENT="detuning" HEIGHT="21" WIDTH="74" VPOS="789" HPOS="230" WC="1"/>
+            <SP WIDTH="4" VPOS="789" HPOS="305"/>
+            <String CONTENT="energy" HEIGHT="21" WIDTH="56" VPOS="789" HPOS="315" WC="1"/>
+            <SP WIDTH="4" VPOS="789" HPOS="371"/>
+            <String CONTENT="between" HEIGHT="21" WIDTH="71" VPOS="789" HPOS="383" WC="1"/>
+            <SP WIDTH="4" VPOS="789" HPOS="454"/>
+            <String CONTENT="the" HEIGHT="21" WIDTH="28" VPOS="789" HPOS="465" WC="1"/>
+            <SP WIDTH="4" VPOS="789" HPOS="493"/>
+            <String CONTENT="close" HEIGHT="21" WIDTH="41" VPOS="788" HPOS="502" WC="1"/>
+            <SP WIDTH="4" VPOS="788" HPOS="544"/>
+            <String CONTENT="channel" HEIGHT="21" WIDTH="69" VPOS="788" HPOS="553" WC="1"/>
+          </TextLine>
+          <TextLine ID="line_r000-l037" BASELINE="829" VPOS="812" HPOS="106" HEIGHT="21" WIDTH="515">
+            <String CONTENT="bound" HEIGHT="21" WIDTH="52" VPOS="812" HPOS="111" WC="1"/>
+            <SP WIDTH="4" VPOS="812" HPOS="163"/>
+            <String CONTENT="state" HEIGHT="21" WIDTH="41" VPOS="812" HPOS="172" WC="1"/>
+            <SP WIDTH="4" VPOS="812" HPOS="214"/>
+            <String CONTENT="energy" HEIGHT="21" WIDTH="56" VPOS="812" HPOS="222" WC="1"/>
+            <SP WIDTH="4" VPOS="812" HPOS="278"/>
+            <String CONTENT="and" HEIGHT="21" WIDTH="29" VPOS="812" HPOS="285" WC="1"/>
+            <SP WIDTH="4" VPOS="812" HPOS="314"/>
+            <String CONTENT="the" HEIGHT="21" WIDTH="29" VPOS="812" HPOS="322" WC="1"/>
+            <SP WIDTH="4" VPOS="812" HPOS="352"/>
+            <String CONTENT="open" HEIGHT="21" WIDTH="37" VPOS="812" HPOS="360" WC="1"/>
+            <SP WIDTH="4" VPOS="812" HPOS="397"/>
+            <String CONTENT="channel" HEIGHT="21" WIDTH="70" VPOS="812" HPOS="407" WC="1"/>
+            <SP WIDTH="4" VPOS="812" HPOS="478"/>
+            <String CONTENT="collision" HEIGHT="21" WIDTH="68" VPOS="812" HPOS="480" WC="1"/>
+            <SP WIDTH="4" VPOS="812" HPOS="549"/>
+            <String CONTENT="thresh-" HEIGHT="21" WIDTH="62" VPOS="812" HPOS="557" WC="1"/>
+          </TextLine>
+          <TextLine ID="line_r000-l039" BASELINE="853" VPOS="836" HPOS="106" HEIGHT="23" WIDTH="517">
+            <String CONTENT="old." HEIGHT="21" WIDTH="34" VPOS="835" HPOS="111" WC="1"/>
+            <SP WIDTH="4" VPOS="835" HPOS="145"/>
+            <String CONTENT="A" HEIGHT="21" WIDTH="6" VPOS="835" HPOS="161" WC="1"/>
+            <SP WIDTH="4" VPOS="835" HPOS="168"/>
+            <String CONTENT="positive" HEIGHT="21" WIDTH="70" VPOS="835" HPOS="181" WC="1"/>
+            <SP WIDTH="4" VPOS="835" HPOS="251"/>
+            <String CONTENT="detuning" HEIGHT="21" WIDTH="75" VPOS="835" HPOS="262" WC="1"/>
+            <SP WIDTH="4" VPOS="835" HPOS="338"/>
+            <String CONTENT="leads" HEIGHT="21" WIDTH="44" VPOS="835" HPOS="350" WC="1"/>
+            <SP WIDTH="4" VPOS="835" HPOS="394"/>
+            <String CONTENT="to" HEIGHT="21" WIDTH="14" VPOS="835" HPOS="404" WC="1"/>
+            <SP WIDTH="4" VPOS="835" HPOS="419"/>
+            <String CONTENT="a" HEIGHT="21" WIDTH="6" VPOS="835" HPOS="431" WC="1"/>
+            <SP WIDTH="4" VPOS="835" HPOS="438"/>
+            <String CONTENT="negative" HEIGHT="21" WIDTH="72" VPOS="835" HPOS="451" WC="1"/>
+            <SP WIDTH="4" VPOS="835" HPOS="524"/>
+            <String CONTENT="scattering" HEIGHT="22" WIDTH="87" VPOS="836" HPOS="532" WC="1"/>
+          </TextLine>
+          <TextLine ID="line_r000-l041" BASELINE="876" VPOS="860" HPOS="106" HEIGHT="21" WIDTH="515">
+            <String CONTENT="length," HEIGHT="21" WIDTH="64" VPOS="859" HPOS="110" WC="1"/>
+            <SP WIDTH="4" VPOS="859" HPOS="174"/>
+            <String CONTENT="in" HEIGHT="21" WIDTH="13" VPOS="859" HPOS="181" WC="1"/>
+            <SP WIDTH="4" VPOS="859" HPOS="195"/>
+            <String CONTENT="this" HEIGHT="21" WIDTH="32" VPOS="859" HPOS="208" WC="1"/>
+            <SP WIDTH="4" VPOS="859" HPOS="240"/>
+            <String CONTENT="regime" HEIGHT="21" WIDTH="59" VPOS="859" HPOS="251" WC="1"/>
+            <SP WIDTH="4" VPOS="859" HPOS="311"/>
+            <String CONTENT="paired" HEIGHT="21" WIDTH="51" VPOS="859" HPOS="323" WC="1"/>
+            <SP WIDTH="4" VPOS="859" HPOS="374"/>
+            <String CONTENT="atoms" HEIGHT="21" WIDTH="52" VPOS="859" HPOS="389" WC="1"/>
+            <SP WIDTH="4" VPOS="859" HPOS="441"/>
+            <String CONTENT="are" HEIGHT="21" WIDTH="25" VPOS="859" HPOS="452" WC="1"/>
+            <SP WIDTH="4" VPOS="859" HPOS="478"/>
+            <String CONTENT="loosely" HEIGHT="21" WIDTH="59" VPOS="859" HPOS="487" WC="1"/>
+            <SP WIDTH="4" VPOS="859" HPOS="547"/>
+            <String CONTENT="bound." HEIGHT="21" WIDTH="62" VPOS="859" HPOS="557" WC="1"/>
+          </TextLine>
+          <TextLine ID="line_r000-l043" BASELINE="900" VPOS="884" HPOS="106" HEIGHT="21" WIDTH="516">
+            <String CONTENT="Upon" HEIGHT="21" WIDTH="41" VPOS="884" HPOS="114" WC="1"/>
+            <SP WIDTH="4" VPOS="884" HPOS="155"/>
+            <String CONTENT="negative" HEIGHT="21" WIDTH="74" VPOS="884" HPOS="168" WC="1"/>
+            <SP WIDTH="4" VPOS="884" HPOS="243"/>
+            <String CONTENT="detuning," HEIGHT="21" WIDTH="86" VPOS="884" HPOS="252" WC="1"/>
+            <SP WIDTH="4" VPOS="884" HPOS="339"/>
+            <String CONTENT="the" HEIGHT="21" WIDTH="28" VPOS="884" HPOS="346" WC="1"/>
+            <SP WIDTH="4" VPOS="884" HPOS="374"/>
+            <String CONTENT="scattering" HEIGHT="21" WIDTH="86" VPOS="884" HPOS="383" WC="1"/>
+            <SP WIDTH="4" VPOS="884" HPOS="470"/>
+            <String CONTENT="length" HEIGHT="21" WIDTH="52" VPOS="884" HPOS="482" WC="1"/>
+            <SP WIDTH="4" VPOS="884" HPOS="534"/>
+            <String CONTENT="becomes" HEIGHT="21" WIDTH="74" VPOS="884" HPOS="547" WC="1"/>
+          </TextLine>
+          <TextLine ID="line_r000-l045" BASELINE="924" VPOS="907" HPOS="106" HEIGHT="23" WIDTH="516">
+            <String CONTENT="positive" HEIGHT="21" WIDTH="67" VPOS="908" HPOS="111" WC="1"/>
+            <SP WIDTH="4" VPOS="908" HPOS="179"/>
+            <String CONTENT="and" HEIGHT="21" WIDTH="29" VPOS="908" HPOS="192" WC="1"/>
+            <SP WIDTH="4" VPOS="908" HPOS="222"/>
+            <String CONTENT="atoms" HEIGHT="21" WIDTH="52" VPOS="907" HPOS="235" WC="1"/>
+            <SP WIDTH="4" VPOS="907" HPOS="288"/>
+            <String CONTENT="can" HEIGHT="21" WIDTH="25" VPOS="907" HPOS="302" WC="1"/>
+            <SP WIDTH="4" VPOS="907" HPOS="327"/>
+            <String CONTENT="form" HEIGHT="21" WIDTH="33" VPOS="907" HPOS="341" WC="1"/>
+            <SP WIDTH="4" VPOS="907" HPOS="375"/>
+            <String CONTENT="bound" HEIGHT="21" WIDTH="51" VPOS="907" HPOS="398" WC="1"/>
+            <SP WIDTH="4" VPOS="907" HPOS="449"/>
+            <String CONTENT="molecules," HEIGHT="21" WIDTH="92" VPOS="907" HPOS="465" WC="1"/>
+            <SP WIDTH="4" VPOS="907" HPOS="558"/>
+            <String CONTENT="which" HEIGHT="21" WIDTH="47" VPOS="907" HPOS="570" WC="1"/>
+          </TextLine>
+          <TextLine ID="line_r000-l047" BASELINE="948" VPOS="931" HPOS="106" HEIGHT="23" WIDTH="516">
+            <String CONTENT="could" HEIGHT="21" WIDTH="45" VPOS="931" HPOS="111" WC="1.0"/>
+            <SP WIDTH="4" VPOS="931" HPOS="156"/>
+            <String CONTENT="further" HEIGHT="21" WIDTH="64" VPOS="931" HPOS="163" WC="1.0"/>
+            <SP WIDTH="4" VPOS="931" HPOS="227"/>
+            <String CONTENT="condense" HEIGHT="21" WIDTH="77" VPOS="930" HPOS="235" WC="1.0"/>
+            <SP WIDTH="4" VPOS="930" HPOS="313"/>
+            <String CONTENT="into" HEIGHT="21" WIDTH="34" VPOS="930" HPOS="321" WC="1.0"/>
+            <SP WIDTH="4" VPOS="930" HPOS="355"/>
+            <String CONTENT="a" HEIGHT="21" WIDTH="6" VPOS="930" HPOS="365" WC="1.0"/>
+            <SP WIDTH="4" VPOS="930" HPOS="372"/>
+            <String CONTENT="BEC" HEIGHT="21" WIDTH="38" VPOS="930" HPOS="381" WC="1.0"/>
+            <SP WIDTH="4" VPOS="930" HPOS="419"/>
+            <String CONTENT="state." HEIGHT="21" WIDTH="53" VPOS="930" HPOS="429" WC="1.0"/>
+            <SP WIDTH="4" VPOS="930" HPOS="482"/>
+            <String CONTENT="Unlike" HEIGHT="21" WIDTH="55" VPOS="930" HPOS="492" WC="1.0"/>
+            <SP WIDTH="4" VPOS="930" HPOS="548"/>
+            <String CONTENT="bosonic" HEIGHT="21" WIDTH="66" VPOS="930" HPOS="555" WC="1.0"/>
+          </TextLine>
+          <TextLine ID="line_r000-l049" BASELINE="972" VPOS="955" HPOS="106" HEIGHT="23" WIDTH="516">
+            <String CONTENT="molecules," HEIGHT="22" WIDTH="92" VPOS="955" HPOS="111" WC="1"/>
+            <SP WIDTH="4" VPOS="955" HPOS="203"/>
+            <String CONTENT="the" HEIGHT="22" WIDTH="27" VPOS="955" HPOS="209" WC="1"/>
+            <SP WIDTH="4" VPOS="955" HPOS="237"/>
+            <String CONTENT="statistics" HEIGHT="22" WIDTH="80" VPOS="955" HPOS="242" WC="1"/>
+            <SP WIDTH="4" VPOS="955" HPOS="322"/>
+            <String CONTENT="of" HEIGHT="21" WIDTH="15" VPOS="955" HPOS="332" WC="1"/>
+            <SP WIDTH="4" VPOS="955" HPOS="347"/>
+            <String CONTENT="interacting" HEIGHT="22" WIDTH="96" VPOS="955" HPOS="352" WC="1"/>
+            <SP WIDTH="4" VPOS="955" HPOS="449"/>
+            <String CONTENT="fermionic" HEIGHT="22" WIDTH="82" VPOS="954" HPOS="457" WC="1"/>
+            <SP WIDTH="4" VPOS="954" HPOS="540"/>
+            <String CONTENT="atoms" HEIGHT="22" WIDTH="52" VPOS="954" HPOS="550" WC="1"/>
+            <SP WIDTH="4" VPOS="954" HPOS="602"/>
+            <String CONTENT="is" HEIGHT="22" WIDTH="13" VPOS="954" HPOS="608" WC="1"/>
+          </TextLine>
+          <TextLine ID="line_r000-l051" BASELINE="996" VPOS="979" HPOS="106" HEIGHT="23" WIDTH="516">
+            <String CONTENT="dictated" HEIGHT="22" WIDTH="69" VPOS="978" HPOS="111" WC="1"/>
+            <SP WIDTH="4" VPOS="978" HPOS="180"/>
+            <String CONTENT="by" HEIGHT="21" WIDTH="20" VPOS="979" HPOS="190" WC="1"/>
+            <SP WIDTH="4" VPOS="979" HPOS="210"/>
+            <String CONTENT="Pauli" HEIGHT="21" WIDTH="46" VPOS="979" HPOS="219" WC="1"/>
+            <SP WIDTH="4" VPOS="979" HPOS="266"/>
+            <String CONTENT="exclusion" HEIGHT="21" WIDTH="77" VPOS="980" HPOS="274" WC="1"/>
+            <SP WIDTH="4" VPOS="980" HPOS="351"/>
+            <String CONTENT="principle," HEIGHT="21" WIDTH="87" VPOS="979" HPOS="361" WC="1"/>
+            <SP WIDTH="4" VPOS="979" HPOS="448"/>
+            <String CONTENT="the" HEIGHT="21" WIDTH="27" VPOS="979" HPOS="452" WC="1"/>
+            <SP WIDTH="4" VPOS="979" HPOS="479"/>
+            <String CONTENT="ground" HEIGHT="22" WIDTH="59" VPOS="979" HPOS="488" WC="1"/>
+            <SP WIDTH="4" VPOS="979" HPOS="548"/>
+            <String CONTENT="state" HEIGHT="22" WIDTH="42" VPOS="978" HPOS="558" WC="1"/>
+            <SP WIDTH="4" VPOS="978" HPOS="600"/>
+            <String CONTENT="is" HEIGHT="21" WIDTH="13" VPOS="978" HPOS="608" WC="1"/>
+          </TextLine>
+          <TextLine ID="line_r000-l053" BASELINE="1019" VPOS="1001" HPOS="106" HEIGHT="23" WIDTH="516">
+            <String CONTENT="thus" HEIGHT="21" WIDTH="38" VPOS="1001" HPOS="110" WC="1"/>
+            <SP WIDTH="4" VPOS="1001" HPOS="148"/>
+            <String CONTENT="made" HEIGHT="21" WIDTH="46" VPOS="1002" HPOS="157" WC="1"/>
+            <SP WIDTH="4" VPOS="1002" HPOS="203"/>
+            <String CONTENT="up" HEIGHT="21" WIDTH="17" VPOS="1002" HPOS="213" WC="1"/>
+            <SP WIDTH="4" VPOS="1002" HPOS="231"/>
+            <String CONTENT="of" HEIGHT="21" WIDTH="16" VPOS="1002" HPOS="244" WC="1"/>
+            <SP WIDTH="4" VPOS="1002" HPOS="261"/>
+            <String CONTENT="a" HEIGHT="21" WIDTH="6" VPOS="1002" HPOS="270" WC="1"/>
+            <SP WIDTH="4" VPOS="1002" HPOS="277"/>
+            <String CONTENT="large" HEIGHT="21" WIDTH="42" VPOS="1002" HPOS="286" WC="1"/>
+            <SP WIDTH="4" VPOS="1002" HPOS="329"/>
+            <String CONTENT="number" HEIGHT="21" WIDTH="66" VPOS="1002" HPOS="339" WC="1"/>
+            <SP WIDTH="4" VPOS="1002" HPOS="406"/>
+            <String CONTENT="of" HEIGHT="21" WIDTH="16" VPOS="1003" HPOS="416" WC="1"/>
+            <SP WIDTH="4" VPOS="1003" HPOS="432"/>
+            <String CONTENT="modes," HEIGHT="21" WIDTH="62" VPOS="1003" HPOS="441" WC="1"/>
+            <SP WIDTH="4" VPOS="1003" HPOS="504"/>
+            <String CONTENT="even" HEIGHT="21" WIDTH="34" VPOS="1002" HPOS="512" WC="1"/>
+            <SP WIDTH="4" VPOS="1002" HPOS="546"/>
+            <String CONTENT="at" HEIGHT="21" WIDTH="16" VPOS="1002" HPOS="560" WC="1"/>
+            <SP WIDTH="4" VPOS="1002" HPOS="576"/>
+            <String CONTENT="zero" HEIGHT="21" WIDTH="34" VPOS="1002" HPOS="586" WC="1"/>
+          </TextLine>
+          <TextLine ID="line_r000-l055" BASELINE="1043" VPOS="1025" HPOS="106" HEIGHT="23" WIDTH="517">
+            <String CONTENT="temperature." HEIGHT="22" WIDTH="119" VPOS="1026" HPOS="109" WC="1"/>
+            <SP WIDTH="4" VPOS="1026" HPOS="229"/>
+            <String CONTENT="One" HEIGHT="21" WIDTH="33" VPOS="1026" HPOS="241" WC="1"/>
+            <SP WIDTH="4" VPOS="1026" HPOS="275"/>
+            <String CONTENT="usually" HEIGHT="21" WIDTH="62" VPOS="1026" HPOS="284" WC="1"/>
+            <SP WIDTH="4" VPOS="1026" HPOS="346"/>
+            <String CONTENT="uses" HEIGHT="21" WIDTH="34" VPOS="1026" HPOS="357" WC="1"/>
+            <SP WIDTH="4" VPOS="1026" HPOS="392"/>
+            <String CONTENT="a" HEIGHT="21" WIDTH="6" VPOS="1026" HPOS="402" WC="1"/>
+            <SP WIDTH="4" VPOS="1026" HPOS="409"/>
+            <String CONTENT="BCS" HEIGHT="22" WIDTH="37" VPOS="1026" HPOS="420" WC="1"/>
+            <SP WIDTH="4" VPOS="1026" HPOS="458"/>
+            <String CONTENT="state" HEIGHT="22" WIDTH="45" VPOS="1026" HPOS="467" WC="1"/>
+            <SP WIDTH="4" VPOS="1026" HPOS="513"/>
+            <String CONTENT="to" HEIGHT="22" WIDTH="16" VPOS="1026" HPOS="519" WC="1"/>
+            <SP WIDTH="4" VPOS="1026" HPOS="536"/>
+            <String CONTENT="approxi-" HEIGHT="22" WIDTH="75" VPOS="1025" HPOS="547" WC="1"/>
+          </TextLine>
+          <TextLine ID="line_r000-l057" BASELINE="1067" VPOS="1050" HPOS="106" HEIGHT="21" WIDTH="518">
+            <String CONTENT="mate" HEIGHT="21" WIDTH="42" VPOS="1050" HPOS="111" WC="1"/>
+            <SP WIDTH="4" VPOS="1050" HPOS="153"/>
+            <String CONTENT="the" HEIGHT="21" WIDTH="28" VPOS="1050" HPOS="163" WC="1"/>
+            <SP WIDTH="4" VPOS="1050" HPOS="191"/>
+            <String CONTENT="ground" HEIGHT="21" WIDTH="59" VPOS="1050" HPOS="201" WC="1"/>
+            <SP WIDTH="4" VPOS="1050" HPOS="260"/>
+            <String CONTENT="state" HEIGHT="21" WIDTH="42" VPOS="1050" HPOS="271" WC="1"/>
+            <SP WIDTH="4" VPOS="1050" HPOS="314"/>
+            <String CONTENT="at" HEIGHT="21" WIDTH="14" VPOS="1050" HPOS="326" WC="1"/>
+            <SP WIDTH="4" VPOS="1050" HPOS="341"/>
+            <String CONTENT="which" HEIGHT="21" WIDTH="46" VPOS="1050" HPOS="353" WC="1"/>
+            <SP WIDTH="4" VPOS="1050" HPOS="399"/>
+            <String CONTENT="fermions" HEIGHT="21" WIDTH="76" VPOS="1050" HPOS="411" WC="1"/>
+            <SP WIDTH="4" VPOS="1050" HPOS="488"/>
+            <String CONTENT="are" HEIGHT="21" WIDTH="25" VPOS="1050" HPOS="498" WC="1"/>
+            <SP WIDTH="4" VPOS="1050" HPOS="524"/>
+            <String CONTENT="paired" HEIGHT="21" WIDTH="51" VPOS="1050" HPOS="535" WC="1"/>
+            <SP WIDTH="4" VPOS="1050" HPOS="587"/>
+            <String CONTENT="up" HEIGHT="21" WIDTH="17" VPOS="1050" HPOS="599" WC="1"/>
+          </TextLine>
+          <TextLine ID="line_r000-l059" BASELINE="1091" VPOS="1074" HPOS="106" HEIGHT="21" WIDTH="518">
+            <String CONTENT="according" HEIGHT="21" WIDTH="83" VPOS="1073" HPOS="111" WC="1"/>
+            <SP WIDTH="4" VPOS="1073" HPOS="194"/>
+            <String CONTENT="to" HEIGHT="21" WIDTH="14" VPOS="1073" HPOS="201" WC="1"/>
+            <SP WIDTH="4" VPOS="1073" HPOS="216"/>
+            <String CONTENT="their" HEIGHT="21" WIDTH="42" VPOS="1073" HPOS="224" WC="1"/>
+            <SP WIDTH="4" VPOS="1073" HPOS="266"/>
+            <String CONTENT="natural" HEIGHT="21" WIDTH="65" VPOS="1073" HPOS="275" WC="1"/>
+            <SP WIDTH="4" VPOS="1073" HPOS="340"/>
+            <String CONTENT="orbits" HEIGHT="21" WIDTH="49" VPOS="1073" HPOS="345" WC="1"/>
+            <SP WIDTH="4" VPOS="1073" HPOS="394"/>
+            <String CONTENT="[6]." HEIGHT="21" WIDTH="29" VPOS="1073" HPOS="400" WC="1"/>
+            <SP WIDTH="4" VPOS="1073" HPOS="430"/>
+            <String CONTENT="This" HEIGHT="21" WIDTH="38" VPOS="1073" HPOS="439" WC="1"/>
+            <SP WIDTH="4" VPOS="1073" HPOS="478"/>
+            <String CONTENT="is" HEIGHT="21" WIDTH="12" VPOS="1073" HPOS="484" WC="1"/>
+            <SP WIDTH="4" VPOS="1073" HPOS="497"/>
+            <String CONTENT="very" HEIGHT="21" WIDTH="34" VPOS="1073" HPOS="505" WC="1"/>
+            <SP WIDTH="4" VPOS="1073" HPOS="539"/>
+            <String CONTENT="different" HEIGHT="21" WIDTH="72" VPOS="1073" HPOS="549" WC="1"/>
+          </TextLine>
+          <TextLine ID="line_r000-l061" BASELINE="1115" VPOS="1098" HPOS="106" HEIGHT="23" WIDTH="518">
+            <String CONTENT="from" HEIGHT="21" WIDTH="34" VPOS="1097" HPOS="109" WC="1"/>
+            <SP WIDTH="4" VPOS="1097" HPOS="144"/>
+            <String CONTENT="BEC" HEIGHT="21" WIDTH="35" VPOS="1097" HPOS="164" WC="1"/>
+            <SP WIDTH="4" VPOS="1097" HPOS="199"/>
+            <String CONTENT="formed" HEIGHT="21" WIDTH="59" VPOS="1097" HPOS="212" WC="1"/>
+            <SP WIDTH="4" VPOS="1097" HPOS="272"/>
+            <String CONTENT="by" HEIGHT="21" WIDTH="19" VPOS="1097" HPOS="284" WC="1"/>
+            <SP WIDTH="4" VPOS="1097" HPOS="303"/>
+            <String CONTENT="pure" HEIGHT="21" WIDTH="38" VPOS="1097" HPOS="316" WC="1"/>
+            <SP WIDTH="4" VPOS="1097" HPOS="354"/>
+            <String CONTENT="bosons" HEIGHT="21" WIDTH="61" VPOS="1097" HPOS="363" WC="1"/>
+            <SP WIDTH="4" VPOS="1097" HPOS="424"/>
+            <String CONTENT="at" HEIGHT="21" WIDTH="14" VPOS="1097" HPOS="433" WC="1"/>
+            <SP WIDTH="4" VPOS="1097" HPOS="448"/>
+            <String CONTENT="zero" HEIGHT="21" WIDTH="33" VPOS="1098" HPOS="461" WC="1"/>
+            <SP WIDTH="4" VPOS="1098" HPOS="494"/>
+            <String CONTENT="temperature," HEIGHT="22" WIDTH="120" VPOS="1098" HPOS="504" WC="1"/>
+          </TextLine>
+          <TextLine ID="line_r000-l063" BASELINE="1139" VPOS="1122" HPOS="106" HEIGHT="23" WIDTH="517">
+            <String CONTENT="which" HEIGHT="21" WIDTH="46" VPOS="1121" HPOS="111" WC="1"/>
+            <SP WIDTH="4" VPOS="1121" HPOS="157"/>
+            <String CONTENT="is" HEIGHT="21" WIDTH="13" VPOS="1121" HPOS="169" WC="1"/>
+            <SP WIDTH="4" VPOS="1121" HPOS="183"/>
+            <String CONTENT="well" HEIGHT="21" WIDTH="36" VPOS="1121" HPOS="192" WC="1"/>
+            <SP WIDTH="4" VPOS="1121" HPOS="229"/>
+            <String CONTENT="described" HEIGHT="21" WIDTH="80" VPOS="1121" HPOS="236" WC="1"/>
+            <SP WIDTH="4" VPOS="1121" HPOS="316"/>
+            <String CONTENT="by" HEIGHT="21" WIDTH="16" VPOS="1121" HPOS="328" WC="1"/>
+            <SP WIDTH="4" VPOS="1121" HPOS="344"/>
+            <String CONTENT="a" HEIGHT="21" WIDTH="6" VPOS="1121" HPOS="357" WC="1"/>
+            <SP WIDTH="4" VPOS="1121" HPOS="363"/>
+            <String CONTENT="single" HEIGHT="21" WIDTH="51" VPOS="1121" HPOS="373" WC="1"/>
+            <SP WIDTH="4" VPOS="1121" HPOS="424"/>
+            <String CONTENT="mode" HEIGHT="21" WIDTH="46" VPOS="1121" HPOS="434" WC="1"/>
+            <SP WIDTH="4" VPOS="1121" HPOS="480"/>
+            <String CONTENT="wave" HEIGHT="21" WIDTH="43" VPOS="1122" HPOS="490" WC="1"/>
+            <SP WIDTH="4" VPOS="1122" HPOS="533"/>
+            <String CONTENT="function." HEIGHT="22" WIDTH="82" VPOS="1122" HPOS="540" WC="1"/>
+          </TextLine>
+          <TextLine ID="line_r000-l064" BASELINE="1163" VPOS="1146" HPOS="108" HEIGHT="21" WIDTH="515">
+            <String CONTENT="We" HEIGHT="21" WIDTH="25" VPOS="1145" HPOS="113" WC="1"/>
+            <SP WIDTH="4" VPOS="1145" HPOS="138"/>
+            <String CONTENT="may" HEIGHT="21" WIDTH="33" VPOS="1145" HPOS="150" WC="1"/>
+            <SP WIDTH="4" VPOS="1145" HPOS="184"/>
+            <String CONTENT="however" HEIGHT="21" WIDTH="71" VPOS="1145" HPOS="197" WC="1"/>
+            <SP WIDTH="4" VPOS="1145" HPOS="269"/>
+            <String CONTENT="expect," HEIGHT="21" WIDTH="64" VPOS="1145" HPOS="281" WC="1"/>
+            <SP WIDTH="4" VPOS="1145" HPOS="345"/>
+            <String CONTENT="upon" HEIGHT="21" WIDTH="40" VPOS="1145" HPOS="356" WC="1"/>
+            <SP WIDTH="4" VPOS="1145" HPOS="396"/>
+            <String CONTENT="a" HEIGHT="21" WIDTH="6" VPOS="1145" HPOS="412" WC="1"/>
+            <SP WIDTH="4" VPOS="1145" HPOS="419"/>
+            <String CONTENT="strong" HEIGHT="21" WIDTH="53" VPOS="1145" HPOS="431" WC="1"/>
+            <SP WIDTH="4" VPOS="1145" HPOS="485"/>
+            <String CONTENT="enough" HEIGHT="21" WIDTH="60" VPOS="1145" HPOS="498" WC="1"/>
+            <SP WIDTH="4" VPOS="1145" HPOS="558"/>
+            <String CONTENT="inter-" HEIGHT="21" WIDTH="48" VPOS="1145" HPOS="573" WC="1"/>
+          </TextLine>
+          <TextLine ID="line_r000-l066" BASELINE="1186" VPOS="1169" HPOS="106" HEIGHT="22" WIDTH="518">
+            <String CONTENT="action," HEIGHT="21" WIDTH="62" VPOS="1169" HPOS="111" WC="1"/>
+            <SP WIDTH="4" VPOS="1169" HPOS="173"/>
+            <String CONTENT="paired" HEIGHT="21" WIDTH="51" VPOS="1169" HPOS="180" WC="1"/>
+            <SP WIDTH="4" VPOS="1169" HPOS="232"/>
+            <String CONTENT="fermionic" HEIGHT="21" WIDTH="83" VPOS="1170" HPOS="241" WC="1"/>
+            <SP WIDTH="4" VPOS="1170" HPOS="325"/>
+            <String CONTENT="atoms" HEIGHT="21" WIDTH="50" VPOS="1170" HPOS="335" WC="1"/>
+            <SP WIDTH="4" VPOS="1170" HPOS="386"/>
+            <String CONTENT="become" HEIGHT="21" WIDTH="66" VPOS="1170" HPOS="395" WC="1"/>
+            <SP WIDTH="4" VPOS="1170" HPOS="461"/>
+            <String CONTENT="so" HEIGHT="21" WIDTH="14" VPOS="1170" HPOS="470" WC="1"/>
+            <SP WIDTH="4" VPOS="1170" HPOS="485"/>
+            <String CONTENT="tightly" HEIGHT="21" WIDTH="55" VPOS="1170" HPOS="497" WC="1"/>
+            <SP WIDTH="4" VPOS="1170" HPOS="553"/>
+            <String CONTENT="bound" HEIGHT="21" WIDTH="53" VPOS="1170" HPOS="565" WC="1"/>
+          </TextLine>
+          <TextLine ID="line_r000-l068" BASELINE="1210" VPOS="1192" HPOS="106" HEIGHT="23" WIDTH="517">
+            <String CONTENT="that" HEIGHT="21" WIDTH="37" VPOS="1192" HPOS="110" WC="1"/>
+            <SP WIDTH="4" VPOS="1192" HPOS="147"/>
+            <String CONTENT="they" HEIGHT="21" WIDTH="36" VPOS="1193" HPOS="154" WC="1"/>
+            <SP WIDTH="4" VPOS="1193" HPOS="191"/>
+            <String CONTENT="look" HEIGHT="21" WIDTH="33" VPOS="1193" HPOS="200" WC="1"/>
+            <SP WIDTH="4" VPOS="1193" HPOS="234"/>
+            <String CONTENT="just" HEIGHT="21" WIDTH="35" VPOS="1193" HPOS="243" WC="1"/>
+            <SP WIDTH="4" VPOS="1193" HPOS="278"/>
+            <String CONTENT="like" HEIGHT="21" WIDTH="32" VPOS="1193" HPOS="285" WC="1"/>
+            <SP WIDTH="4" VPOS="1193" HPOS="317"/>
+            <String CONTENT="bosons" HEIGHT="21" WIDTH="59" VPOS="1194" HPOS="324" WC="1"/>
+            <SP WIDTH="4" VPOS="1194" HPOS="384"/>
+            <String CONTENT="[7]." HEIGHT="21" WIDTH="31" VPOS="1194" HPOS="390" WC="1"/>
+            <SP WIDTH="4" VPOS="1194" HPOS="421"/>
+            <String CONTENT="In" HEIGHT="21" WIDTH="15" VPOS="1194" HPOS="428" WC="1"/>
+            <SP WIDTH="4" VPOS="1194" HPOS="443"/>
+            <String CONTENT="that" HEIGHT="21" WIDTH="37" VPOS="1194" HPOS="454" WC="1"/>
+            <SP WIDTH="4" VPOS="1194" HPOS="492"/>
+            <String CONTENT="case," HEIGHT="21" WIDTH="44" VPOS="1194" HPOS="498" WC="1"/>
+            <SP WIDTH="4" VPOS="1194" HPOS="543"/>
+            <String CONTENT="one" HEIGHT="21" WIDTH="29" VPOS="1193" HPOS="548" WC="1"/>
+            <SP WIDTH="4" VPOS="1193" HPOS="578"/>
+            <String CONTENT="nat-" HEIGHT="21" WIDTH="36" VPOS="1193" HPOS="586" WC="1"/>
+          </TextLine>
+          <TextLine ID="line_r000-l069" BASELINE="1234" VPOS="1216" HPOS="106" HEIGHT="23" WIDTH="518">
+            <String CONTENT="ural" HEIGHT="21" WIDTH="36" VPOS="1216" HPOS="111" WC="1"/>
+            <SP WIDTH="4" VPOS="1216" HPOS="147"/>
+            <String CONTENT="question" HEIGHT="22" WIDTH="70" VPOS="1217" HPOS="153" WC="1"/>
+            <SP WIDTH="4" VPOS="1217" HPOS="223"/>
+            <String CONTENT="to" HEIGHT="21" WIDTH="17" VPOS="1217" HPOS="231" WC="1"/>
+            <SP WIDTH="4" VPOS="1217" HPOS="249"/>
+            <String CONTENT="ask" HEIGHT="21" WIDTH="25" VPOS="1217" HPOS="258" WC="1"/>
+            <SP WIDTH="4" VPOS="1217" HPOS="284"/>
+            <String CONTENT="is," HEIGHT="21" WIDTH="20" VPOS="1217" HPOS="292" WC="1"/>
+            <SP WIDTH="4" VPOS="1217" HPOS="312"/>
+            <String CONTENT="how" HEIGHT="21" WIDTH="29" VPOS="1218" HPOS="318" WC="1"/>
+            <SP WIDTH="4" VPOS="1218" HPOS="348"/>
+            <String CONTENT="alike" HEIGHT="21" WIDTH="37" VPOS="1218" HPOS="362" WC="1"/>
+            <SP WIDTH="4" VPOS="1218" HPOS="400"/>
+            <String CONTENT="are" HEIGHT="21" WIDTH="25" VPOS="1218" HPOS="407" WC="1"/>
+            <SP WIDTH="4" VPOS="1218" HPOS="433"/>
+            <String CONTENT="a" HEIGHT="21" WIDTH="6" VPOS="1218" HPOS="441" WC="1"/>
+            <SP WIDTH="4" VPOS="1218" HPOS="448"/>
+            <String CONTENT="fermionic" HEIGHT="21" WIDTH="84" VPOS="1218" HPOS="456" WC="1"/>
+            <SP WIDTH="4" VPOS="1218" HPOS="540"/>
+            <String CONTENT="pair" HEIGHT="21" WIDTH="34" VPOS="1217" HPOS="546" WC="1"/>
+            <SP WIDTH="4" VPOS="1217" HPOS="580"/>
+            <String CONTENT="and" HEIGHT="21" WIDTH="30" VPOS="1217" HPOS="588" WC="1"/>
+          </TextLine>
+          <TextLine ID="line_r000-l071" BASELINE="1258" VPOS="1242" HPOS="106" HEIGHT="21" WIDTH="517">
+            <String CONTENT="a" HEIGHT="21" WIDTH="6" VPOS="1241" HPOS="111" WC="1"/>
+            <SP WIDTH="4" VPOS="1241" HPOS="118"/>
+            <String CONTENT="boson?" HEIGHT="21" WIDTH="60" VPOS="1241" HPOS="127" WC="1"/>
+            <SP WIDTH="4" VPOS="1241" HPOS="187"/>
+            <String CONTENT="In" HEIGHT="21" WIDTH="14" VPOS="1241" HPOS="199" WC="1"/>
+            <SP WIDTH="4" VPOS="1241" HPOS="214"/>
+            <String CONTENT="this" HEIGHT="21" WIDTH="30" VPOS="1241" HPOS="224" WC="1"/>
+            <SP WIDTH="4" VPOS="1241" HPOS="255"/>
+            <String CONTENT="paper," HEIGHT="21" WIDTH="58" VPOS="1241" HPOS="265" WC="1"/>
+            <SP WIDTH="4" VPOS="1241" HPOS="323"/>
+            <String CONTENT="we" HEIGHT="21" WIDTH="22" VPOS="1241" HPOS="329" WC="1"/>
+            <SP WIDTH="4" VPOS="1241" HPOS="351"/>
+            <String CONTENT="address" HEIGHT="21" WIDTH="66" VPOS="1241" HPOS="359" WC="1"/>
+            <SP WIDTH="4" VPOS="1241" HPOS="426"/>
+            <String CONTENT="this" HEIGHT="21" WIDTH="32" VPOS="1241" HPOS="433" WC="1"/>
+            <SP WIDTH="4" VPOS="1241" HPOS="465"/>
+            <String CONTENT="question" HEIGHT="21" WIDTH="70" VPOS="1241" HPOS="474" WC="1"/>
+            <SP WIDTH="4" VPOS="1241" HPOS="545"/>
+            <String CONTENT="by" HEIGHT="21" WIDTH="17" VPOS="1241" HPOS="556" WC="1"/>
+            <SP WIDTH="4" VPOS="1241" HPOS="573"/>
+            <String CONTENT="con-" HEIGHT="21" WIDTH="36" VPOS="1241" HPOS="585" WC="1"/>
+          </TextLine>
+          <TextLine ID="line_r000-l072" BASELINE="1282" VPOS="1265" HPOS="106" HEIGHT="22" WIDTH="518">
+            <String CONTENT="structing" HEIGHT="21" WIDTH="77" VPOS="1265" HPOS="109" WC="1"/>
+            <SP WIDTH="4" VPOS="1265" HPOS="187"/>
+            <String CONTENT="a" HEIGHT="21" WIDTH="6" VPOS="1265" HPOS="202" WC="1"/>
+            <SP WIDTH="4" VPOS="1265" HPOS="209"/>
+            <String CONTENT="Cooper" HEIGHT="21" WIDTH="63" VPOS="1265" HPOS="222" WC="1"/>
+            <SP WIDTH="4" VPOS="1265" HPOS="285"/>
+            <String CONTENT="pair" HEIGHT="21" WIDTH="33" VPOS="1265" HPOS="295" WC="1"/>
+            <SP WIDTH="4" VPOS="1265" HPOS="328"/>
+            <String CONTENT="creation" HEIGHT="21" WIDTH="68" VPOS="1265" HPOS="340" WC="1"/>
+            <SP WIDTH="4" VPOS="1265" HPOS="409"/>
+            <String CONTENT="operator" HEIGHT="21" WIDTH="77" VPOS="1265" HPOS="420" WC="1"/>
+            <SP WIDTH="4" VPOS="1265" HPOS="497"/>
+            <String CONTENT="and" HEIGHT="21" WIDTH="29" VPOS="1265" HPOS="507" WC="1"/>
+            <SP WIDTH="4" VPOS="1265" HPOS="536"/>
+            <String CONTENT="examine" HEIGHT="21" WIDTH="71" VPOS="1264" HPOS="550" WC="1"/>
+          </TextLine>
+          <TextLine ID="line_r000-l073" BASELINE="1306" VPOS="1289" HPOS="106" HEIGHT="22" WIDTH="364">
+            <String CONTENT="its" HEIGHT="21" WIDTH="20" VPOS="1289" HPOS="109" WC="1"/>
+            <SP WIDTH="4" VPOS="1289" HPOS="130"/>
+            <String CONTENT="bosonic" HEIGHT="21" WIDTH="65" VPOS="1289" HPOS="140" WC="1"/>
+            <SP WIDTH="4" VPOS="1289" HPOS="206"/>
+            <String CONTENT="properties" HEIGHT="21" WIDTH="89" VPOS="1290" HPOS="214" WC="1"/>
+            <SP WIDTH="4" VPOS="1290" HPOS="304"/>
+            <String CONTENT="across" HEIGHT="21" WIDTH="53" VPOS="1290" HPOS="313" WC="1"/>
+            <SP WIDTH="4" VPOS="1290" HPOS="367"/>
+            <String CONTENT="resonance." HEIGHT="22" WIDTH="94" VPOS="1288" HPOS="375" WC="1"/>
+          </TextLine>
+          <TextLine ID="line_r000-l075" BASELINE="1334" VPOS="1316" HPOS="127" HEIGHT="22" WIDTH="497">
+            <String CONTENT="One" HEIGHT="21" WIDTH="33" VPOS="1316" HPOS="134" WC="1"/>
+            <SP WIDTH="4" VPOS="1316" HPOS="168"/>
+            <String CONTENT="fundamental" HEIGHT="22" WIDTH="114" VPOS="1316" HPOS="177" WC="1"/>
+            <SP WIDTH="4" VPOS="1316" HPOS="292"/>
+            <String CONTENT="feature" HEIGHT="21" WIDTH="61" VPOS="1317" HPOS="300" WC="1"/>
+            <SP WIDTH="4" VPOS="1317" HPOS="362"/>
+            <String CONTENT="that" HEIGHT="21" WIDTH="38" VPOS="1318" HPOS="371" WC="1"/>
+            <SP WIDTH="4" VPOS="1318" HPOS="410"/>
+            <String CONTENT="distinguishes" HEIGHT="21" WIDTH="113" VPOS="1318" HPOS="420" WC="1"/>
+            <SP WIDTH="4" VPOS="1318" HPOS="534"/>
+            <String CONTENT="fermions" HEIGHT="21" WIDTH="73" VPOS="1317" HPOS="546" WC="1"/>
+          </TextLine>
+          <TextLine ID="line_r000-l077" BASELINE="1358" VPOS="1341" HPOS="106" HEIGHT="22" WIDTH="518">
+            <String CONTENT="from" HEIGHT="20" WIDTH="32" VPOS="1342" HPOS="109" WC="1"/>
+            <SP WIDTH="4" VPOS="1342" HPOS="142"/>
+            <String CONTENT="bosons" HEIGHT="20" WIDTH="60" VPOS="1342" HPOS="161" WC="1"/>
+            <SP WIDTH="4" VPOS="1342" HPOS="221"/>
+            <String CONTENT="is" HEIGHT="20" WIDTH="11" VPOS="1342" HPOS="230" WC="1"/>
+            <SP WIDTH="4" VPOS="1342" HPOS="242"/>
+            <String CONTENT="the" HEIGHT="20" WIDTH="27" VPOS="1342" HPOS="254" WC="1"/>
+            <SP WIDTH="4" VPOS="1342" HPOS="281"/>
+            <String CONTENT="commutation" HEIGHT="21" WIDTH="115" VPOS="1341" HPOS="292" WC="1"/>
+            <SP WIDTH="4" VPOS="1341" HPOS="407"/>
+            <String CONTENT="relation" HEIGHT="21" WIDTH="66" VPOS="1341" HPOS="419" WC="1"/>
+            <SP WIDTH="4" VPOS="1341" HPOS="486"/>
+            <String CONTENT="between" HEIGHT="21" WIDTH="69" VPOS="1341" HPOS="498" WC="1"/>
+            <SP WIDTH="4" VPOS="1341" HPOS="567"/>
+            <String CONTENT="their" HEIGHT="21" WIDTH="40" VPOS="1341" HPOS="580" WC="1"/>
+          </TextLine>
+          <TextLine ID="line_r000-l079" BASELINE="1382" VPOS="1364" HPOS="106" HEIGHT="24" WIDTH="518">
+            <String CONTENT="creation" HEIGHT="21" WIDTH="67" VPOS="1366" HPOS="111" WC="1"/>
+            <SP WIDTH="4" VPOS="1366" HPOS="178"/>
+            <String CONTENT="and" HEIGHT="21" WIDTH="29" VPOS="1366" HPOS="194" WC="1"/>
+            <SP WIDTH="4" VPOS="1366" HPOS="223"/>
+            <String CONTENT="annihilation" HEIGHT="21" WIDTH="103" VPOS="1366" HPOS="240" WC="1"/>
+            <SP WIDTH="4" VPOS="1366" HPOS="343"/>
+            <String CONTENT="operators." HEIGHT="21" WIDTH="92" VPOS="1366" HPOS="361" WC="1"/>
+            <SP WIDTH="4" VPOS="1366" HPOS="453"/>
+            <String CONTENT="For" HEIGHT="21" WIDTH="26" VPOS="1365" HPOS="474" WC="1"/>
+            <SP WIDTH="4" VPOS="1365" HPOS="501"/>
+            <String CONTENT="bosons," HEIGHT="21" WIDTH="67" VPOS="1365" HPOS="515" WC="1"/>
+            <SP WIDTH="4" VPOS="1365" HPOS="583"/>
+            <String CONTENT="the" HEIGHT="21" WIDTH="29" VPOS="1365" HPOS="592" WC="1"/>
+          </TextLine>
+          <TextLine ID="line_r000-l081" BASELINE="1406" VPOS="1389" HPOS="106" HEIGHT="23" WIDTH="518">
+            <String CONTENT="commutator" HEIGHT="22" WIDTH="108" VPOS="1389" HPOS="111" WC="1"/>
+            <SP WIDTH="4" VPOS="1389" HPOS="220"/>
+            <String CONTENT="[C,C†]" HEIGHT="21" WIDTH="65" VPOS="1389" HPOS="235" WC="1"/>
+            <SP WIDTH="4" VPOS="1389" HPOS="300"/>
+            <String CONTENT="is" HEIGHT="21" WIDTH="13" VPOS="1389" HPOS="314" WC="1"/>
+            <SP WIDTH="4" VPOS="1389" HPOS="327"/>
+            <String CONTENT="one," HEIGHT="21" WIDTH="36" VPOS="1389" HPOS="342" WC="1"/>
+            <SP WIDTH="4" VPOS="1389" HPOS="379"/>
+            <String CONTENT="while" HEIGHT="21" WIDTH="43" VPOS="1388" HPOS="395" WC="1"/>
+            <SP WIDTH="4" VPOS="1388" HPOS="439"/>
+            <String CONTENT="the" HEIGHT="21" WIDTH="27" VPOS="1388" HPOS="454" WC="1"/>
+            <SP WIDTH="4" VPOS="1388" HPOS="481"/>
+            <String CONTENT="anticommuta-" HEIGHT="21" WIDTH="126" VPOS="1388" HPOS="497" WC="1"/>
+          </TextLine>
+          <TextLine ID="line_r000-l083" BASELINE="1432" VPOS="1414" HPOS="106" HEIGHT="23" WIDTH="518">
+            <String CONTENT="tor" HEIGHT="22" WIDTH="25" VPOS="1415" HPOS="110" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1415" HPOS="135"/>
+            <String CONTENT="C,Ct)" HEIGHT="22" WIDTH="53" VPOS="1415" HPOS="164" WC="0.12"/>
+            <SP WIDTH="4" VPOS="1415" HPOS="217"/>
+            <String CONTENT="is" HEIGHT="22" WIDTH="14" VPOS="1415" HPOS="231" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1415" HPOS="245"/>
+            <String CONTENT="one" HEIGHT="22" WIDTH="30" VPOS="1415" HPOS="257" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1415" HPOS="287"/>
+            <String CONTENT="for" HEIGHT="22" WIDTH="26" VPOS="1415" HPOS="297" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1415" HPOS="324"/>
+            <String CONTENT="fermions." HEIGHT="22" WIDTH="86" VPOS="1415" HPOS="333" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1415" HPOS="420"/>
+            <String CONTENT="For" HEIGHT="22" WIDTH="26" VPOS="1415" HPOS="441" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1415" HPOS="468"/>
+            <String CONTENT="composite" HEIGHT="22" WIDTH="88" VPOS="1414" HPOS="482" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1414" HPOS="570"/>
+            <String CONTENT="two-" HEIGHT="22" WIDTH="39" VPOS="1414" HPOS="583" WC="1.0"/>
+          </TextLine>
+          <TextLine ID="line_r000-l085" BASELINE="1457" VPOS="1440" HPOS="106" HEIGHT="21" WIDTH="516">
+            <String CONTENT="particles," HEIGHT="21" WIDTH="83" VPOS="1439" HPOS="111" WC="1"/>
+            <SP WIDTH="4" VPOS="1439" HPOS="194"/>
+            <String CONTENT="the" HEIGHT="21" WIDTH="28" VPOS="1439" HPOS="201" WC="1"/>
+            <SP WIDTH="4" VPOS="1439" HPOS="230"/>
+            <String CONTENT="corresponding" HEIGHT="21" WIDTH="123" VPOS="1439" HPOS="241" WC="1"/>
+            <SP WIDTH="4" VPOS="1439" HPOS="364"/>
+            <String CONTENT="commutator" HEIGHT="21" WIDTH="109" VPOS="1439" HPOS="377" WC="1"/>
+            <SP WIDTH="4" VPOS="1439" HPOS="486"/>
+            <String CONTENT="is" HEIGHT="21" WIDTH="13" VPOS="1439" HPOS="494" WC="1"/>
+            <SP WIDTH="4" VPOS="1439" HPOS="508"/>
+            <String CONTENT="not" HEIGHT="21" WIDTH="28" VPOS="1439" HPOS="519" WC="1"/>
+            <SP WIDTH="4" VPOS="1439" HPOS="548"/>
+            <String CONTENT="exactly" HEIGHT="21" WIDTH="60" VPOS="1439" HPOS="559" WC="1"/>
+          </TextLine>
+          <TextLine ID="line_r000-l087" BASELINE="1480" VPOS="1462" HPOS="106" HEIGHT="23" WIDTH="518">
+            <String CONTENT="one" HEIGHT="22" WIDTH="28" VPOS="1462" HPOS="111" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1462" HPOS="140"/>
+            <String CONTENT="[8," HEIGHT="22" WIDTH="23" VPOS="1462" HPOS="147" WC="0.68"/>
+            <SP WIDTH="4" VPOS="1462" HPOS="170"/>
+            <String CONTENT="9," HEIGHT="21" WIDTH="17" VPOS="1463" HPOS="174" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1463" HPOS="192"/>
+            <String CONTENT="10)." HEIGHT="22" WIDTH="31" VPOS="1463" HPOS="198" WC="0.82"/>
+            <SP WIDTH="4" VPOS="1463" HPOS="229"/>
+            <String CONTENT="A" HEIGHT="21" WIDTH="8" VPOS="1463" HPOS="239" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1463" HPOS="247"/>
+            <String CONTENT="useful" HEIGHT="22" WIDTH="50" VPOS="1463" HPOS="261" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1463" HPOS="312"/>
+            <String CONTENT="indicator" HEIGHT="22" WIDTH="81" VPOS="1463" HPOS="317" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1463" HPOS="399"/>
+            <String CONTENT="measuring" HEIGHT="21" WIDTH="89" VPOS="1463" HPOS="406" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1463" HPOS="495"/>
+            <String CONTENT="the" HEIGHT="21" WIDTH="27" VPOS="1463" HPOS="503" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1463" HPOS="531"/>
+            <String CONTENT="deviation" HEIGHT="22" WIDTH="78" VPOS="1463" HPOS="539" WC="1.0"/>
+          </TextLine>
+          <TextLine ID="line_r000-l090" BASELINE="1504" VPOS="1486" HPOS="106" HEIGHT="23" WIDTH="518">
+            <String CONTENT="from" HEIGHT="21" WIDTH="34" VPOS="1487" HPOS="109" WC="1"/>
+            <SP WIDTH="4" VPOS="1487" HPOS="144"/>
+            <String CONTENT="the" HEIGHT="21" WIDTH="27" VPOS="1487" HPOS="162" WC="1"/>
+            <SP WIDTH="4" VPOS="1487" HPOS="189"/>
+            <String CONTENT="bosonic" HEIGHT="21" WIDTH="66" VPOS="1487" HPOS="201" WC="1"/>
+            <SP WIDTH="4" VPOS="1487" HPOS="268"/>
+            <String CONTENT="commutation" HEIGHT="22" WIDTH="114" VPOS="1486" HPOS="280" WC="1"/>
+            <SP WIDTH="4" VPOS="1486" HPOS="394"/>
+            <String CONTENT="relation" HEIGHT="22" WIDTH="67" VPOS="1486" HPOS="408" WC="1"/>
+            <SP WIDTH="4" VPOS="1486" HPOS="475"/>
+            <String CONTENT="is" HEIGHT="21" WIDTH="13" VPOS="1486" HPOS="486" WC="1"/>
+            <SP WIDTH="4" VPOS="1486" HPOS="500"/>
+            <String CONTENT="the" HEIGHT="22" WIDTH="28" VPOS="1485" HPOS="509" WC="1"/>
+            <SP WIDTH="4" VPOS="1485" HPOS="538"/>
+            <String CONTENT="M-pairs" HEIGHT="22" WIDTH="68" VPOS="1484" HPOS="553" WC="1"/>
+          </TextLine>
+        </TextBlock>
+        <TextBlock ID="block_r006" HEIGHT="631" WIDTH="520" VPOS="562" HPOS="653">
+          <TextLine ID="line_r006-l018" BASELINE="580" VPOS="562" HPOS="655" HEIGHT="23" WIDTH="517">
+            <String CONTENT="normalization" HEIGHT="22" WIDTH="121" VPOS="563" HPOS="659" WC="1.0"/>
+            <SP WIDTH="4" VPOS="563" HPOS="780"/>
+            <String CONTENT="factor" HEIGHT="22" WIDTH="53" VPOS="563" HPOS="791" WC="1.0"/>
+            <SP WIDTH="4" VPOS="563" HPOS="844"/>
+            <String CONTENT="XM" HEIGHT="22" WIDTH="21" VPOS="563" HPOS="855" WC="0.13"/>
+            <SP WIDTH="4" VPOS="563" HPOS="876"/>
+            <String CONTENT="defined" HEIGHT="22" WIDTH="60" VPOS="562" HPOS="895" WC="1.0"/>
+            <SP WIDTH="4" VPOS="562" HPOS="955"/>
+            <String CONTENT="by:" HEIGHT="22" WIDTH="28" VPOS="562" HPOS="971" WC="1.0"/>
+            <SP WIDTH="4" VPOS="562" HPOS="999"/>
+            <String CONTENT="(O" HEIGHT="22" WIDTH="15" VPOS="561" HPOS="1011" WC="0.36"/>
+            <SP WIDTH="4" VPOS="561" HPOS="1027"/>
+            <String CONTENT="CMC†M" HEIGHT="23" WIDTH="63" VPOS="560" HPOS="1044" WC="0.62"/>
+            <SP WIDTH="4" VPOS="560" HPOS="1107"/>
+            <String CONTENT="(0)" HEIGHT="22" WIDTH="26" VPOS="560" HPOS="1117" WC="0.1"/>
+            <SP WIDTH="4" VPOS="560" HPOS="1144"/>
+            <String CONTENT="=" HEIGHT="22" WIDTH="7" VPOS="559" HPOS="1155" WC="1.0"/>
+          </TextLine>
+          <TextLine ID="line_r006-l019" BASELINE="605" VPOS="587" HPOS="656" HEIGHT="23" WIDTH="515">
+            <String CONTENT="M!XM," HEIGHT="22" WIDTH="64" VPOS="587" HPOS="661" WC="0.64"/>
+            <SP WIDTH="4" VPOS="587" HPOS="725"/>
+            <String CONTENT="where" HEIGHT="21" WIDTH="51" VPOS="587" HPOS="732" WC="1.0"/>
+            <SP WIDTH="4" VPOS="587" HPOS="784"/>
+            <String CONTENT="0)" HEIGHT="21" WIDTH="16" VPOS="587" HPOS="799" WC="0.94"/>
+            <SP WIDTH="4" VPOS="587" HPOS="815"/>
+            <String CONTENT="is" HEIGHT="21" WIDTH="13" VPOS="587" HPOS="822" WC="1.0"/>
+            <SP WIDTH="4" VPOS="587" HPOS="835"/>
+            <String CONTENT="the" HEIGHT="21" WIDTH="27" VPOS="587" HPOS="844" WC="1.0"/>
+            <SP WIDTH="4" VPOS="587" HPOS="871"/>
+            <String CONTENT="vacuum" HEIGHT="21" WIDTH="59" VPOS="587" HPOS="880" WC="1.0"/>
+            <SP WIDTH="4" VPOS="587" HPOS="940"/>
+            <String CONTENT="state." HEIGHT="21" WIDTH="50" VPOS="587" HPOS="958" WC="1.0"/>
+            <SP WIDTH="4" VPOS="587" HPOS="1008"/>
+            <String CONTENT="The" HEIGHT="21" WIDTH="32" VPOS="587" HPOS="1021" WC="1.0"/>
+            <SP WIDTH="4" VPOS="587" HPOS="1053"/>
+            <String CONTENT="value" HEIGHT="21" WIDTH="43" VPOS="587" HPOS="1063" WC="1.0"/>
+            <SP WIDTH="4" VPOS="587" HPOS="1107"/>
+            <String CONTENT="of" HEIGHT="21" WIDTH="15" VPOS="588" HPOS="1117" WC="1.0"/>
+            <SP WIDTH="4" VPOS="588" HPOS="1132"/>
+            <String CONTENT="XM" HEIGHT="21" WIDTH="19" VPOS="588" HPOS="1142" WC="0.72"/>
+          </TextLine>
+          <TextLine ID="line_r006-l020" BASELINE="627" VPOS="610" HPOS="655" HEIGHT="23" WIDTH="517">
+            <String CONTENT="reflects" HEIGHT="22" WIDTH="60" VPOS="610" HPOS="659" WC="1"/>
+            <SP WIDTH="4" VPOS="610" HPOS="719"/>
+            <String CONTENT="the" HEIGHT="22" WIDTH="27" VPOS="610" HPOS="730" WC="1"/>
+            <SP WIDTH="4" VPOS="610" HPOS="758"/>
+            <String CONTENT="correction" HEIGHT="22" WIDTH="86" VPOS="609" HPOS="767" WC="1"/>
+            <SP WIDTH="4" VPOS="609" HPOS="853"/>
+            <String CONTENT="of" HEIGHT="21" WIDTH="17" VPOS="609" HPOS="866" WC="1"/>
+            <SP WIDTH="4" VPOS="609" HPOS="884"/>
+            <String CONTENT="Bose" HEIGHT="21" WIDTH="38" VPOS="609" HPOS="893" WC="1"/>
+            <SP WIDTH="4" VPOS="609" HPOS="932"/>
+            <String CONTENT="enhancement" HEIGHT="22" WIDTH="115" VPOS="609" HPOS="944" WC="1"/>
+            <SP WIDTH="4" VPOS="609" HPOS="1059"/>
+            <String CONTENT="factor," HEIGHT="22" WIDTH="61" VPOS="610" HPOS="1067" WC="1"/>
+            <SP WIDTH="4" VPOS="610" HPOS="1129"/>
+            <String CONTENT="and" HEIGHT="22" WIDTH="30" VPOS="611" HPOS="1136" WC="1"/>
+          </TextLine>
+          <TextLine ID="line_r006-l022" BASELINE="652" VPOS="633" HPOS="655" HEIGHT="23" WIDTH="516">
+            <String CONTENT="was" HEIGHT="22" WIDTH="31" VPOS="635" HPOS="659" WC="1"/>
+            <SP WIDTH="4" VPOS="635" HPOS="690"/>
+            <String CONTENT="used" HEIGHT="22" WIDTH="34" VPOS="635" HPOS="700" WC="1"/>
+            <SP WIDTH="4" VPOS="635" HPOS="734"/>
+            <String CONTENT="to" HEIGHT="22" WIDTH="15" VPOS="635" HPOS="747" WC="1"/>
+            <SP WIDTH="4" VPOS="635" HPOS="762"/>
+            <String CONTENT="study" HEIGHT="22" WIDTH="48" VPOS="634" HPOS="771" WC="1"/>
+            <SP WIDTH="4" VPOS="634" HPOS="820"/>
+            <String CONTENT="ground" HEIGHT="22" WIDTH="60" VPOS="634" HPOS="831" WC="1"/>
+            <SP WIDTH="4" VPOS="634" HPOS="891"/>
+            <String CONTENT="state" HEIGHT="21" WIDTH="45" VPOS="634" HPOS="901" WC="1"/>
+            <SP WIDTH="4" VPOS="634" HPOS="946"/>
+            <String CONTENT="excitons" HEIGHT="22" WIDTH="70" VPOS="634" HPOS="956" WC="1"/>
+            <SP WIDTH="4" VPOS="634" HPOS="1026"/>
+            <String CONTENT="statistics" HEIGHT="22" WIDTH="81" VPOS="634" HPOS="1034" WC="1"/>
+            <SP WIDTH="4" VPOS="634" HPOS="1116"/>
+            <String CONTENT="[8," HEIGHT="22" WIDTH="24" VPOS="635" HPOS="1122" WC="1"/>
+            <SP WIDTH="4" VPOS="635" HPOS="1147"/>
+            <String CONTENT="9]" HEIGHT="22" WIDTH="16" VPOS="635" HPOS="1154" WC="1"/>
+          </TextLine>
+          <TextLine ID="line_r006-l024" BASELINE="676" VPOS="659" HPOS="653" HEIGHT="22" WIDTH="519">
+            <String CONTENT="and" HEIGHT="22" WIDTH="30" VPOS="658" HPOS="658" WC="1"/>
+            <SP WIDTH="4" VPOS="658" HPOS="689"/>
+            <String CONTENT="the" HEIGHT="22" WIDTH="26" VPOS="658" HPOS="699" WC="1"/>
+            <SP WIDTH="4" VPOS="658" HPOS="725"/>
+            <String CONTENT="connection" HEIGHT="22" WIDTH="93" VPOS="658" HPOS="735" WC="1"/>
+            <SP WIDTH="4" VPOS="658" HPOS="829"/>
+            <String CONTENT="to" HEIGHT="22" WIDTH="15" VPOS="658" HPOS="840" WC="1"/>
+            <SP WIDTH="4" VPOS="658" HPOS="855"/>
+            <String CONTENT="quantum" HEIGHT="22" WIDTH="69" VPOS="658" HPOS="868" WC="1"/>
+            <SP WIDTH="4" VPOS="658" HPOS="938"/>
+            <String CONTENT="entanglement" HEIGHT="22" WIDTH="118" VPOS="658" HPOS="956" WC="1"/>
+            <SP WIDTH="4" VPOS="658" HPOS="1075"/>
+            <String CONTENT="[10]." HEIGHT="22" WIDTH="39" VPOS="658" HPOS="1085" WC="1"/>
+            <SP WIDTH="4" VPOS="658" HPOS="1124"/>
+            <String CONTENT="The" HEIGHT="22" WIDTH="33" VPOS="658" HPOS="1135" WC="1"/>
+          </TextLine>
+          <TextLine ID="line_r006-l026" BASELINE="700" VPOS="683" HPOS="653" HEIGHT="23" WIDTH="519">
+            <String CONTENT="key" HEIGHT="22" WIDTH="26" VPOS="682" HPOS="658" WC="1.0"/>
+            <SP WIDTH="4" VPOS="682" HPOS="684"/>
+            <String CONTENT="quantity" HEIGHT="22" WIDTH="73" VPOS="682" HPOS="694" WC="1.0"/>
+            <SP WIDTH="4" VPOS="682" HPOS="768"/>
+            <String CONTENT="was" HEIGHT="22" WIDTH="31" VPOS="682" HPOS="777" WC="1.0"/>
+            <SP WIDTH="4" VPOS="682" HPOS="809"/>
+            <String CONTENT="shown" HEIGHT="22" WIDTH="54" VPOS="682" HPOS="815" WC="1.0"/>
+            <SP WIDTH="4" VPOS="682" HPOS="869"/>
+            <String CONTENT="to" HEIGHT="22" WIDTH="16" VPOS="682" HPOS="879" WC="1.0"/>
+            <SP WIDTH="4" VPOS="682" HPOS="895"/>
+            <String CONTENT="be" HEIGHT="22" WIDTH="19" VPOS="682" HPOS="905" WC="1.0"/>
+            <SP WIDTH="4" VPOS="682" HPOS="924"/>
+            <String CONTENT="the" HEIGHT="22" WIDTH="27" VPOS="682" HPOS="930" WC="1.0"/>
+            <SP WIDTH="4" VPOS="682" HPOS="958"/>
+            <String CONTENT="ratio" HEIGHT="22" WIDTH="41" VPOS="682" HPOS="966" WC="1.0"/>
+            <SP WIDTH="4" VPOS="682" HPOS="1008"/>
+            <String CONTENT="xM+1/XM" HEIGHT="22" WIDTH="83" VPOS="682" HPOS="1017" WC="0.23"/>
+            <SP WIDTH="4" VPOS="682" HPOS="1101"/>
+            <String CONTENT="which" HEIGHT="22" WIDTH="47" VPOS="682" HPOS="1117" WC="1.0"/>
+          </TextLine>
+          <TextLine ID="line_r006-l028" BASELINE="724" VPOS="707" HPOS="653" HEIGHT="23" WIDTH="520">
+            <String CONTENT="goes" HEIGHT="22" WIDTH="37" VPOS="707" HPOS="658" WC="1"/>
+            <SP WIDTH="4" VPOS="707" HPOS="695"/>
+            <String CONTENT="to" HEIGHT="22" WIDTH="15" VPOS="707" HPOS="705" WC="1"/>
+            <SP WIDTH="4" VPOS="707" HPOS="720"/>
+            <String CONTENT="one" HEIGHT="22" WIDTH="30" VPOS="706" HPOS="732" WC="1"/>
+            <SP WIDTH="4" VPOS="706" HPOS="763"/>
+            <String CONTENT="for" HEIGHT="22" WIDTH="26" VPOS="706" HPOS="770" WC="1"/>
+            <SP WIDTH="4" VPOS="706" HPOS="796"/>
+            <String CONTENT="a" HEIGHT="21" WIDTH="6" VPOS="706" HPOS="806" WC="1"/>
+            <SP WIDTH="4" VPOS="706" HPOS="813"/>
+            <String CONTENT="perfect" HEIGHT="22" WIDTH="59" VPOS="706" HPOS="825" WC="1"/>
+            <SP WIDTH="4" VPOS="706" HPOS="884"/>
+            <String CONTENT="boson." HEIGHT="22" WIDTH="60" VPOS="706" HPOS="894" WC="1"/>
+            <SP WIDTH="4" VPOS="706" HPOS="955"/>
+            <String CONTENT="This" HEIGHT="21" WIDTH="36" VPOS="706" HPOS="971" WC="1"/>
+            <SP WIDTH="4" VPOS="706" HPOS="1007"/>
+            <String CONTENT="ratio" HEIGHT="22" WIDTH="38" VPOS="706" HPOS="1016" WC="1"/>
+            <SP WIDTH="4" VPOS="706" HPOS="1055"/>
+            <String CONTENT="will" HEIGHT="22" WIDTH="31" VPOS="706" HPOS="1068" WC="1"/>
+            <SP WIDTH="4" VPOS="706" HPOS="1099"/>
+            <String CONTENT="be" HEIGHT="22" WIDTH="19" VPOS="706" HPOS="1107" WC="1"/>
+            <SP WIDTH="4" VPOS="706" HPOS="1127"/>
+            <String CONTENT="one" HEIGHT="22" WIDTH="27" VPOS="706" HPOS="1139" WC="1"/>
+          </TextLine>
+          <TextLine ID="line_r006-l030" BASELINE="747" VPOS="731" HPOS="654" HEIGHT="21" WIDTH="518">
+            <String CONTENT="of" HEIGHT="21" WIDTH="15" VPOS="730" HPOS="659" WC="1"/>
+            <SP WIDTH="4" VPOS="730" HPOS="674"/>
+            <String CONTENT="our" HEIGHT="21" WIDTH="27" VPOS="730" HPOS="686" WC="1"/>
+            <SP WIDTH="4" VPOS="730" HPOS="714"/>
+            <String CONTENT="primary" HEIGHT="21" WIDTH="67" VPOS="730" HPOS="726" WC="1"/>
+            <SP WIDTH="4" VPOS="730" HPOS="794"/>
+            <String CONTENT="indicators" HEIGHT="21" WIDTH="89" VPOS="730" HPOS="806" WC="1"/>
+            <SP WIDTH="4" VPOS="730" HPOS="896"/>
+            <String CONTENT="of" HEIGHT="21" WIDTH="15" VPOS="730" HPOS="908" WC="1"/>
+            <SP WIDTH="4" VPOS="730" HPOS="923"/>
+            <String CONTENT="the" HEIGHT="21" WIDTH="28" VPOS="730" HPOS="933" WC="1"/>
+            <SP WIDTH="4" VPOS="730" HPOS="962"/>
+            <String CONTENT="bosonic" HEIGHT="21" WIDTH="66" VPOS="730" HPOS="973" WC="1"/>
+            <SP WIDTH="4" VPOS="730" HPOS="1039"/>
+            <String CONTENT="characters" HEIGHT="21" WIDTH="92" VPOS="730" HPOS="1052" WC="1"/>
+            <SP WIDTH="4" VPOS="730" HPOS="1144"/>
+            <String CONTENT="of" HEIGHT="21" WIDTH="17" VPOS="730" HPOS="1154" WC="1"/>
+          </TextLine>
+          <TextLine ID="line_r006-l032" BASELINE="771" VPOS="755" HPOS="655" HEIGHT="21" WIDTH="131">
+            <String CONTENT="Cooper" HEIGHT="21" WIDTH="62" VPOS="754" HPOS="661" WC="1.0"/>
+            <SP WIDTH="4" VPOS="754" HPOS="723"/>
+            <String CONTENT="pairs." HEIGHT="21" WIDTH="51" VPOS="754" HPOS="732" WC="1.0"/>
+          </TextLine>
+          <TextLine ID="line_r006-l034" BASELINE="800" VPOS="782" HPOS="674" HEIGHT="23" WIDTH="499">
+            <String CONTENT="However," HEIGHT="21" WIDTH="82" VPOS="782" HPOS="682" WC="1"/>
+            <SP WIDTH="4" VPOS="782" HPOS="764"/>
+            <String CONTENT="there" HEIGHT="21" WIDTH="46" VPOS="782" HPOS="768" WC="1"/>
+            <SP WIDTH="4" VPOS="782" HPOS="814"/>
+            <String CONTENT="has" HEIGHT="21" WIDTH="30" VPOS="782" HPOS="821" WC="1"/>
+            <SP WIDTH="4" VPOS="782" HPOS="851"/>
+            <String CONTENT="been" HEIGHT="21" WIDTH="38" VPOS="782" HPOS="860" WC="1"/>
+            <SP WIDTH="4" VPOS="782" HPOS="898"/>
+            <String CONTENT="an" HEIGHT="21" WIDTH="17" VPOS="782" HPOS="910" WC="1"/>
+            <SP WIDTH="4" VPOS="782" HPOS="928"/>
+            <String CONTENT="ambiguity" HEIGHT="21" WIDTH="87" VPOS="782" HPOS="939" WC="1"/>
+            <SP WIDTH="4" VPOS="782" HPOS="1026"/>
+            <String CONTENT="in" HEIGHT="21" WIDTH="15" VPOS="782" HPOS="1036" WC="1"/>
+            <SP WIDTH="4" VPOS="782" HPOS="1051"/>
+            <String CONTENT="defining" HEIGHT="21" WIDTH="67" VPOS="782" HPOS="1063" WC="1"/>
+            <SP WIDTH="4" VPOS="782" HPOS="1130"/>
+            <String CONTENT="the" HEIGHT="21" WIDTH="28" VPOS="782" HPOS="1140" WC="1"/>
+          </TextLine>
+          <TextLine ID="line_r006-l036" BASELINE="823" VPOS="806" HPOS="657" HEIGHT="23" WIDTH="515">
+            <String CONTENT="explicit" HEIGHT="21" WIDTH="64" VPOS="806" HPOS="659" WC="1"/>
+            <SP WIDTH="4" VPOS="806" HPOS="724"/>
+            <String CONTENT="form" HEIGHT="21" WIDTH="33" VPOS="806" HPOS="729" WC="1"/>
+            <SP WIDTH="4" VPOS="806" HPOS="763"/>
+            <String CONTENT="of" HEIGHT="21" WIDTH="17" VPOS="806" HPOS="779" WC="1"/>
+            <SP WIDTH="4" VPOS="806" HPOS="796"/>
+            <String CONTENT="a" HEIGHT="21" WIDTH="6" VPOS="806" HPOS="801" WC="1"/>
+            <SP WIDTH="4" VPOS="806" HPOS="808"/>
+            <String CONTENT="Cooper" HEIGHT="21" WIDTH="60" VPOS="806" HPOS="823" WC="1"/>
+            <SP WIDTH="4" VPOS="806" HPOS="884"/>
+            <String CONTENT="pair" HEIGHT="21" WIDTH="33" VPOS="806" HPOS="890" WC="1"/>
+            <SP WIDTH="4" VPOS="806" HPOS="924"/>
+            <String CONTENT="wave" HEIGHT="21" WIDTH="44" VPOS="806" HPOS="932" WC="1"/>
+            <SP WIDTH="4" VPOS="806" HPOS="976"/>
+            <String CONTENT="function." HEIGHT="21" WIDTH="82" VPOS="806" HPOS="982" WC="1"/>
+            <SP WIDTH="4" VPOS="806" HPOS="1064"/>
+            <String CONTENT="Ortiz" HEIGHT="21" WIDTH="43" VPOS="806" HPOS="1075" WC="1"/>
+            <SP WIDTH="4" VPOS="806" HPOS="1118"/>
+            <String CONTENT="et" HEIGHT="21" WIDTH="13" VPOS="806" HPOS="1128" WC="1"/>
+            <SP WIDTH="4" VPOS="806" HPOS="1142"/>
+            <String CONTENT="al." HEIGHT="21" WIDTH="20" VPOS="806" HPOS="1151" WC="1"/>
+          </TextLine>
+          <TextLine ID="line_r006-l038" BASELINE="846" VPOS="830" HPOS="660" HEIGHT="22" WIDTH="512">
+            <String CONTENT="[11]" HEIGHT="21" WIDTH="30" VPOS="831" HPOS="659" WC="1"/>
+            <SP WIDTH="4" VPOS="831" HPOS="690"/>
+            <String CONTENT="have" HEIGHT="21" WIDTH="38" VPOS="830" HPOS="698" WC="1"/>
+            <SP WIDTH="4" VPOS="830" HPOS="736"/>
+            <String CONTENT="given" HEIGHT="21" WIDTH="42" VPOS="830" HPOS="747" WC="1"/>
+            <SP WIDTH="4" VPOS="830" HPOS="789"/>
+            <String CONTENT="a" HEIGHT="21" WIDTH="6" VPOS="830" HPOS="801" WC="1"/>
+            <SP WIDTH="4" VPOS="830" HPOS="808"/>
+            <String CONTENT="discussion" HEIGHT="21" WIDTH="86" VPOS="830" HPOS="817" WC="1"/>
+            <SP WIDTH="4" VPOS="830" HPOS="904"/>
+            <String CONTENT="at" HEIGHT="21" WIDTH="17" VPOS="830" HPOS="915" WC="1"/>
+            <SP WIDTH="4" VPOS="830" HPOS="933"/>
+            <String CONTENT="length" HEIGHT="21" WIDTH="54" VPOS="830" HPOS="939" WC="1"/>
+            <SP WIDTH="4" VPOS="830" HPOS="994"/>
+            <String CONTENT="on" HEIGHT="21" WIDTH="16" VPOS="830" HPOS="1006" WC="1"/>
+            <SP WIDTH="4" VPOS="830" HPOS="1022"/>
+            <String CONTENT="this" HEIGHT="21" WIDTH="33" VPOS="830" HPOS="1033" WC="1"/>
+            <SP WIDTH="4" VPOS="830" HPOS="1067"/>
+            <String CONTENT="matter." HEIGHT="21" WIDTH="69" VPOS="830" HPOS="1076" WC="1"/>
+            <SP WIDTH="4" VPOS="830" HPOS="1145"/>
+            <String CONTENT="In" HEIGHT="21" WIDTH="14" VPOS="830" HPOS="1151" WC="1"/>
+          </TextLine>
+          <TextLine ID="line_r006-l040" BASELINE="870" VPOS="853" HPOS="660" HEIGHT="22" WIDTH="512">
+            <String CONTENT="[12]," HEIGHT="21" WIDTH="37" VPOS="854" HPOS="659" WC="1"/>
+            <SP WIDTH="4" VPOS="854" HPOS="697"/>
+            <String CONTENT="Yang" HEIGHT="21" WIDTH="38" VPOS="853" HPOS="708" WC="1"/>
+            <SP WIDTH="4" VPOS="853" HPOS="746"/>
+            <String CONTENT="showed" HEIGHT="21" WIDTH="61" VPOS="853" HPOS="756" WC="1"/>
+            <SP WIDTH="4" VPOS="853" HPOS="817"/>
+            <String CONTENT="that" HEIGHT="21" WIDTH="38" VPOS="853" HPOS="827" WC="1"/>
+            <SP WIDTH="4" VPOS="853" HPOS="865"/>
+            <String CONTENT="off-diagonal" HEIGHT="21" WIDTH="105" VPOS="852" HPOS="875" WC="1"/>
+            <SP WIDTH="4" VPOS="852" HPOS="980"/>
+            <String CONTENT="long" HEIGHT="21" WIDTH="34" VPOS="852" HPOS="986" WC="1"/>
+            <SP WIDTH="4" VPOS="852" HPOS="1020"/>
+            <String CONTENT="range" HEIGHT="21" WIDTH="48" VPOS="852" HPOS="1032" WC="1"/>
+            <SP WIDTH="4" VPOS="852" HPOS="1081"/>
+            <String CONTENT="order" HEIGHT="21" WIDTH="45" VPOS="852" HPOS="1090" WC="1"/>
+            <SP WIDTH="4" VPOS="852" HPOS="1135"/>
+            <String CONTENT="ex-" HEIGHT="21" WIDTH="28" VPOS="852" HPOS="1143" WC="1"/>
+          </TextLine>
+          <TextLine ID="line_r006-l042" BASELINE="894" VPOS="877" HPOS="655" HEIGHT="23" WIDTH="516">
+            <String CONTENT="ists" HEIGHT="21" WIDTH="27" VPOS="878" HPOS="659" WC="1"/>
+            <SP WIDTH="4" VPOS="878" HPOS="686"/>
+            <String CONTENT="in" HEIGHT="21" WIDTH="12" VPOS="878" HPOS="694" WC="1"/>
+            <SP WIDTH="4" VPOS="878" HPOS="706"/>
+            <String CONTENT="a" HEIGHT="21" WIDTH="6" VPOS="878" HPOS="718" WC="1"/>
+            <SP WIDTH="4" VPOS="878" HPOS="725"/>
+            <String CONTENT="superconducting" HEIGHT="22" WIDTH="147" VPOS="876" HPOS="734" WC="1"/>
+            <SP WIDTH="4" VPOS="876" HPOS="882"/>
+            <String CONTENT="state," HEIGHT="21" WIDTH="52" VPOS="876" HPOS="889" WC="1"/>
+            <SP WIDTH="4" VPOS="876" HPOS="941"/>
+            <String CONTENT="and" HEIGHT="21" WIDTH="28" VPOS="876" HPOS="947" WC="1"/>
+            <SP WIDTH="4" VPOS="876" HPOS="975"/>
+            <String CONTENT="is" HEIGHT="21" WIDTH="13" VPOS="876" HPOS="985" WC="1"/>
+            <SP WIDTH="4" VPOS="876" HPOS="998"/>
+            <String CONTENT="characterized" HEIGHT="21" WIDTH="115" VPOS="876" HPOS="1008" WC="1"/>
+            <SP WIDTH="4" VPOS="876" HPOS="1123"/>
+            <String CONTENT="by" HEIGHT="21" WIDTH="17" VPOS="876" HPOS="1132" WC="1"/>
+            <SP WIDTH="4" VPOS="876" HPOS="1150"/>
+            <String CONTENT="a" HEIGHT="21" WIDTH="7" VPOS="877" HPOS="1162" WC="1"/>
+          </TextLine>
+          <TextLine ID="line_r006-l044" BASELINE="918" VPOS="901" HPOS="653" HEIGHT="23" WIDTH="518">
+            <String CONTENT="dominant" HEIGHT="22" WIDTH="84" VPOS="901" HPOS="658" WC="1"/>
+            <SP WIDTH="4" VPOS="901" HPOS="742"/>
+            <String CONTENT="eigenvector" HEIGHT="22" WIDTH="100" VPOS="901" HPOS="751" WC="1"/>
+            <SP WIDTH="4" VPOS="901" HPOS="852"/>
+            <String CONTENT="of" HEIGHT="21" WIDTH="16" VPOS="900" HPOS="858" WC="1"/>
+            <SP WIDTH="4" VPOS="900" HPOS="875"/>
+            <String CONTENT="the" HEIGHT="21" WIDTH="28" VPOS="900" HPOS="881" WC="1"/>
+            <SP WIDTH="4" VPOS="900" HPOS="910"/>
+            <String CONTENT="two-particle" HEIGHT="21" WIDTH="107" VPOS="900" HPOS="917" WC="1"/>
+            <SP WIDTH="4" VPOS="900" HPOS="1024"/>
+            <String CONTENT="density" HEIGHT="21" WIDTH="61" VPOS="900" HPOS="1030" WC="1"/>
+            <SP WIDTH="4" VPOS="900" HPOS="1092"/>
+            <String CONTENT="matrix." HEIGHT="21" WIDTH="68" VPOS="900" HPOS="1104" WC="1"/>
+          </TextLine>
+          <TextLine ID="line_r006-l046" BASELINE="942" VPOS="925" HPOS="654" HEIGHT="23" WIDTH="517">
+            <String CONTENT="The" HEIGHT="22" WIDTH="32" VPOS="925" HPOS="660" WC="1"/>
+            <SP WIDTH="4" VPOS="925" HPOS="693"/>
+            <String CONTENT="eigenvector" HEIGHT="22" WIDTH="100" VPOS="924" HPOS="700" WC="1"/>
+            <SP WIDTH="4" VPOS="924" HPOS="800"/>
+            <String CONTENT="is" HEIGHT="21" WIDTH="15" VPOS="924" HPOS="804" WC="1"/>
+            <SP WIDTH="4" VPOS="924" HPOS="819"/>
+            <String CONTENT="sometimes" HEIGHT="22" WIDTH="93" VPOS="924" HPOS="824" WC="1"/>
+            <SP WIDTH="4" VPOS="924" HPOS="918"/>
+            <String CONTENT="recognized" HEIGHT="21" WIDTH="92" VPOS="924" HPOS="923" WC="1"/>
+            <SP WIDTH="4" VPOS="924" HPOS="1015"/>
+            <String CONTENT="as" HEIGHT="21" WIDTH="15" VPOS="924" HPOS="1025" WC="1"/>
+            <SP WIDTH="4" VPOS="924" HPOS="1040"/>
+            <String CONTENT="a" HEIGHT="21" WIDTH="7" VPOS="924" HPOS="1048" WC="1"/>
+            <SP WIDTH="4" VPOS="924" HPOS="1055"/>
+            <String CONTENT="Cooper" HEIGHT="22" WIDTH="61" VPOS="924" HPOS="1067" WC="1"/>
+            <SP WIDTH="4" VPOS="924" HPOS="1129"/>
+            <String CONTENT="pair" HEIGHT="22" WIDTH="34" VPOS="924" HPOS="1134" WC="1"/>
+          </TextLine>
+          <TextLine ID="line_r006-l048" BASELINE="966" VPOS="949" HPOS="655" HEIGHT="23" WIDTH="517">
+            <String CONTENT="wave" HEIGHT="21" WIDTH="40" VPOS="948" HPOS="660" WC="1"/>
+            <SP WIDTH="4" VPOS="948" HPOS="701"/>
+            <String CONTENT="function." HEIGHT="21" WIDTH="81" VPOS="949" HPOS="710" WC="1"/>
+            <SP WIDTH="4" VPOS="949" HPOS="791"/>
+            <String CONTENT="On" HEIGHT="21" WIDTH="20" VPOS="949" HPOS="809" WC="1"/>
+            <SP WIDTH="4" VPOS="949" HPOS="829"/>
+            <String CONTENT="the" HEIGHT="21" WIDTH="28" VPOS="949" HPOS="840" WC="1"/>
+            <SP WIDTH="4" VPOS="949" HPOS="868"/>
+            <String CONTENT="other" HEIGHT="21" WIDTH="47" VPOS="949" HPOS="879" WC="1"/>
+            <SP WIDTH="4" VPOS="949" HPOS="927"/>
+            <String CONTENT="hand," HEIGHT="21" WIDTH="50" VPOS="949" HPOS="936" WC="1"/>
+            <SP WIDTH="4" VPOS="949" HPOS="986"/>
+            <String CONTENT="the" HEIGHT="21" WIDTH="27" VPOS="949" HPOS="994" WC="1"/>
+            <SP WIDTH="4" VPOS="949" HPOS="1021"/>
+            <String CONTENT="pair" HEIGHT="21" WIDTH="33" VPOS="949" HPOS="1033" WC="1"/>
+            <SP WIDTH="4" VPOS="949" HPOS="1067"/>
+            <String CONTENT="projection" HEIGHT="21" WIDTH="88" VPOS="949" HPOS="1077" WC="1"/>
+          </TextLine>
+          <TextLine ID="line_r006-l050" BASELINE="991" VPOS="972" HPOS="655" HEIGHT="23" WIDTH="516">
+            <String CONTENT="wave" HEIGHT="21" WIDTH="42" VPOS="973" HPOS="659" WC="1"/>
+            <SP WIDTH="4" VPOS="973" HPOS="701"/>
+            <String CONTENT="function" HEIGHT="21" WIDTH="71" VPOS="973" HPOS="710" WC="1"/>
+            <SP WIDTH="4" VPOS="973" HPOS="782"/>
+            <String CONTENT="of" HEIGHT="21" WIDTH="16" VPOS="973" HPOS="797" WC="1"/>
+            <SP WIDTH="4" VPOS="973" HPOS="813"/>
+            <String CONTENT="a" HEIGHT="21" WIDTH="6" VPOS="973" HPOS="822" WC="1"/>
+            <SP WIDTH="4" VPOS="973" HPOS="829"/>
+            <String CONTENT="BCS" HEIGHT="21" WIDTH="36" VPOS="973" HPOS="843" WC="1"/>
+            <SP WIDTH="4" VPOS="973" HPOS="879"/>
+            <String CONTENT="state" HEIGHT="21" WIDTH="41" VPOS="973" HPOS="893" WC="1"/>
+            <SP WIDTH="4" VPOS="973" HPOS="935"/>
+            <String CONTENT="[13]" HEIGHT="21" WIDTH="33" VPOS="973" HPOS="947" WC="1"/>
+            <SP WIDTH="4" VPOS="973" HPOS="981"/>
+            <String CONTENT="is" HEIGHT="21" WIDTH="13" VPOS="973" HPOS="988" WC="1"/>
+            <SP WIDTH="4" VPOS="973" HPOS="1001"/>
+            <String CONTENT="also" HEIGHT="21" WIDTH="31" VPOS="973" HPOS="1013" WC="1"/>
+            <SP WIDTH="4" VPOS="973" HPOS="1045"/>
+            <String CONTENT="a" HEIGHT="21" WIDTH="6" VPOS="973" HPOS="1057" WC="1"/>
+            <SP WIDTH="4" VPOS="973" HPOS="1064"/>
+            <String CONTENT="candidate." HEIGHT="21" WIDTH="93" VPOS="973" HPOS="1077" WC="1"/>
+          </TextLine>
+          <TextLine ID="line_r006-l052" BASELINE="1014" VPOS="996" HPOS="655" HEIGHT="22" WIDTH="518">
+            <String CONTENT="Both" HEIGHT="21" WIDTH="37" VPOS="997" HPOS="660" WC="1"/>
+            <SP WIDTH="4" VPOS="997" HPOS="698"/>
+            <String CONTENT="Cooper" HEIGHT="21" WIDTH="60" VPOS="997" HPOS="718" WC="1"/>
+            <SP WIDTH="4" VPOS="997" HPOS="778"/>
+            <String CONTENT="pair" HEIGHT="21" WIDTH="33" VPOS="997" HPOS="790" WC="1"/>
+            <SP WIDTH="4" VPOS="997" HPOS="824"/>
+            <String CONTENT="wave" HEIGHT="21" WIDTH="44" VPOS="997" HPOS="834" WC="1"/>
+            <SP WIDTH="4" VPOS="997" HPOS="879"/>
+            <String CONTENT="functions" HEIGHT="21" WIDTH="80" VPOS="997" HPOS="888" WC="1"/>
+            <SP WIDTH="4" VPOS="997" HPOS="969"/>
+            <String CONTENT="will" HEIGHT="21" WIDTH="30" VPOS="997" HPOS="983" WC="1"/>
+            <SP WIDTH="4" VPOS="997" HPOS="1014"/>
+            <String CONTENT="be" HEIGHT="21" WIDTH="20" VPOS="997" HPOS="1024" WC="1"/>
+            <SP WIDTH="4" VPOS="997" HPOS="1044"/>
+            <String CONTENT="examined" HEIGHT="21" WIDTH="80" VPOS="997" HPOS="1057" WC="1"/>
+            <SP WIDTH="4" VPOS="997" HPOS="1138"/>
+            <String CONTENT="in" HEIGHT="21" WIDTH="13" VPOS="997" HPOS="1151" WC="1"/>
+          </TextLine>
+          <TextLine ID="line_r006-l054" BASELINE="1038" VPOS="1021" HPOS="655" HEIGHT="22" WIDTH="518">
+            <String CONTENT="this" HEIGHT="21" WIDTH="30" VPOS="1019" HPOS="659" WC="1"/>
+            <SP WIDTH="4" VPOS="1019" HPOS="689"/>
+            <String CONTENT="paper." HEIGHT="21" WIDTH="57" VPOS="1020" HPOS="701" WC="1"/>
+            <SP WIDTH="4" VPOS="1020" HPOS="759"/>
+            <String CONTENT="Their" HEIGHT="21" WIDTH="46" VPOS="1020" HPOS="772" WC="1"/>
+            <SP WIDTH="4" VPOS="1020" HPOS="819"/>
+            <String CONTENT="bosonic" HEIGHT="21" WIDTH="65" VPOS="1021" HPOS="828" WC="1"/>
+            <SP WIDTH="4" VPOS="1021" HPOS="894"/>
+            <String CONTENT="characters" HEIGHT="21" WIDTH="91" VPOS="1021" HPOS="905" WC="1"/>
+            <SP WIDTH="4" VPOS="1021" HPOS="996"/>
+            <String CONTENT="are" HEIGHT="21" WIDTH="25" VPOS="1021" HPOS="1005" WC="1"/>
+            <SP WIDTH="4" VPOS="1021" HPOS="1031"/>
+            <String CONTENT="compared" HEIGHT="21" WIDTH="83" VPOS="1021" HPOS="1041" WC="1"/>
+            <SP WIDTH="4" VPOS="1021" HPOS="1124"/>
+            <String CONTENT="and" HEIGHT="21" WIDTH="28" VPOS="1021" HPOS="1138" WC="1"/>
+          </TextLine>
+          <TextLine ID="line_r006-l056" BASELINE="1062" VPOS="1044" HPOS="655" HEIGHT="23" WIDTH="518">
+            <String CONTENT="we" HEIGHT="22" WIDTH="20" VPOS="1044" HPOS="658" WC="1"/>
+            <SP WIDTH="4" VPOS="1044" HPOS="679"/>
+            <String CONTENT="shall" HEIGHT="22" WIDTH="42" VPOS="1044" HPOS="690" WC="1"/>
+            <SP WIDTH="4" VPOS="1044" HPOS="733"/>
+            <String CONTENT="discuss" HEIGHT="22" WIDTH="60" VPOS="1045" HPOS="739" WC="1"/>
+            <SP WIDTH="4" VPOS="1045" HPOS="800"/>
+            <String CONTENT="their" HEIGHT="21" WIDTH="41" VPOS="1045" HPOS="809" WC="1"/>
+            <SP WIDTH="4" VPOS="1045" HPOS="850"/>
+            <String CONTENT="suitability" HEIGHT="21" WIDTH="88" VPOS="1046" HPOS="860" WC="1"/>
+            <SP WIDTH="4" VPOS="1046" HPOS="949"/>
+            <String CONTENT="as" HEIGHT="21" WIDTH="17" VPOS="1046" HPOS="958" WC="1"/>
+            <SP WIDTH="4" VPOS="1046" HPOS="976"/>
+            <String CONTENT="a" HEIGHT="21" WIDTH="6" VPOS="1045" HPOS="985" WC="1"/>
+            <SP WIDTH="4" VPOS="1045" HPOS="992"/>
+            <String CONTENT="bosonic" HEIGHT="22" WIDTH="65" VPOS="1045" HPOS="1002" WC="1"/>
+            <SP WIDTH="4" VPOS="1045" HPOS="1068"/>
+            <String CONTENT="mode" HEIGHT="22" WIDTH="48" VPOS="1044" HPOS="1077" WC="1"/>
+            <SP WIDTH="4" VPOS="1044" HPOS="1125"/>
+            <String CONTENT="in" HEIGHT="21" WIDTH="13" VPOS="1044" HPOS="1135" WC="1"/>
+            <SP WIDTH="4" VPOS="1044" HPOS="1148"/>
+            <String CONTENT="a" HEIGHT="21" WIDTH="7" VPOS="1044" HPOS="1159" WC="1"/>
+          </TextLine>
+          <TextLine ID="line_r006-l058" BASELINE="1086" VPOS="1067" HPOS="655" HEIGHT="24" WIDTH="101">
+            <String CONTENT="Fermi" HEIGHT="23" WIDTH="53" VPOS="1068" HPOS="660" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1068" HPOS="713"/>
+            <String CONTENT="gas." HEIGHT="24" WIDTH="38" VPOS="1066" HPOS="718" WC="1.0"/>
+          </TextLine>
+          <TextLine ID="line_r006-l060" BASELINE="1114" VPOS="1096" HPOS="674" HEIGHT="24" WIDTH="499">
+            <String CONTENT="In" HEIGHT="22" WIDTH="14" VPOS="1096" HPOS="679" WC="1"/>
+            <SP WIDTH="4" VPOS="1096" HPOS="693"/>
+            <String CONTENT="this" HEIGHT="22" WIDTH="32" VPOS="1096" HPOS="703" WC="1"/>
+            <SP WIDTH="4" VPOS="1096" HPOS="736"/>
+            <String CONTENT="paper," HEIGHT="22" WIDTH="56" VPOS="1096" HPOS="747" WC="1"/>
+            <SP WIDTH="4" VPOS="1096" HPOS="803"/>
+            <String CONTENT="we" HEIGHT="22" WIDTH="21" VPOS="1096" HPOS="810" WC="1"/>
+            <SP WIDTH="4" VPOS="1096" HPOS="831"/>
+            <String CONTENT="employ" HEIGHT="22" WIDTH="60" VPOS="1096" HPOS="841" WC="1"/>
+            <SP WIDTH="4" VPOS="1096" HPOS="902"/>
+            <String CONTENT="the" HEIGHT="22" WIDTH="28" VPOS="1096" HPOS="910" WC="1"/>
+            <SP WIDTH="4" VPOS="1096" HPOS="939"/>
+            <String CONTENT="one-channel" HEIGHT="22" WIDTH="108" VPOS="1096" HPOS="947" WC="1"/>
+            <SP WIDTH="4" VPOS="1096" HPOS="1056"/>
+            <String CONTENT="approach" HEIGHT="22" WIDTH="78" VPOS="1096" HPOS="1061" WC="1"/>
+            <SP WIDTH="4" VPOS="1096" HPOS="1140"/>
+            <String CONTENT="to" HEIGHT="22" WIDTH="15" VPOS="1097" HPOS="1150" WC="1"/>
+          </TextLine>
+          <TextLine ID="line_r006-l062" BASELINE="1138" VPOS="1120" HPOS="655" HEIGHT="23" WIDTH="518">
+            <String CONTENT="discuss" HEIGHT="22" WIDTH="60" VPOS="1120" HPOS="660" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1120" HPOS="720"/>
+            <String CONTENT="the" HEIGHT="21" WIDTH="27" VPOS="1120" HPOS="726" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1120" HPOS="753"/>
+            <String CONTENT="crossover" HEIGHT="22" WIDTH="79" VPOS="1120" HPOS="761" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1120" HPOS="840"/>
+            <String CONTENT="phenomena" HEIGHT="22" WIDTH="102" VPOS="1121" HPOS="846" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1121" HPOS="948"/>
+            <String CONTENT="at" HEIGHT="21" WIDTH="15" VPOS="1121" HPOS="955" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1121" HPOS="970"/>
+            <String CONTENT="zero" HEIGHT="21" WIDTH="34" VPOS="1121" HPOS="978" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1121" HPOS="1013"/>
+            <String CONTENT="temperature" HEIGHT="21" WIDTH="109" VPOS="1121" HPOS="1021" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1121" HPOS="1130"/>
+            <String CONTENT="[11," HEIGHT="21" WIDTH="32" VPOS="1121" HPOS="1137" WC="0.93"/>
+          </TextLine>
+          <TextLine ID="line_r006-l065" BASELINE="1162" VPOS="1144" HPOS="655" HEIGHT="24" WIDTH="518">
+            <String CONTENT="15," HEIGHT="22" WIDTH="25" VPOS="1144" HPOS="660" WC="1"/>
+            <SP WIDTH="4" VPOS="1144" HPOS="686"/>
+            <String CONTENT="16," HEIGHT="22" WIDTH="27" VPOS="1144" HPOS="693" WC="1"/>
+            <SP WIDTH="4" VPOS="1144" HPOS="720"/>
+            <String CONTENT="17." HEIGHT="22" WIDTH="31" VPOS="1144" HPOS="728" WC="1"/>
+            <SP WIDTH="4" VPOS="1144" HPOS="759"/>
+            <String CONTENT="Specifically," HEIGHT="22" WIDTH="107" VPOS="1144" HPOS="769" WC="1"/>
+            <SP WIDTH="4" VPOS="1144" HPOS="877"/>
+            <String CONTENT="a" HEIGHT="22" WIDTH="7" VPOS="1145" HPOS="882" WC="1"/>
+            <SP WIDTH="4" VPOS="1145" HPOS="889"/>
+            <String CONTENT="BCS" HEIGHT="22" WIDTH="38" VPOS="1144" HPOS="899" WC="1"/>
+            <SP WIDTH="4" VPOS="1144" HPOS="938"/>
+            <String CONTENT="state" HEIGHT="22" WIDTH="42" VPOS="1144" HPOS="947" WC="1"/>
+            <SP WIDTH="4" VPOS="1144" HPOS="990"/>
+            <String CONTENT="will" HEIGHT="22" WIDTH="32" VPOS="1144" HPOS="1000" WC="1"/>
+            <SP WIDTH="4" VPOS="1144" HPOS="1032"/>
+            <String CONTENT="be" HEIGHT="22" WIDTH="21" VPOS="1144" HPOS="1038" WC="1"/>
+            <SP WIDTH="4" VPOS="1144" HPOS="1059"/>
+            <String CONTENT="used" HEIGHT="22" WIDTH="38" VPOS="1144" HPOS="1066" WC="1"/>
+            <SP WIDTH="4" VPOS="1144" HPOS="1105"/>
+            <String CONTENT="as" HEIGHT="22" WIDTH="15" VPOS="1144" HPOS="1114" WC="1"/>
+            <SP WIDTH="4" VPOS="1144" HPOS="1130"/>
+            <String CONTENT="our" HEIGHT="22" WIDTH="29" VPOS="1144" HPOS="1140" WC="1"/>
+          </TextLine>
+          <TextLine ID="line_r006-l067" BASELINE="1187" VPOS="1168" HPOS="655" HEIGHT="25" WIDTH="255">
+            <String CONTENT="ground" HEIGHT="24" WIDTH="59" VPOS="1168" HPOS="659" WC="1"/>
+            <SP WIDTH="4" VPOS="1168" HPOS="719"/>
+            <String CONTENT="state" HEIGHT="23" WIDTH="43" VPOS="1168" HPOS="728" WC="1"/>
+            <SP WIDTH="4" VPOS="1168" HPOS="771"/>
+            <String CONTENT="wave" HEIGHT="23" WIDTH="45" VPOS="1168" HPOS="780" WC="1"/>
+            <SP WIDTH="4" VPOS="1168" HPOS="825"/>
+            <String CONTENT="function" HEIGHT="23" WIDTH="72" VPOS="1168" HPOS="831" WC="1"/>
+          </TextLine>
+        </TextBlock>
+        <TextBlock ID="block_r008" HEIGHT="33" WIDTH="261" VPOS="1219" HPOS="774">
+          <TextLine ID="line_r008-l070" BASELINE="1245" VPOS="1219" HPOS="774" HEIGHT="33" WIDTH="261">
+            <String CONTENT="=" HEIGHT="31" WIDTH="10" VPOS="1221" HPOS="809" WC="0.34"/>
+            <SP WIDTH="4" VPOS="1221" HPOS="820"/>
+            <String CONTENT="II" HEIGHT="31" WIDTH="22" VPOS="1221" HPOS="831" WC="0.94"/>
+            <SP WIDTH="4" VPOS="1221" HPOS="854"/>
+            <String CONTENT="(ŭn" HEIGHT="31" WIDTH="32" VPOS="1221" HPOS="859" WC="0.32"/>
+            <SP WIDTH="4" VPOS="1221" HPOS="892"/>
+            <String CONTENT="+" HEIGHT="31" WIDTH="10" VPOS="1221" HPOS="900" WC="0.98"/>
+            <SP WIDTH="4" VPOS="1221" HPOS="910"/>
+            <String CONTENT="υna1β1)" HEIGHT="32" WIDTH="82" VPOS="1220" HPOS="914" WC="0.07"/>
+            <SP WIDTH="4" VPOS="1220" HPOS="996"/>
+            <String CONTENT="0)." HEIGHT="32" WIDTH="30" VPOS="1219" HPOS="1004" WC="0.61"/>
+          </TextLine>
+        </TextBlock>
+        <TextBlock ID="block_r007" HEIGHT="215" WIDTH="518" VPOS="1295" HPOS="653">
+          <TextLine ID="line_r007-l074" BASELINE="1313" VPOS="1295" HPOS="653" HEIGHT="24" WIDTH="518">
+            <String CONTENT="Here" HEIGHT="22" WIDTH="36" VPOS="1295" HPOS="661" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1295" HPOS="698"/>
+            <String CONTENT="an" HEIGHT="22" WIDTH="19" VPOS="1295" HPOS="706" WC="0.69"/>
+            <SP WIDTH="4" VPOS="1295" HPOS="726"/>
+            <String CONTENT="and" HEIGHT="22" WIDTH="29" VPOS="1295" HPOS="736" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1295" HPOS="766"/>
+            <String CONTENT="βn" HEIGHT="22" WIDTH="18" VPOS="1295" HPOS="776" WC="0.31"/>
+            <SP WIDTH="4" VPOS="1295" HPOS="794"/>
+            <String CONTENT="are" HEIGHT="22" WIDTH="24" VPOS="1295" HPOS="804" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1295" HPOS="828"/>
+            <String CONTENT="the" HEIGHT="22" WIDTH="29" VPOS="1295" HPOS="834" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1295" HPOS="863"/>
+            <String CONTENT="annihilation" HEIGHT="22" WIDTH="104" VPOS="1295" HPOS="869" WC="0.99"/>
+            <SP WIDTH="4" VPOS="1295" HPOS="974"/>
+            <String CONTENT="operators" HEIGHT="22" WIDTH="83" VPOS="1296" HPOS="983" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1296" HPOS="1067"/>
+            <String CONTENT="of" HEIGHT="22" WIDTH="18" VPOS="1296" HPOS="1072" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1296" HPOS="1091"/>
+            <String CONTENT="two" HEIGHT="22" WIDTH="31" VPOS="1296" HPOS="1094" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1296" HPOS="1125"/>
+            <String CONTENT="spin" HEIGHT="22" WIDTH="33" VPOS="1296" HPOS="1130" WC="1.0"/>
+          </TextLine>
+          <TextLine ID="line_r007-l076" BASELINE="1336" VPOS="1319" HPOS="653" HEIGHT="23" WIDTH="518">
+            <String CONTENT="components" HEIGHT="23" WIDTH="107" VPOS="1319" HPOS="658" WC="1"/>
+            <SP WIDTH="4" VPOS="1319" HPOS="766"/>
+            <String CONTENT="of" HEIGHT="22" WIDTH="15" VPOS="1318" HPOS="775" WC="1"/>
+            <SP WIDTH="4" VPOS="1318" HPOS="790"/>
+            <String CONTENT="fermonic" HEIGHT="22" WIDTH="77" VPOS="1318" HPOS="798" WC="1"/>
+            <SP WIDTH="4" VPOS="1318" HPOS="876"/>
+            <String CONTENT="atoms," HEIGHT="22" WIDTH="60" VPOS="1318" HPOS="887" WC="1"/>
+            <SP WIDTH="4" VPOS="1318" HPOS="947"/>
+            <String CONTENT="n" HEIGHT="22" WIDTH="6" VPOS="1318" HPOS="956" WC="1"/>
+            <SP WIDTH="4" VPOS="1318" HPOS="963"/>
+            <String CONTENT="denotes" HEIGHT="22" WIDTH="66" VPOS="1318" HPOS="976" WC="1"/>
+            <SP WIDTH="4" VPOS="1318" HPOS="1042"/>
+            <String CONTENT="the" HEIGHT="22" WIDTH="29" VPOS="1319" HPOS="1052" WC="1"/>
+            <SP WIDTH="4" VPOS="1319" HPOS="1081"/>
+            <String CONTENT="quantum" HEIGHT="23" WIDTH="70" VPOS="1319" HPOS="1090" WC="1"/>
+          </TextLine>
+          <TextLine ID="line_r007-l078" BASELINE="1361" VPOS="1343" HPOS="653" HEIGHT="23" WIDTH="518">
+            <String CONTENT="number" HEIGHT="21" WIDTH="68" VPOS="1344" HPOS="658" WC="1"/>
+            <SP WIDTH="4" VPOS="1344" HPOS="726"/>
+            <String CONTENT="of" HEIGHT="21" WIDTH="14" VPOS="1344" HPOS="735" WC="1"/>
+            <SP WIDTH="4" VPOS="1344" HPOS="750"/>
+            <String CONTENT="pairing" HEIGHT="21" WIDTH="61" VPOS="1344" HPOS="760" WC="1"/>
+            <SP WIDTH="4" VPOS="1344" HPOS="821"/>
+            <String CONTENT="orbit," HEIGHT="21" WIDTH="48" VPOS="1344" HPOS="833" WC="1"/>
+            <SP WIDTH="4" VPOS="1344" HPOS="882"/>
+            <String CONTENT="and" HEIGHT="21" WIDTH="27" VPOS="1344" HPOS="892" WC="1"/>
+            <SP WIDTH="4" VPOS="1344" HPOS="919"/>
+            <String CONTENT="ün" HEIGHT="21" WIDTH="16" VPOS="1344" HPOS="934" WC="1"/>
+            <SP WIDTH="4" VPOS="1344" HPOS="950"/>
+            <String CONTENT="and" HEIGHT="21" WIDTH="27" VPOS="1344" HPOS="965" WC="1"/>
+            <SP WIDTH="4" VPOS="1344" HPOS="992"/>
+            <String CONTENT="�n" HEIGHT="21" WIDTH="17" VPOS="1344" HPOS="1005" WC="1"/>
+            <SP WIDTH="4" VPOS="1344" HPOS="1022"/>
+            <String CONTENT="are" HEIGHT="21" WIDTH="25" VPOS="1344" HPOS="1036" WC="1"/>
+            <SP WIDTH="4" VPOS="1344" HPOS="1062"/>
+            <String CONTENT="amplitudes" HEIGHT="22" WIDTH="96" VPOS="1344" HPOS="1071" WC="1"/>
+          </TextLine>
+          <TextLine ID="line_r007-l080" BASELINE="1385" VPOS="1368" HPOS="653" HEIGHT="23" WIDTH="518">
+            <String CONTENT="subjected" HEIGHT="22" WIDTH="81" VPOS="1369" HPOS="658" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1369" HPOS="740"/>
+            <String CONTENT="to" HEIGHT="21" WIDTH="15" VPOS="1368" HPOS="752" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1368" HPOS="767"/>
+            <String CONTENT="normalization" HEIGHT="21" WIDTH="119" VPOS="1368" HPOS="779" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1368" HPOS="899"/>
+            <String CONTENT="constraint" HEIGHT="21" WIDTH="89" VPOS="1368" HPOS="911" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1368" HPOS="1001"/>
+            <String CONTENT="/un" HEIGHT="21" WIDTH="25" VPOS="1368" HPOS="1009" WC="0.26"/>
+            <SP WIDTH="4" VPOS="1368" HPOS="1035"/>
+            <String CONTENT="2" HEIGHT="21" WIDTH="6" VPOS="1368" HPOS="1045" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1368" HPOS="1052"/>
+            <String CONTENT="+" HEIGHT="21" WIDTH="6" VPOS="1368" HPOS="1061" WC="0.93"/>
+            <SP WIDTH="4" VPOS="1368" HPOS="1068"/>
+            <String CONTENT="|υn12" HEIGHT="21" WIDTH="40" VPOS="1368" HPOS="1080" WC="0.15"/>
+            <SP WIDTH="4" VPOS="1368" HPOS="1121"/>
+            <String CONTENT="=" HEIGHT="21" WIDTH="6" VPOS="1368" HPOS="1132" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1368" HPOS="1139"/>
+            <String CONTENT="1." HEIGHT="21" WIDTH="16" VPOS="1368" HPOS="1155" WC="0.99"/>
+          </TextLine>
+          <TextLine ID="line_r007-l082" BASELINE="1409" VPOS="1393" HPOS="656" HEIGHT="21" WIDTH="515">
+            <String CONTENT="The" HEIGHT="21" WIDTH="32" VPOS="1392" HPOS="661" WC="1"/>
+            <SP WIDTH="4" VPOS="1392" HPOS="693"/>
+            <String CONTENT="number" HEIGHT="21" WIDTH="67" VPOS="1392" HPOS="703" WC="1"/>
+            <SP WIDTH="4" VPOS="1392" HPOS="771"/>
+            <String CONTENT="of" HEIGHT="21" WIDTH="16" VPOS="1392" HPOS="782" WC="1"/>
+            <SP WIDTH="4" VPOS="1392" HPOS="798"/>
+            <String CONTENT="atoms" HEIGHT="21" WIDTH="52" VPOS="1392" HPOS="807" WC="1"/>
+            <SP WIDTH="4" VPOS="1392" HPOS="860"/>
+            <String CONTENT="in" HEIGHT="21" WIDTH="12" VPOS="1392" HPOS="870" WC="1"/>
+            <SP WIDTH="4" VPOS="1392" HPOS="882"/>
+            <String CONTENT="each" HEIGHT="21" WIDTH="35" VPOS="1392" HPOS="897" WC="1"/>
+            <SP WIDTH="4" VPOS="1392" HPOS="932"/>
+            <String CONTENT="spin" HEIGHT="21" WIDTH="33" VPOS="1392" HPOS="944" WC="1"/>
+            <SP WIDTH="4" VPOS="1392" HPOS="978"/>
+            <String CONTENT="component" HEIGHT="21" WIDTH="98" VPOS="1392" HPOS="992" WC="1"/>
+            <SP WIDTH="4" VPOS="1392" HPOS="1091"/>
+            <String CONTENT="is" HEIGHT="21" WIDTH="14" VPOS="1392" HPOS="1099" WC="1"/>
+            <SP WIDTH="4" VPOS="1392" HPOS="1114"/>
+            <String CONTENT="given" HEIGHT="21" WIDTH="44" VPOS="1392" HPOS="1123" WC="1"/>
+          </TextLine>
+          <TextLine ID="line_r007-l084" BASELINE="1433" VPOS="1416" HPOS="655" HEIGHT="23" WIDTH="516">
+            <String CONTENT="by" HEIGHT="22" WIDTH="16" VPOS="1415" HPOS="659" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1415" HPOS="675"/>
+            <String CONTENT="N" HEIGHT="22" WIDTH="7" VPOS="1416" HPOS="690" WC="0.94"/>
+            <SP WIDTH="4" VPOS="1416" HPOS="697"/>
+            <String CONTENT="=" HEIGHT="22" WIDTH="7" VPOS="1416" HPOS="715" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1416" HPOS="722"/>
+            <String CONTENT="Σ�n" HEIGHT="22" WIDTH="55" VPOS="1416" HPOS="739" WC="0.03"/>
+            <SP WIDTH="4" VPOS="1416" HPOS="794"/>
+            <String CONTENT="2." HEIGHT="22" WIDTH="17" VPOS="1416" HPOS="802" WC="0.91"/>
+            <SP WIDTH="4" VPOS="1416" HPOS="820"/>
+            <String CONTENT="In" HEIGHT="22" WIDTH="15" VPOS="1416" HPOS="828" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1416" HPOS="844"/>
+            <String CONTENT="this" HEIGHT="22" WIDTH="33" VPOS="1416" HPOS="853" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1416" HPOS="886"/>
+            <String CONTENT="paper," HEIGHT="22" WIDTH="58" VPOS="1416" HPOS="893" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1416" HPOS="951"/>
+            <String CONTENT="we" HEIGHT="22" WIDTH="19" VPOS="1416" HPOS="959" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1416" HPOS="979"/>
+            <String CONTENT="will" HEIGHT="22" WIDTH="33" VPOS="1416" HPOS="988" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1416" HPOS="1022"/>
+            <String CONTENT="use" HEIGHT="22" WIDTH="29" VPOS="1416" HPOS="1027" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1416" HPOS="1056"/>
+            <String CONTENT="the" HEIGHT="22" WIDTH="26" VPOS="1415" HPOS="1063" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1415" HPOS="1089"/>
+            <String CONTENT="solution" HEIGHT="22" WIDTH="70" VPOS="1414" HPOS="1097" WC="1.0"/>
+          </TextLine>
+          <TextLine ID="line_r007-l086" BASELINE="1458" VPOS="1440" HPOS="653" HEIGHT="23" WIDTH="518">
+            <String CONTENT="of" HEIGHT="21" WIDTH="18" VPOS="1441" HPOS="658" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1441" HPOS="676"/>
+            <String CONTENT="ūn," HEIGHT="21" WIDTH="30" VPOS="1441" HPOS="681" WC="0.1"/>
+            <SP WIDTH="4" VPOS="1441" HPOS="711"/>
+            <String CONTENT="�n" HEIGHT="21" WIDTH="18" VPOS="1441" HPOS="717" WC="0.83"/>
+            <SP WIDTH="4" VPOS="1441" HPOS="735"/>
+            <String CONTENT="in" HEIGHT="21" WIDTH="13" VPOS="1441" HPOS="744" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1441" HPOS="758"/>
+            <String CONTENT="homogeneous" HEIGHT="21" WIDTH="120" VPOS="1441" HPOS="767" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1441" HPOS="888"/>
+            <String CONTENT="systems." HEIGHT="22" WIDTH="78" VPOS="1441" HPOS="893" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1441" HPOS="972"/>
+            <String CONTENT="For" HEIGHT="21" WIDTH="28" VPOS="1441" HPOS="981" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1441" HPOS="1010"/>
+            <String CONTENT="trapped" HEIGHT="22" WIDTH="69" VPOS="1440" HPOS="1015" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1440" HPOS="1085"/>
+            <String CONTENT="systems," HEIGHT="22" WIDTH="79" VPOS="1439" HPOS="1092" WC="1.0"/>
+          </TextLine>
+          <TextLine ID="line_r007-l088" BASELINE="1480" VPOS="1462" HPOS="655" HEIGHT="23" WIDTH="517">
+            <String CONTENT="the" HEIGHT="21" WIDTH="27" VPOS="1463" HPOS="658" WC="1"/>
+            <SP WIDTH="4" VPOS="1463" HPOS="686"/>
+            <String CONTENT="amplitudes" HEIGHT="21" WIDTH="97" VPOS="1463" HPOS="694" WC="1"/>
+            <SP WIDTH="4" VPOS="1463" HPOS="791"/>
+            <String CONTENT="can" HEIGHT="21" WIDTH="26" VPOS="1463" HPOS="801" WC="1"/>
+            <SP WIDTH="4" VPOS="1463" HPOS="827"/>
+            <String CONTENT="be" HEIGHT="21" WIDTH="19" VPOS="1463" HPOS="836" WC="1"/>
+            <SP WIDTH="4" VPOS="1463" HPOS="856"/>
+            <String CONTENT="determined" HEIGHT="21" WIDTH="98" VPOS="1463" HPOS="865" WC="1"/>
+            <SP WIDTH="4" VPOS="1463" HPOS="964"/>
+            <String CONTENT="by" HEIGHT="21" WIDTH="19" VPOS="1463" HPOS="973" WC="1"/>
+            <SP WIDTH="4" VPOS="1463" HPOS="992"/>
+            <String CONTENT="methods" HEIGHT="21" WIDTH="73" VPOS="1463" HPOS="1002" WC="1"/>
+            <SP WIDTH="4" VPOS="1463" HPOS="1076"/>
+            <String CONTENT="described" HEIGHT="22" WIDTH="79" VPOS="1463" HPOS="1087" WC="1"/>
+          </TextLine>
+          <TextLine ID="line_r007-l089" BASELINE="1504" VPOS="1486" HPOS="653" HEIGHT="24" WIDTH="157">
+            <String CONTENT="in" HEIGHT="24" WIDTH="13" VPOS="1485" HPOS="657" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1485" HPOS="671"/>
+            <String CONTENT="Refs." HEIGHT="24" WIDTH="49" VPOS="1485" HPOS="682" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1485" HPOS="731"/>
+            <String CONTENT="[18," HEIGHT="24" WIDTH="33" VPOS="1485" HPOS="737" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1485" HPOS="771"/>
+            <String CONTENT="19/." HEIGHT="24" WIDTH="29" VPOS="1485" HPOS="780" WC="0.33"/>
+          </TextLine>
+        </TextBlock>
+        <TextBlock ID="block_r003" HEIGHT="21" WIDTH="224" VPOS="564" HPOS="252">
+          <TextLine ID="line_r003-l017" BASELINE="580" VPOS="564" HPOS="252" HEIGHT="21" WIDTH="224">
+            <String CONTENT="I." HEIGHT="21" WIDTH="14" VPOS="563" HPOS="257" WC="0.86"/>
+            <SP WIDTH="4" VPOS="563" HPOS="272"/>
+            <String CONTENT="INTRODUCTION" HEIGHT="21" WIDTH="173" VPOS="563" HPOS="295" WC="1.0"/>
+          </TextLine>
+        </TextBlock>
+      </PrintSpace>
+    </Page>
+  </Layout>
+</alto>

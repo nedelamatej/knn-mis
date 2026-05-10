@@ -1,0 +1,381 @@
+<?xml version='1.0' encoding='utf-8'?>
+<alto xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/standards/alto/ns-v2#">
+  <Description>
+    <MeasurementUnit>pixel</MeasurementUnit>
+    <sourceImageInformation>
+      <fileName>0704.0004</fileName>
+    </sourceImageInformation>
+    <OCRProcessing ID="IdOcr">
+      <ocrProcessingStep>
+        <processingDateTime>2026-04-23T11:55:24.198823</processingDateTime>
+        <processingSoftware>
+          <softwareCreator>Project PERO</softwareCreator>
+          <softwareName>PERO OCR</softwareName>
+          <softwareVersion>v0.1.0</softwareVersion>
+        </processingSoftware>
+      </ocrProcessingStep>
+    </OCRProcessing>
+  </Description>
+  <Layout>
+    <Page ID="id_0704.0004" PHYSICAL_IMG_NR="1" HEIGHT="1650" WIDTH="1275">
+      <TopMargin HEIGHT="224" WIDTH="1275" VPOS="0" HPOS="0"/>
+      <LeftMargin HEIGHT="1650" WIDTH="141" VPOS="0" HPOS="0"/>
+      <RightMargin HEIGHT="1650" WIDTH="0" VPOS="0" HPOS="1275"/>
+      <BottomMargin HEIGHT="0" WIDTH="1275" VPOS="1650" HPOS="0"/>
+      <PrintSpace HEIGHT="1425" WIDTH="1133" VPOS="224" HPOS="141">
+        <TextBlock ID="block_r001" HEIGHT="100" WIDTH="880" VPOS="224" HPOS="179">
+          <TextLine ID="line_r001-l001" BASELINE="255" VPOS="224" HPOS="179" HEIGHT="43" WIDTH="880">
+            <String CONTENT="A" HEIGHT="40" WIDTH="12" VPOS="225" HPOS="189" WC="1"/>
+            <SP WIDTH="4" VPOS="225" HPOS="201"/>
+            <String CONTENT="Determinant" HEIGHT="40" WIDTH="176" VPOS="224" HPOS="224" WC="1"/>
+            <SP WIDTH="4" VPOS="224" HPOS="400"/>
+            <String CONTENT="of" HEIGHT="40" WIDTH="27" VPOS="224" HPOS="413" WC="1"/>
+            <SP WIDTH="4" VPOS="224" HPOS="440"/>
+            <String CONTENT="Stirling" HEIGHT="40" WIDTH="103" VPOS="224" HPOS="451" WC="1"/>
+            <SP WIDTH="4" VPOS="224" HPOS="554"/>
+            <String CONTENT="Cycle" HEIGHT="40" WIDTH="75" VPOS="224" HPOS="571" WC="1"/>
+            <SP WIDTH="4" VPOS="224" HPOS="647"/>
+            <String CONTENT="Numbers" HEIGHT="40" WIDTH="126" VPOS="224" HPOS="659" WC="1"/>
+            <SP WIDTH="4" VPOS="224" HPOS="786"/>
+            <String CONTENT="Counts" HEIGHT="40" WIDTH="95" VPOS="225" HPOS="803" WC="1"/>
+            <SP WIDTH="4" VPOS="225" HPOS="899"/>
+            <String CONTENT="Unlabeled" HEIGHT="41" WIDTH="136" VPOS="225" HPOS="916" WC="1"/>
+          </TextLine>
+          <TextLine ID="line_r001-l002" BASELINE="315" VPOS="285" HPOS="381" HEIGHT="38" WIDTH="478">
+            <String CONTENT="Acyclic" HEIGHT="38" WIDTH="99" VPOS="285" HPOS="390" WC="0.99"/>
+            <SP WIDTH="4" VPOS="285" HPOS="490"/>
+            <String CONTENT="Single-Source" HEIGHT="38" WIDTH="190" VPOS="285" HPOS="502" WC="1.0"/>
+            <SP WIDTH="4" VPOS="285" HPOS="693"/>
+            <String CONTENT="Automata" HEIGHT="38" WIDTH="139" VPOS="285" HPOS="710" WC="1.0"/>
+          </TextLine>
+        </TextBlock>
+        <TextBlock ID="block_r005" HEIGHT="154" WIDTH="359" VPOS="357" HPOS="438">
+          <TextLine ID="line_r005-l003" BASELINE="383" VPOS="357" HPOS="516" HEIGHT="33" WIDTH="202">
+            <String CONTENT="DAVID" HEIGHT="32" WIDTH="69" VPOS="358" HPOS="527" WC="1.0"/>
+            <SP WIDTH="4" VPOS="358" HPOS="596"/>
+            <String CONTENT="CALLAN" HEIGHT="32" WIDTH="91" VPOS="358" HPOS="616" WC="1.0"/>
+          </TextLine>
+          <TextLine ID="line_r005-l004" BASELINE="422" VPOS="401" HPOS="481" HEIGHT="28" WIDTH="274">
+            <String CONTENT="Department" HEIGHT="27" WIDTH="125" VPOS="400" HPOS="490" WC="1.0"/>
+            <SP WIDTH="4" VPOS="400" HPOS="616"/>
+            <String CONTENT="of" HEIGHT="26" WIDTH="18" VPOS="400" HPOS="626" WC="1.0"/>
+            <SP WIDTH="4" VPOS="400" HPOS="645"/>
+            <String CONTENT="Statistics" HEIGHT="27" WIDTH="96" VPOS="400" HPOS="655" WC="1.0"/>
+          </TextLine>
+          <TextLine ID="line_r005-l005" BASELINE="448" VPOS="427" HPOS="438" HEIGHT="29" WIDTH="359">
+            <String CONTENT="University" HEIGHT="26" WIDTH="101" VPOS="427" HPOS="447" WC="1"/>
+            <SP WIDTH="4" VPOS="427" HPOS="549"/>
+            <String CONTENT="of" HEIGHT="26" WIDTH="19" VPOS="427" HPOS="562" WC="1"/>
+            <SP WIDTH="4" VPOS="427" HPOS="582"/>
+            <String CONTENT="Wisconsin-Madison" HEIGHT="29" WIDTH="198" VPOS="427" HPOS="593" WC="1"/>
+          </TextLine>
+          <TextLine ID="line_r005-l006" BASELINE="476" VPOS="456" HPOS="507" HEIGHT="27" WIDTH="224">
+            <String CONTENT="1300" HEIGHT="25" WIDTH="45" VPOS="457" HPOS="513" WC="1.0"/>
+            <SP WIDTH="4" VPOS="457" HPOS="559"/>
+            <String CONTENT="University" HEIGHT="27" WIDTH="104" VPOS="456" HPOS="571" WC="1.0"/>
+            <SP WIDTH="4" VPOS="456" HPOS="675"/>
+            <String CONTENT="Ave" HEIGHT="26" WIDTH="35" VPOS="455" HPOS="692" WC="1.0"/>
+          </TextLine>
+          <TextLine ID="line_r005-l007" BASELINE="504" VPOS="482" HPOS="477" HEIGHT="29" WIDTH="286">
+            <String CONTENT="Madison," HEIGHT="28" WIDTH="92" VPOS="483" HPOS="488" WC="1.0"/>
+            <SP WIDTH="4" VPOS="483" HPOS="580"/>
+            <String CONTENT="WI" HEIGHT="27" WIDTH="32" VPOS="483" HPOS="590" WC="0.99"/>
+            <SP WIDTH="4" VPOS="483" HPOS="623"/>
+            <String CONTENT="53706-1532" HEIGHT="26" WIDTH="114" VPOS="482" HPOS="639" WC="1.0"/>
+          </TextLine>
+        </TextBlock>
+        <TextBlock ID="block_r007" HEIGHT="28" WIDTH="265" VPOS="523" HPOS="488">
+          <TextLine ID="line_r007-l008" BASELINE="544" VPOS="523" HPOS="488" HEIGHT="28" WIDTH="265">
+            <String CONTENT="callan@stat.wisc.edu" HEIGHT="28" WIDTH="242" VPOS="522" HPOS="498" WC="0.96"/>
+          </TextLine>
+        </TextBlock>
+        <TextBlock ID="block_r008" HEIGHT="29" WIDTH="176" VPOS="591" HPOS="531">
+          <TextLine ID="line_r008-l009" BASELINE="613" VPOS="591" HPOS="531" HEIGHT="29" WIDTH="176">
+            <String CONTENT="March" HEIGHT="27" WIDTH="60" VPOS="590" HPOS="541" WC="1.0"/>
+            <SP WIDTH="4" VPOS="590" HPOS="601"/>
+            <String CONTENT="30," HEIGHT="27" WIDTH="33" VPOS="590" HPOS="613" WC="1.0"/>
+            <SP WIDTH="4" VPOS="590" HPOS="647"/>
+            <String CONTENT="2007" HEIGHT="28" WIDTH="45" VPOS="591" HPOS="654" WC="1.0"/>
+          </TextLine>
+        </TextBlock>
+        <TextBlock ID="block_r009" HEIGHT="27" WIDTH="109" VPOS="668" HPOS="566">
+          <TextLine ID="line_r009-l010" BASELINE="689" VPOS="668" HPOS="566" HEIGHT="27" WIDTH="109">
+            <String CONTENT="Abstract" HEIGHT="27" WIDTH="95" VPOS="667" HPOS="573" WC="1"/>
+          </TextLine>
+        </TextBlock>
+        <TextBlock ID="block_r002" HEIGHT="99" WIDTH="831" VPOS="731" HPOS="203">
+          <TextLine ID="line_r002-l011" BASELINE="752" VPOS="731" HPOS="238" HEIGHT="26" WIDTH="796">
+            <String CONTENT="We" HEIGHT="24" WIDTH="26" VPOS="731" HPOS="247" WC="1"/>
+            <SP WIDTH="4" VPOS="731" HPOS="273"/>
+            <String CONTENT="show" HEIGHT="25" WIDTH="43" VPOS="732" HPOS="279" WC="1"/>
+            <SP WIDTH="4" VPOS="732" HPOS="323"/>
+            <String CONTENT="that" HEIGHT="25" WIDTH="42" VPOS="732" HPOS="337" WC="1"/>
+            <SP WIDTH="4" VPOS="732" HPOS="379"/>
+            <String CONTENT="a" HEIGHT="24" WIDTH="7" VPOS="732" HPOS="389" WC="1"/>
+            <SP WIDTH="4" VPOS="732" HPOS="397"/>
+            <String CONTENT="determinant" HEIGHT="25" WIDTH="118" VPOS="732" HPOS="408" WC="1"/>
+            <SP WIDTH="4" VPOS="732" HPOS="526"/>
+            <String CONTENT="of" HEIGHT="24" WIDTH="17" VPOS="733" HPOS="537" WC="1"/>
+            <SP WIDTH="4" VPOS="733" HPOS="554"/>
+            <String CONTENT="Stirling" HEIGHT="24" WIDTH="69" VPOS="733" HPOS="563" WC="1"/>
+            <SP WIDTH="4" VPOS="733" HPOS="633"/>
+            <String CONTENT="cycle" HEIGHT="24" WIDTH="46" VPOS="733" HPOS="644" WC="1"/>
+            <SP WIDTH="4" VPOS="733" HPOS="691"/>
+            <String CONTENT="numbers" HEIGHT="24" WIDTH="83" VPOS="733" HPOS="698" WC="1"/>
+            <SP WIDTH="4" VPOS="733" HPOS="782"/>
+            <String CONTENT="counts" HEIGHT="25" WIDTH="62" VPOS="732" HPOS="791" WC="1"/>
+            <SP WIDTH="4" VPOS="732" HPOS="854"/>
+            <String CONTENT="unlabeled" HEIGHT="25" WIDTH="91" VPOS="732" HPOS="863" WC="1"/>
+            <SP WIDTH="4" VPOS="732" HPOS="955"/>
+            <String CONTENT="acyclic" HEIGHT="25" WIDTH="62" VPOS="731" HPOS="968" WC="1"/>
+          </TextLine>
+          <TextLine ID="line_r002-l012" BASELINE="788" VPOS="766" HPOS="203" HEIGHT="27" WIDTH="831">
+            <String CONTENT="single-source" HEIGHT="25" WIDTH="125" VPOS="767" HPOS="207" WC="1"/>
+            <SP WIDTH="4" VPOS="767" HPOS="332"/>
+            <String CONTENT="automata." HEIGHT="24" WIDTH="100" VPOS="768" HPOS="346" WC="1"/>
+            <SP WIDTH="4" VPOS="768" HPOS="447"/>
+            <String CONTENT="The" HEIGHT="24" WIDTH="34" VPOS="768" HPOS="470" WC="1"/>
+            <SP WIDTH="4" VPOS="768" HPOS="504"/>
+            <String CONTENT="proof" HEIGHT="24" WIDTH="52" VPOS="768" HPOS="516" WC="1"/>
+            <SP WIDTH="4" VPOS="768" HPOS="569"/>
+            <String CONTENT="involves" HEIGHT="24" WIDTH="77" VPOS="768" HPOS="578" WC="1"/>
+            <SP WIDTH="4" VPOS="768" HPOS="656"/>
+            <String CONTENT="a" HEIGHT="24" WIDTH="7" VPOS="768" HPOS="668" WC="1"/>
+            <SP WIDTH="4" VPOS="768" HPOS="676"/>
+            <String CONTENT="bijection" HEIGHT="24" WIDTH="80" VPOS="768" HPOS="691" WC="1"/>
+            <SP WIDTH="4" VPOS="768" HPOS="772"/>
+            <String CONTENT="from" HEIGHT="24" WIDTH="35" VPOS="768" HPOS="787" WC="1"/>
+            <SP WIDTH="4" VPOS="768" HPOS="823"/>
+            <String CONTENT="these" HEIGHT="24" WIDTH="51" VPOS="767" HPOS="843" WC="1"/>
+            <SP WIDTH="4" VPOS="767" HPOS="894"/>
+            <String CONTENT="automata" HEIGHT="25" WIDTH="91" VPOS="766" HPOS="908" WC="1"/>
+            <SP WIDTH="4" VPOS="766" HPOS="999"/>
+            <String CONTENT="to" HEIGHT="24" WIDTH="17" VPOS="766" HPOS="1011" WC="1"/>
+          </TextLine>
+          <TextLine ID="line_r002-l013" BASELINE="824" VPOS="804" HPOS="203" HEIGHT="26" WIDTH="831">
+            <String CONTENT="certain" HEIGHT="24" WIDTH="62" VPOS="805" HPOS="209" WC="1"/>
+            <SP WIDTH="4" VPOS="805" HPOS="272"/>
+            <String CONTENT="marked" HEIGHT="24" WIDTH="69" VPOS="805" HPOS="287" WC="1"/>
+            <SP WIDTH="4" VPOS="805" HPOS="356"/>
+            <String CONTENT="lattice" HEIGHT="24" WIDTH="59" VPOS="804" HPOS="367" WC="1"/>
+            <SP WIDTH="4" VPOS="804" HPOS="427"/>
+            <String CONTENT="paths" HEIGHT="24" WIDTH="52" VPOS="804" HPOS="437" WC="1"/>
+            <SP WIDTH="4" VPOS="804" HPOS="490"/>
+            <String CONTENT="and" HEIGHT="24" WIDTH="32" VPOS="804" HPOS="500" WC="1"/>
+            <SP WIDTH="4" VPOS="804" HPOS="533"/>
+            <String CONTENT="a" HEIGHT="24" WIDTH="9" VPOS="804" HPOS="545" WC="1"/>
+            <SP WIDTH="4" VPOS="804" HPOS="554"/>
+            <String CONTENT="sign-reversing" HEIGHT="24" WIDTH="132" VPOS="804" HPOS="565" WC="1"/>
+            <SP WIDTH="4" VPOS="804" HPOS="697"/>
+            <String CONTENT="involution" HEIGHT="24" WIDTH="95" VPOS="803" HPOS="707" WC="1"/>
+            <SP WIDTH="4" VPOS="803" HPOS="803"/>
+            <String CONTENT="to" HEIGHT="24" WIDTH="16" VPOS="803" HPOS="816" WC="1"/>
+            <SP WIDTH="4" VPOS="803" HPOS="833"/>
+            <String CONTENT="evaluate" HEIGHT="24" WIDTH="78" VPOS="803" HPOS="847" WC="1"/>
+            <SP WIDTH="4" VPOS="803" HPOS="926"/>
+            <String CONTENT="the" HEIGHT="24" WIDTH="30" VPOS="803" HPOS="935" WC="1"/>
+            <SP WIDTH="4" VPOS="803" HPOS="965"/>
+            <String CONTENT="deter-" HEIGHT="24" WIDTH="58" VPOS="803" HPOS="976" WC="1"/>
+          </TextLine>
+        </TextBlock>
+        <TextBlock ID="block_r003" HEIGHT="25" WIDTH="87" VPOS="841" HPOS="203">
+          <TextLine ID="line_r003-l014" BASELINE="862" VPOS="841" HPOS="203" HEIGHT="25" WIDTH="87">
+            <String CONTENT="minant." HEIGHT="25" WIDTH="79" VPOS="841" HPOS="208" WC="1"/>
+          </TextLine>
+        </TextBlock>
+        <TextBlock ID="block_r000" HEIGHT="193" WIDTH="954" VPOS="929" HPOS="141">
+          <TextLine ID="line_r000-l015" BASELINE="956" VPOS="931" HPOS="249" HEIGHT="31" WIDTH="846">
+            <String CONTENT="Introduction" HEIGHT="29" WIDTH="211" VPOS="932" HPOS="256" WC="1"/>
+            <SP WIDTH="4" VPOS="932" HPOS="467"/>
+            <String CONTENT="The" HEIGHT="29" WIDTH="38" VPOS="932" HPOS="495" WC="1"/>
+            <SP WIDTH="4" VPOS="932" HPOS="534"/>
+            <String CONTENT="chief" HEIGHT="29" WIDTH="48" VPOS="932" HPOS="541" WC="1"/>
+            <SP WIDTH="4" VPOS="932" HPOS="589"/>
+            <String CONTENT="purpose" HEIGHT="29" WIDTH="83" VPOS="932" HPOS="595" WC="1"/>
+            <SP WIDTH="4" VPOS="932" HPOS="678"/>
+            <String CONTENT="of" HEIGHT="29" WIDTH="20" VPOS="932" HPOS="685" WC="1"/>
+            <SP WIDTH="4" VPOS="932" HPOS="706"/>
+            <String CONTENT="this" HEIGHT="29" WIDTH="40" VPOS="932" HPOS="711" WC="1"/>
+            <SP WIDTH="4" VPOS="932" HPOS="752"/>
+            <String CONTENT="paper" HEIGHT="29" WIDTH="59" VPOS="932" HPOS="758" WC="1"/>
+            <SP WIDTH="4" VPOS="932" HPOS="817"/>
+            <String CONTENT="is" HEIGHT="29" WIDTH="18" VPOS="932" HPOS="822" WC="1"/>
+            <SP WIDTH="4" VPOS="932" HPOS="841"/>
+            <String CONTENT="to" HEIGHT="29" WIDTH="22" VPOS="932" HPOS="845" WC="1"/>
+            <SP WIDTH="4" VPOS="932" HPOS="867"/>
+            <String CONTENT="show" HEIGHT="29" WIDTH="46" VPOS="932" HPOS="874" WC="1"/>
+            <SP WIDTH="4" VPOS="932" HPOS="921"/>
+            <String CONTENT="bijectively" HEIGHT="29" WIDTH="105" VPOS="932" HPOS="933" WC="1"/>
+            <SP WIDTH="4" VPOS="932" HPOS="1039"/>
+            <String CONTENT="that" HEIGHT="29" WIDTH="42" VPOS="932" HPOS="1050" WC="1"/>
+          </TextLine>
+          <TextLine ID="line_r000-l016" BASELINE="954" VPOS="929" HPOS="182" HEIGHT="32" WIDTH="22">
+            <String CONTENT="1" HEIGHT="32" WIDTH="12" VPOS="928" HPOS="186" WC="1"/>
+          </TextLine>
+          <TextLine ID="line_r000-l017" BASELINE="994" VPOS="970" HPOS="141" HEIGHT="31" WIDTH="952">
+            <String CONTENT="a" HEIGHT="29" WIDTH="9" VPOS="970" HPOS="148" WC="1.0"/>
+            <SP WIDTH="4" VPOS="970" HPOS="157"/>
+            <String CONTENT="determinant" HEIGHT="29" WIDTH="127" VPOS="970" HPOS="168" WC="1.0"/>
+            <SP WIDTH="4" VPOS="970" HPOS="296"/>
+            <String CONTENT="of" HEIGHT="29" WIDTH="22" VPOS="970" HPOS="303" WC="1.0"/>
+            <SP WIDTH="4" VPOS="970" HPOS="325"/>
+            <String CONTENT="Stirling" HEIGHT="29" WIDTH="73" VPOS="970" HPOS="333" WC="1.0"/>
+            <SP WIDTH="4" VPOS="970" HPOS="406"/>
+            <String CONTENT="cycle" HEIGHT="29" WIDTH="51" VPOS="970" HPOS="418" WC="1.0"/>
+            <SP WIDTH="4" VPOS="970" HPOS="469"/>
+            <String CONTENT="numbers" HEIGHT="29" WIDTH="88" VPOS="970" HPOS="480" WC="1.0"/>
+            <SP WIDTH="4" VPOS="970" HPOS="569"/>
+            <String CONTENT="counts" HEIGHT="29" WIDTH="68" VPOS="970" HPOS="576" WC="1.0"/>
+            <SP WIDTH="4" VPOS="970" HPOS="645"/>
+            <String CONTENT="unlabeled" HEIGHT="29" WIDTH="99" VPOS="970" HPOS="652" WC="1.0"/>
+            <SP WIDTH="4" VPOS="970" HPOS="752"/>
+            <String CONTENT="acyclic" HEIGHT="29" WIDTH="68" VPOS="970" HPOS="767" WC="1.0"/>
+            <SP WIDTH="4" VPOS="970" HPOS="835"/>
+            <String CONTENT="single-source" HEIGHT="29" WIDTH="134" VPOS="970" HPOS="842" WC="1.0"/>
+            <SP WIDTH="4" VPOS="970" HPOS="977"/>
+            <String CONTENT="automata." HEIGHT="29" WIDTH="107" VPOS="970" HPOS="986" WC="1.0"/>
+          </TextLine>
+          <TextLine ID="line_r000-l018" BASELINE="1021" VPOS="999" HPOS="906" HEIGHT="27" WIDTH="75">
+            <String CONTENT="[.-1/+2" HEIGHT="26" WIDTH="67" VPOS="999" HPOS="912" WC="0.17"/>
+          </TextLine>
+          <TextLine ID="line_r000-l019" BASELINE="1033" VPOS="1008" HPOS="141" HEIGHT="32" WIDTH="731">
+            <String CONTENT="Specifically," HEIGHT="31" WIDTH="124" VPOS="1008" HPOS="148" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1008" HPOS="273"/>
+            <String CONTENT="let" HEIGHT="30" WIDTH="26" VPOS="1009" HPOS="280" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1009" HPOS="307"/>
+            <String CONTENT="Ak(n)" HEIGHT="30" WIDTH="57" VPOS="1009" HPOS="324" WC="0.97"/>
+            <SP WIDTH="4" VPOS="1009" HPOS="382"/>
+            <String CONTENT="denote" HEIGHT="30" WIDTH="69" VPOS="1009" HPOS="392" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1009" HPOS="461"/>
+            <String CONTENT="the" HEIGHT="30" WIDTH="36" VPOS="1009" HPOS="472" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1009" HPOS="508"/>
+            <String CONTENT="kn" HEIGHT="30" WIDTH="23" VPOS="1009" HPOS="516" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1009" HPOS="539"/>
+            <String CONTENT="x" HEIGHT="30" WIDTH="9" VPOS="1009" HPOS="556" WC="0.69"/>
+            <SP WIDTH="4" VPOS="1009" HPOS="566"/>
+            <String CONTENT="kn" HEIGHT="30" WIDTH="24" VPOS="1009" HPOS="577" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1009" HPOS="602"/>
+            <String CONTENT="matrix" HEIGHT="30" WIDTH="69" VPOS="1009" HPOS="618" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1009" HPOS="687"/>
+            <String CONTENT="with" HEIGHT="30" WIDTH="42" VPOS="1009" HPOS="700" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1009" HPOS="742"/>
+            <String CONTENT="(i," HEIGHT="30" WIDTH="28" VPOS="1009" HPOS="756" WC="0.98"/>
+            <SP WIDTH="4" VPOS="1009" HPOS="784"/>
+            <String CONTENT="j)" HEIGHT="30" WIDTH="21" VPOS="1009" HPOS="786" WC="0.98"/>
+            <SP WIDTH="4" VPOS="1009" HPOS="807"/>
+            <String CONTENT="entry" HEIGHT="30" WIDTH="51" VPOS="1009" HPOS="817" WC="1.0"/>
+          </TextLine>
+          <TextLine ID="line_r000-l020" BASELINE="1039" VPOS="1010" HPOS="887" HEIGHT="39" WIDTH="208">
+            <String CONTENT="1" HEIGHT="30" WIDTH="11" VPOS="1019" HPOS="918" WC="0.72"/>
+            <SP WIDTH="4" VPOS="1019" HPOS="929"/>
+            <String CONTENT="+1+2-1]," HEIGHT="34" WIDTH="85" VPOS="1013" HPOS="937" WC="0.32"/>
+            <SP WIDTH="4" VPOS="1013" HPOS="1022"/>
+            <String CONTENT="where" HEIGHT="35" WIDTH="61" VPOS="1008" HPOS="1033" WC="1.0"/>
+          </TextLine>
+          <TextLine ID="line_r000-l021" BASELINE="1075" VPOS="1051" HPOS="860" HEIGHT="31" WIDTH="235">
+            <String CONTENT="[i]" HEIGHT="31" WIDTH="23" VPOS="1051" HPOS="860" WC="0.8"/>
+            <SP WIDTH="4" VPOS="1051" HPOS="883"/>
+            <String CONTENT="with" HEIGHT="31" WIDTH="45" VPOS="1051" HPOS="891" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1051" HPOS="936"/>
+            <String CONTENT="j" HEIGHT="31" WIDTH="9" VPOS="1051" HPOS="950" WC="0.94"/>
+            <SP WIDTH="4" VPOS="1051" HPOS="960"/>
+            <String CONTENT="cycles." HEIGHT="31" WIDTH="74" VPOS="1051" HPOS="970" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1051" HPOS="1044"/>
+            <String CONTENT="For" HEIGHT="31" WIDTH="35" VPOS="1051" HPOS="1058" WC="1.0"/>
+          </TextLine>
+          <TextLine ID="line_r000-l022" BASELINE="1076" VPOS="1052" HPOS="162" HEIGHT="31" WIDTH="693">
+            <String CONTENT="]" HEIGHT="30" WIDTH="9" VPOS="1052" HPOS="163" WC="1"/>
+            <SP WIDTH="4" VPOS="1052" HPOS="173"/>
+            <String CONTENT="is" HEIGHT="30" WIDTH="19" VPOS="1052" HPOS="184" WC="1"/>
+            <SP WIDTH="4" VPOS="1052" HPOS="203"/>
+            <String CONTENT="the" HEIGHT="30" WIDTH="36" VPOS="1052" HPOS="211" WC="1"/>
+            <SP WIDTH="4" VPOS="1052" HPOS="247"/>
+            <String CONTENT="Stirling" HEIGHT="30" WIDTH="78" VPOS="1052" HPOS="256" WC="1"/>
+            <SP WIDTH="4" VPOS="1052" HPOS="335"/>
+            <String CONTENT="cycle" HEIGHT="30" WIDTH="49" VPOS="1052" HPOS="348" WC="1"/>
+            <SP WIDTH="4" VPOS="1052" HPOS="397"/>
+            <String CONTENT="number," HEIGHT="30" WIDTH="91" VPOS="1053" HPOS="409" WC="1"/>
+            <SP WIDTH="4" VPOS="1053" HPOS="500"/>
+            <String CONTENT="the" HEIGHT="30" WIDTH="36" VPOS="1053" HPOS="504" WC="1"/>
+            <SP WIDTH="4" VPOS="1053" HPOS="540"/>
+            <String CONTENT="number" HEIGHT="30" WIDTH="79" VPOS="1053" HPOS="551" WC="1"/>
+            <SP WIDTH="4" VPOS="1053" HPOS="631"/>
+            <String CONTENT="of" HEIGHT="30" WIDTH="20" VPOS="1053" HPOS="642" WC="1"/>
+            <SP WIDTH="4" VPOS="1053" HPOS="663"/>
+            <String CONTENT="permutations" HEIGHT="30" WIDTH="140" VPOS="1052" HPOS="671" WC="1"/>
+            <SP WIDTH="4" VPOS="1052" HPOS="812"/>
+            <String CONTENT="on" HEIGHT="30" WIDTH="22" VPOS="1052" HPOS="823" WC="1"/>
+          </TextLine>
+          <TextLine ID="line_r000-l023" BASELINE="1114" VPOS="1088" HPOS="159" HEIGHT="33" WIDTH="89">
+            <String CONTENT="xample," HEIGHT="33" WIDTH="85" VPOS="1088" HPOS="158" WC="0.99"/>
+          </TextLine>
+        </TextBlock>
+        <TextBlock ID="block_r004" HEIGHT="42" WIDTH="91" VPOS="1292" HPOS="348">
+          <TextLine ID="line_r004-l029" BASELINE="1324" VPOS="1292" HPOS="348" HEIGHT="42" WIDTH="91">
+            <String CONTENT="A2(5)" HEIGHT="39" WIDTH="62" VPOS="1295" HPOS="351" WC="0.97"/>
+            <SP WIDTH="4" VPOS="1295" HPOS="414"/>
+            <String CONTENT="=" HEIGHT="38" WIDTH="14" VPOS="1292" HPOS="423" WC="0.62"/>
+          </TextLine>
+        </TextBlock>
+        <TextBlock ID="block_r006" HEIGHT="391" WIDTH="384" VPOS="1118" HPOS="467">
+          <TextLine ID="line_r006-l024" BASELINE="1147" VPOS="1118" HPOS="468" HEIGHT="37" WIDTH="378">
+            <String CONTENT="1ooooooooo" HEIGHT="36" WIDTH="366" VPOS="1118" HPOS="474" WC="0.77"/>
+          </TextLine>
+          <TextLine ID="line_r006-l025" BASELINE="1187" VPOS="1158" HPOS="469" HEIGHT="37" WIDTH="378">
+            <String CONTENT="1100oooooo" HEIGHT="36" WIDTH="362" VPOS="1158" HPOS="475" WC="0.48"/>
+          </TextLine>
+          <TextLine ID="line_r006-l026" BASELINE="1227" VPOS="1198" HPOS="467" HEIGHT="37" WIDTH="380">
+            <String CONTENT="0132000000" HEIGHT="36" WIDTH="362" VPOS="1198" HPOS="475" WC="0.52"/>
+          </TextLine>
+          <TextLine ID="line_r006-l027" BASELINE="1266" VPOS="1238" HPOS="467" HEIGHT="35" WIDTH="380">
+            <String CONTENT="0013200000" HEIGHT="35" WIDTH="363" VPOS="1237" HPOS="473" WC="0.67"/>
+          </TextLine>
+          <TextLine ID="line_r006-l028" BASELINE="1305" VPOS="1276" HPOS="467" HEIGHT="37" WIDTH="381">
+            <String CONTENT="0001611" HEIGHT="36" WIDTH="191" VPOS="1276" HPOS="473" WC="0.65"/>
+            <SP WIDTH="4" VPOS="1276" HPOS="665"/>
+            <String CONTENT="6000" HEIGHT="36" WIDTH="146" VPOS="1276" HPOS="692" WC="0.9"/>
+          </TextLine>
+          <TextLine ID="line_r006-l030" BASELINE="1344" VPOS="1315" HPOS="468" HEIGHT="36" WIDTH="381">
+            <String CONTENT="O00016" HEIGHT="36" WIDTH="184" VPOS="1314" HPOS="474" WC="0.48"/>
+            <SP WIDTH="4" VPOS="1314" HPOS="659"/>
+            <String CONTENT="11600" HEIGHT="36" WIDTH="152" VPOS="1314" HPOS="686" WC="0.91"/>
+          </TextLine>
+          <TextLine ID="line_r006-l031" BASELINE="1382" VPOS="1354" HPOS="469" HEIGHT="37" WIDTH="381">
+            <String CONTENT="00000" HEIGHT="36" WIDTH="143" VPOS="1354" HPOS="475" WC="0.36"/>
+            <SP WIDTH="4" VPOS="1354" HPOS="619"/>
+            <String CONTENT="1" HEIGHT="36" WIDTH="11" VPOS="1354" HPOS="646" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1354" HPOS="658"/>
+            <String CONTENT="10" HEIGHT="36" WIDTH="22" VPOS="1354" HPOS="685" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1354" HPOS="708"/>
+            <String CONTENT="35" HEIGHT="36" WIDTH="22" VPOS="1354" HPOS="731" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1354" HPOS="754"/>
+            <String CONTENT="50" HEIGHT="36" WIDTH="22" VPOS="1354" HPOS="776" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1354" HPOS="799"/>
+            <String CONTENT="24" HEIGHT="36" WIDTH="27" VPOS="1354" HPOS="822" WC="1.0"/>
+          </TextLine>
+          <TextLine ID="line_r006-l032" BASELINE="1422" VPOS="1394" HPOS="469" HEIGHT="36" WIDTH="382">
+            <String CONTENT="oo0000" HEIGHT="36" WIDTH="183" VPOS="1393" HPOS="475" WC="0.35"/>
+            <SP WIDTH="4" VPOS="1393" HPOS="659"/>
+            <String CONTENT="1" HEIGHT="36" WIDTH="11" VPOS="1393" HPOS="693" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1393" HPOS="705"/>
+            <String CONTENT="10" HEIGHT="36" WIDTH="22" VPOS="1393" HPOS="730" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1393" HPOS="753"/>
+            <String CONTENT="35" HEIGHT="36" WIDTH="22" VPOS="1393" HPOS="776" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1393" HPOS="799"/>
+            <String CONTENT="50" HEIGHT="36" WIDTH="25" VPOS="1393" HPOS="820" WC="1.0"/>
+          </TextLine>
+          <TextLine ID="line_r006-l033" BASELINE="1461" VPOS="1432" HPOS="469" HEIGHT="38" WIDTH="382">
+            <String CONTENT="ooo0000115" HEIGHT="37" WIDTH="323" VPOS="1432" HPOS="475" WC="0.34"/>
+            <SP WIDTH="4" VPOS="1432" HPOS="798"/>
+            <String CONTENT="85" HEIGHT="36" WIDTH="25" VPOS="1433" HPOS="819" WC="1.0"/>
+          </TextLine>
+          <TextLine ID="line_r006-l034" BASELINE="1501" VPOS="1471" HPOS="470" HEIGHT="38" WIDTH="382">
+            <String CONTENT="oooo00001" HEIGHT="38" WIDTH="319" VPOS="1471" HPOS="476" WC="0.39"/>
+            <SP WIDTH="4" VPOS="1471" HPOS="796"/>
+            <String CONTENT="15" HEIGHT="37" WIDTH="23" VPOS="1472" HPOS="823" WC="1.0"/>
+          </TextLine>
+        </TextBlock>
+      </PrintSpace>
+    </Page>
+  </Layout>
+</alto>

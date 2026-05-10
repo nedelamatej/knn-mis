@@ -1,0 +1,16 @@
+[
+  {
+    "id": "0704.0002",
+    "image": "0704.0002.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nExtract metadata from this title page of a scientific paper. Return only valid JSON in exactly the schema defined below. Include bounding boxes for extracted values.\n\nBounding box format:\n- bbox is [x1, y1, x2, y2] in image pixel coordinates.\n- If the value is missing, use null for the value and null for bbox.\n- If the value exists but its position cannot be determined, use null for bbox.\n\nSchema:\n{\n  \"title\": {\"text\": \"\", \"bbox\": null},\n  \"authors\": [\n    {\n      \"firstName\": \"\",\n      \"lastName\": \"\",\n      \"email\": null,\n      \"institution\": [],\n      \"bbox\": null\n    }\n  ],\n  \"abstract\": {\"text\": \"\", \"bbox\": null},\n  \"keywords\": [\n    {\"text\": \"\", \"bbox\": null}\n  ],\n  \"date\": {\"text\": null, \"bbox\": null}\n}\n\nRules:\n- Use only information visible on the page, do not invent missing values.\n- If email or date is missing, return null.\n- If institutions or keywords are missing, return [].\n- If a bbox cannot be determined reliably, return null for bbox.\n- If available, return date in ISO format YYYY-MM-DD.\n- Preserve the title and author names exactly as written.\n- Return only raw JSON, do not wrap it in markdown formatting blocks."
+      },
+      {
+        "from": "gpt",
+        "value": "{\"title\": {\"text\": \"Sparsity-certifying Graph Decompositions\", \"bbox\": [149.0, 381.0, 794.0, 417.0]}, \"authors\": [{\"firstName\": \"Ileana\", \"lastName\": \"Streinu\", \"email\": \"streinu@cs.smith.edu\", \"institution\": [\"Department of Computer Science, Smith College\"], \"bbox\": [216.0, 442.0, 313.0, 470.0]}, {\"firstName\": \"Louis\", \"lastName\": \"Theran\", \"email\": \"theran@cs.umass.edu\", \"institution\": [\"Department of Computer Science, University of Massachusetts Amherst\"], \"bbox\": [384.0, 441.0, 462.0, 469.0]}], \"abstract\": {\"text\": \"We describe a new algorithm, the $(k,\\\\ell)$-pebble game with colors, and use it obtain a characterization of the family of $(k,\\\\ell)$-sparse graphs and algorithmic solutions to a family of problems concerning tree decompositions of graphs. Special instances of sparse graphs appear in rigidity theory and have received increased attention in recent years. In particular, our colored pebbles generalize and strengthen the previous results of Lee and Streinu and give a new proof of the Tutte-Nash-Williams characterization of arboricity. We also present a new decomposition that certifies sparsity based on the $(k,\\\\ell)$-pebble game with colors. Our work also exposes connections between pebble game algorithms and previous sparse graph algorithms by Gabow, Gabow and Westermann and Hendrickson.\", \"bbox\": [252.0, 625.0, 918.0, 848.0]}, \"keywords\": [], \"date\": {\"text\": \"2008-12-13\", \"bbox\": null}}"
+      }
+    ]
+  }
+]

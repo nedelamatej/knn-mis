@@ -1,0 +1,16 @@
+[
+  {
+    "id": "0704.0001",
+    "image": "0704.0001.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nExtract metadata from this title page of a scientific paper. Return only valid JSON in exactly the schema defined below. Include bounding boxes for extracted values.\n\nBounding box format:\n- bbox is [x1, y1, x2, y2] in image pixel coordinates.\n- If the value is missing, use null for the value and null for bbox.\n- If the value exists but its position cannot be determined, use null for bbox.\n\nSchema:\n{\n  \"title\": {\"text\": \"\", \"bbox\": null},\n  \"authors\": [\n    {\n      \"firstName\": \"\",\n      \"lastName\": \"\",\n      \"email\": null,\n      \"institution\": [],\n      \"bbox\": null\n    }\n  ],\n  \"abstract\": {\"text\": \"\", \"bbox\": null},\n  \"keywords\": [\n    {\"text\": \"\", \"bbox\": null}\n  ],\n  \"date\": {\"text\": null, \"bbox\": null}\n}\n\nRules:\n- Use only information visible on the page, do not invent missing values.\n- If email or date is missing, return null.\n- If institutions or keywords are missing, return [].\n- If a bbox cannot be determined reliably, return null for bbox.\n- If available, return date in ISO format YYYY-MM-DD.\n- Preserve the title and author names exactly as written.\n- Return only raw JSON, do not wrap it in markdown formatting blocks."
+      },
+      {
+        "from": "gpt",
+        "value": "{\"title\": {\"text\": \"Calculation of prompt diphoton production cross sections at Tevatron and LHC energies\", \"bbox\": [206.0, 142.0, 1067.0, 214.0]}, \"authors\": [{\"firstName\": \"C.\", \"lastName\": \"Balázs\", \"email\": null, \"institution\": [], \"bbox\": [337.0, 238.0, 431.0, 267.0]}, {\"firstName\": \"E. L.\", \"lastName\": \"Berger\", \"email\": null, \"institution\": [], \"bbox\": [509.0, 238.0, 596.0, 267.0]}, {\"firstName\": \"P. M.\", \"lastName\": \"Nadolsky\", \"email\": null, \"institution\": [], \"bbox\": [647.0, 238.0, 770.0, 267.0]}, {\"firstName\": \"C. -P.\", \"lastName\": \"Yuan\", \"email\": null, \"institution\": [], \"bbox\": [900.0, 237.0, 961.0, 266.0]}], \"abstract\": {\"text\": \"A fully differential calculation in perturbative quantum chromodynamics is presented for the production of massive photon pairs at hadron colliders. All next-to-leading order perturbative contributions from quark-antiquark, gluon-(anti)quark, and gluon-gluon subprocesses are included, as well as all-orders resummation of initial-state gluon radiation valid at next-to-next-to-leading logarithmic accuracy. The region of phase space is specified in which the calculation is most reliable. Good agreement is demonstrated with data from the Fermilab Tevatron, and predictions are made for more detailed tests with CDF and DO data. Predictions are shown for distributions of diphoton pairs produced at the energy of the Large Hadron Collider (LHC). Distributions of the diphoton pairs from the decay of a Higgs boson are contrasted with those produced from QCD processes at the LHC, showing that enhanced sensitivity to the signal can be obtained with judicious selection of events.\", \"bbox\": [147.0, 458.0, 1120.0, 786.0]}, \"keywords\": [], \"date\": {\"text\": \"2007-07-24\", \"bbox\": null}}"
+      }
+    ]
+  }
+]
