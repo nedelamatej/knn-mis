@@ -161,7 +161,7 @@ Po převodu datové sady do konverzačního formátu bylo provedeno doladění v
 
 Trénování probíhalo na souboru `train.json`, který obsahoval přibližně 40 tisíc článků. Validační soubor `eval.json` měl původně přibližně 5 tisíc položek, ale pro rychlejší vyhodnocování byla použita jeho zmenšená varianta s 1000 náhodně vybranými články. Stejný postup byl použit také pro `train_bbox.json` a zmenšenou validační množinu odvozenou z `eval_bbox.json` u varianty s bouding boxy.
 
-Doladění bylo provedeno metodou LoRA, tedy bez plného přetrénování všech parametrů modelu. V experimentech byla jazyková část modelu zmrazena (`freeze_llm=True`), zatímco vizuální část a slučovací projekce zůstaly trénovatelné. Pro LoRA byla použita hodnost 32, parametr `lora_alpha` nastavený na 64 a dropout 0,05. Trénování probíhalo po dobu jedné epochy s velikostí dávky 1 a akumulací gradientů přes 4 kroky. Optimalizace používala kosinový plán učící rychlosti s warm-up poměrem 0,03.
+Doladění bylo provedeno metodou LoRA, tedy bez plného přetrénování všech parametrů modelu. V experimentech byla jazyková část modelu zmrazena (`freeze_llm=True`), zatímco vizuální část a slučovací projekce zůstaly trénovatelné (`freeze_vision_tower=False`, `freeze_merger=False`). Pro LoRA byly použity parametry `lora_rank=32`, `lora_alpha=64` a `lora_dropout=0.05`. Trénování probíhalo po dobu jedné epochy s velikostí dávky 1 a akumulací gradientů přes 4 kroky. Optimalizace používala kosinový plán učící rychlosti (`lr_scheduler_type=cosine`) s warm-up poměrem 0,03.
 
 Pro porovnání byly trénovány čtyři varianty modelů:
 
