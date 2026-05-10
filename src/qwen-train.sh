@@ -24,8 +24,8 @@ MODEL_NAME="Qwen2.5-VL-7B-Instruct"
 #MODEL_NAME="Qwen2-VL-7B-Instruct"
 
 # Files
-TRAIN_FILE="train_bbox_1.json"
-EVAL_FILE="eval_bbox_1_small.json"
+TRAIN_FILE="train_bbox.json"
+EVAL_FILE="eval_bbox.json"
 JPG_TAR_FILE="jpg.tar"
 OUTPUT_DIR="${MODEL_NAME}-lora-bbox-$(date +%F_%H-%M-%S)-${PBS_JOBID}"
 
