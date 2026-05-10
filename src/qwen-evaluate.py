@@ -39,7 +39,7 @@ def extract_text(value, bbox):
     return ''
 
   if bbox and isinstance(value, dict):
-    return value.get('text', '')
+    return value.get('text') or ''
 
   return str(value)
 
@@ -120,6 +120,7 @@ def calculate_author_metrics(expected_authors, actual_authors):
   return {k: v / n for k, v in totals.items()}
 
 def calculate_iou(bbox1, bbox2):
+  if bbox1 is None and bbox2 is None: return 1.0
   if bbox1 is None or bbox2 is None: return 0.0
 
   x1 = max(bbox1[0], bbox2[0])
@@ -252,7 +253,7 @@ def evaluate_model(model, processor, dataset, jpg_directory, batch_size, bbox=Fa
     ).to(model.device)
 
     with torch.no_grad():
-      output_ids = model.generate(**inputs, max_new_tokens=512, do_sample=False)
+      output_ids = model.generate(**inputs, max_new_tokens=1024, do_sample=False)
       output_ids = output_ids[:, inputs.input_ids.shape[1]:]
       output_texts = processor.batch_decode(output_ids, skip_special_tokens=True, clean_up_tokenization_spaces=False)
 
@@ -290,8 +291,8 @@ def evaluate_model(model, processor, dataset, jpg_directory, batch_size, bbox=Fa
         actual_abstract = extract_text(output_json.get('abstract'), bbox)
         abstract_rouge = rouge.score(expected_abstract, actual_abstract)['rougeL'].fmeasure
 
-        expected_keywords = extract_array(expected_output.get('keywords'), bbox)
-        actual_keywords = extract_array(output_json.get('keywords'), bbox)
+        expected_keywords = extract_array(expected_output.get('keywords') or [], bbox)
+        actual_keywords = extract_array(output_json.get('keywords') or [], bbox)
         keywords_f1 = 1.0 if not expected_keywords else calculate_f1(expected_keywords, actual_keywords)
 
         expected_date = str(extract_text(expected_output.get('date'), bbox)).strip()
@@ -325,7 +326,7 @@ def evaluate_model(model, processor, dataset, jpg_directory, batch_size, bbox=Fa
           )
 
           authors_iou = calculate_list_iou(expected_authors, actual_authors)
-          keywords_iou = calculate_list_iou(expected_output.get('keywords'), output_json.get('keywords'))
+          keywords_iou = 1.0 if not expected_keywords else calculate_list_iou(expected_output.get('keywords'), output_json.get('keywords'))
 
           item_result['metrics'].update({
             'title_bbox_iou': title_iou,
